@@ -1,9 +1,17 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Becker(2004)]{health_problem_solving}
+Sara~A. Becker.
+\newblock Health problem solving by older persons using a complex government
+  web site: Analysis and implications for web design.
+\newblock \emph{Proceedings of the Human Factors and Ergonomics Society Annual
+  Meeting}, 48\penalty0 (3):\penalty0 365--369, 2004.
+\newblock \doi{10.1177/154193120404800316}.
 
 \bibitem[Dresch et~al.(2014)Dresch, Lacerda, and Antunes~Jr.]{dresch2014design}
 Aline Dresch, Daniel~Pacheco Lacerda, and José Antônio~Valle Antunes~Jr.
@@ -12,5 +20,54 @@ Aline Dresch, Daniel~Pacheco Lacerda, and José Antônio~Valle Antunes~Jr.
 \newblock Springer International Publishing, Cham, 2014.
 \newblock ISBN 978-3-319-07373-6.
 \newblock \doi{10.1007/978-3-319-07374-3}.
+
+\bibitem[Haddara et~al.(2023)Haddara, Sundgren, Hansson, et~al.]{esticky2023}
+Mahmoud Haddara, Maria Sundgren, Jesper Hansson, et~al.
+\newblock esticky: An advanced remote reminder system for people with early
+  dementia.
+\newblock In \emph{Proceedings of the International Conference on Smart Homes
+  and Health Telematics}, pages 35--50. Springer, 2023.
+
+\bibitem[Harley et~al.(2007)Harley, Fitzpatrick, Vetere, and
+  Kurniawan]{social_media_elderly}
+Dave Harley, Geraldine Fitzpatrick, Frank Vetere, and Sri~H. Kurniawan.
+\newblock User requirements of social media for the elderly.
+\newblock In \emph{Proceedings of the 21st British HCI Group Annual Conference
+  on People and Computers}, pages 155--164, 2007.
+
+\bibitem[Kurniawan and Zaphiris(2006)]{weighted_heuristic}
+Sri~Hastuti Kurniawan and Panayiotis Zaphiris.
+\newblock Development of a weighted heuristic for website evaluation for older
+  adults.
+\newblock \emph{Universal Access in the Information Society}, 4\penalty0
+  (3):\penalty0 240--252, 2006.
+\newblock \doi{10.1007/s10209-005-0001-3}.
+
+\bibitem[Ortiz-Rodríguez et~al.(2024)Ortiz-Rodríguez, Rodríguez,
+  Sánchez-Vázquez, et~al.]{breaking_barriers}
+Amarilis Ortiz-Rodríguez, Jessica Rodríguez, Lilliam Sánchez-Vázquez,
+  et~al.
+\newblock Breaking barriers: The design and development of an assistive
+  technology web app for older latinos with disabilities in daily activities.
+\newblock \emph{Disabilities}, 4\penalty0 (4):\penalty0 777--795, 2024.
+\newblock \doi{10.3390/disabilities4040053}.
+
+\bibitem[Sharit et~al.(2008)Sharit, Hernández, Czaja, and
+  Pirolli]{sharit2008information}
+Joseph Sharit, Mario~A. Hernández, Sara~J. Czaja, and Peter Pirolli.
+\newblock Investigating the roles of knowledge and cognitive abilities in older
+  adult information seeking on the web.
+\newblock \emph{ACM Transactions on Computer-Human Interaction}, 15\penalty0
+  (1):\penalty0 1--25, 2008.
+\newblock \doi{10.1145/1352782.1352786}.
+
+\bibitem[Theofanidis et~al.(2016)Theofanidis, Vikas, Filippidis,
+  et~al.]{secure_messaging}
+Dimitrios Theofanidis, Prashanth Vikas, Petros Filippidis, et~al.
+\newblock Usability assessment of secure messaging for clinical document
+  sharing between health care providers and patients.
+\newblock \emph{Journal of Medical Systems}, 40\penalty0 (5):\penalty0 1--12,
+  2016.
+\newblock \doi{10.1007/s10916-016-0505-3}.
 
 \end{thebibliography}

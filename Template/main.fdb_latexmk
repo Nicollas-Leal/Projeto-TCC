@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1762120644.95629 "main.aux" "main.bbl" "main" 1762189402.26702 0
-  "./references.bib" 1762120637 445 0e498ac6123582fa5a597592cd9dd7c1 ""
+["bibtex main"] 1765811705.39201 "main.aux" "main.bbl" "main" 1765813424.99997 0
+  "./references.bib" 1765222286 3370 5b51abfd10ac21f42c0f67f5921cdef4 ""
   "D:/MiKTeX D/bibtex/bst/natbib/plainnat.bst" 1284455456 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1762189401 2761 317a515cab0053e76f12b42716a15aee "pdflatex"
+  "main.aux" 1765813423 5784 0ab76b0a01d8c7597ff78c95cf79b0b7 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1762189398.7449 "d:/Faculdade/TCC/TCC-mains/TCC-main/Template/main.tex" "main.pdf" "main" 1762189402.26827 0
+["pdflatex"] 1765813420.49865 "d:/Faculdade/TCC-main/Template/main.tex" "main.pdf" "main" 1765813425.00147 0
   "C:/Users/Nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762106386 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Nico/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762106900 13306025 41dd91cac494b1f681d71e1f3264690f ""
   "D:/MiKTeX D/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -249,8 +249,8 @@
   "D:/MiKTeX D/tex/latex/xfor/xfor.sty" 1233849756 2689 44855b72da58344b1c1d9b3087bce6ca ""
   "D:/MiKTeX D/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "capitulos/1 - Introducao.tex" 1762120298 5228 424190516c66ef61aef72f46c91f9558 ""
-  "capitulos/2 - Fundamentacao_teorica.tex" 1762107227 63 f11ac7771613d0ab404f8193d33da232 ""
-  "capitulos/3 - Revisao.tex" 1762107227 78 c3670c60b99657a870b225a04d8dfedc ""
+  "capitulos/2 - Fundamentacao_teorica.tex" 1765813419 8876 e6a7e593a8dddb995f8511f4073c1907 ""
+  "capitulos/3 - Revisao.tex" 1765811693 6393 8b41845645138e0129594e2329b09f70 ""
   "capitulos/4 - Proposta.tex" 1762107227 40 8f1025e389e42ce66a4b18e64f94cb1f ""
   "capitulos/5 - conclusao.tex" 1762107227 45 9da2a6fce8c6c8aaced6bcdaf4488237 ""
   "config/acronimos.tex" 1762107227 114 444fef5f250d7b57d112867e3d412d80 ""
@@ -259,18 +259,18 @@
   "config/cores.tex" 1762107227 281 eb1df5f462296740550727e4ac2d4792 ""
   "config/estilos.tex" 1762107227 2424 b2b2ccb4be517d58cdf1be08bf3dc4ba ""
   "config/pacotes.tex" 1762107227 553 ce69579a5589a42885a5c0ab7861f75d ""
-  "d:/Faculdade/TCC/TCC-mains/TCC-main/Template/main.tex" 1762189397 1371 9c1b3c394d871c376c41c8f66f4ef5da ""
-  "main.aux" 1762189401 2761 317a515cab0053e76f12b42716a15aee "pdflatex"
-  "main.bbl" 1762120645 674 55d5ebd639bee472380fd5f728a0e8a8 "bibtex main"
-  "main.lof" 1762189401 143 e2c8f3d9ee9fb2c8d19c8f2ddc3e901f "pdflatex"
-  "main.lot" 1762189401 143 e2c8f3d9ee9fb2c8d19c8f2ddc3e901f "pdflatex"
-  "main.out" 1762189401 1321 4f29f8b464a753ffe45a43ffc544b538 "pdflatex"
-  "main.tex" 1762189397 1371 9c1b3c394d871c376c41c8f66f4ef5da ""
-  "main.toc" 1762189401 774 5261476e286004a81e196c12a6fc1b06 "pdflatex"
+  "d:/Faculdade/TCC-main/Template/main.tex" 1762287124 1389 e3ef80f8c0bb53fe3bea0fba1be29f4f ""
+  "main.aux" 1765813423 5784 0ab76b0a01d8c7597ff78c95cf79b0b7 "pdflatex"
+  "main.bbl" 1765811705 3477 284a707de0465faebd6396d3e47742d0 "bibtex main"
+  "main.lof" 1765813423 143 e2c8f3d9ee9fb2c8d19c8f2ddc3e901f "pdflatex"
+  "main.lot" 1765813423 143 e2c8f3d9ee9fb2c8d19c8f2ddc3e901f "pdflatex"
+  "main.out" 1765813423 5066 bb75f4e968f4af2fc93ea5416d8fc004 "pdflatex"
+  "main.tex" 1762287124 1389 e3ef80f8c0bb53fe3bea0fba1be29f4f ""
+  "main.toc" 1765813423 2097 dd8951c4ae7077c494d135d20cf812be "pdflatex"
   "pre-textuais/abstract.tex" 1762121164 1059 2950669dd02f2222c783c18583e45d49 ""
   "pre-textuais/agradecimentos.tex" 1762107227 48 8f9a44c6615192281234bd592ff0eb16 ""
   "pre-textuais/dedicatoria.tex" 1762107227 55 9193911d2aa1d9be6e24c4df805467c1 ""
-  "pre-textuais/epigrafe.tex" 1762107227 62 f5e236b01287115fd4d176311c962d93 ""
+  "pre-textuais/epigrafe.tex" 1762287247 62 f5e236b01287115fd4d176311c962d93 ""
   "pre-textuais/resumo.tex" 1762121164 1166 d1318d5aea249a94e6ce739e72d12196 ""
   "tcc.cls" 1762107227 9200 9588145af5e80054b6eddcb68f00c8fa ""
   (generated)
