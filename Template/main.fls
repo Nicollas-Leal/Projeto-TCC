@@ -1,6 +1,6 @@
-PWD d:\Faculdade\TCC\TCC-mains\TCC-main\Template
+PWD d:\Faculdade\TCC-main\Template
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Faculdade\TCC\TCC-mains\TCC-main\Template\main.tex
+INPUT d:\Faculdade\TCC-main\Template\main.tex
 OUTPUT main.log
 INPUT .\tcc.cls
 INPUT tcc.cls

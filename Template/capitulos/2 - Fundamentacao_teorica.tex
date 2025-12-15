@@ -1,2 +1,54 @@
 \chapter{Fundamentação Teórica}
 \label{sec:fundamentacao}
+
+A fundamentação teórica reúne os conceitos, modelos e estudos que embasam este trabalho, oferecendo a base necessária para a análise crítica e a proposição do guia de desenvolvimento voltado a pessoas com baixa alfabetização informática. Nesta seção são abordados os principais tópicos que formam o arcabouço conceitual da pesquisa: alfabetização digital e inclusão, princípios de Interação Humano-Computador (IHC), métricas e métodos de avaliação de usabilidade e acessibilidade, diretrizes de design para usuários com baixa proficiência digital, e abordagens metodológicas para concepção e validação de artefatos de software.
+
+\section{Alfabetização digital e inclusão tecnológica}
+
+A alfabetização digital compreende um conjunto de conhecimentos, habilidades e atitudes que permitem ao indivíduo acessar, avaliar, utilizar e criar informações por meio de tecnologias digitais. Em um sentido ampliado, ela não se limita ao domínio de comandos e operações, mas envolve também a capacidade de compreender interfaces, interpretar feedbacks e resolver problemas básicos no ambiente digital. A falta dessas competências gera barreiras à participação plena em atividades cotidianas, o que caracteriza a exclusão digital em sua dimensão cognitiva e funcional.
+
+Do ponto de vista do desenvolvimento de sistemas, reconhecer diferentes níveis de alfabetização digital implica projetar interfaces que reduzam a carga cognitiva, facilitem a aprendizagem progressiva e ofereçam caminhos claros para a realização de tarefas. Como discutido por \cite{sharit2008information}, usuários idosos — frequentemente representando grupos com baixa proficiência digital — tendem a enfrentar dificuldades acentuadas ao navegar por interfaces complexas ou pouco previsíveis. Essa limitação também foi observada por \cite{health_problem_solving}, que identificou desafios significativos na interação com serviços governamentais digitais devido à sobrecarga informacional e processos extensos de navegação.
+
+Essa perspectiva orienta a escolha de métricas de avaliação, a seleção de componentes de interface e a adoção de métodos de design centrados no usuário que privilegiem a inclusão.
+
+\section{Interação Humano-Computador, usabilidade e acessibilidade}
+
+A Interação Humano-Computador é a área que estuda as relações entre usuários e sistemas computacionais, buscando entender como projetar interfaces que suportem a execução de tarefas de maneira eficiente, eficaz e satisfatória. Usabilidade refere-se à facilidade com que usuários realizam suas tarefas em um sistema, normalmente avaliada por medidas como eficácia, eficiência e satisfação. A acessibilidade diz respeito à possibilidade de uso por pessoas com diferentes capacidades sensoriais, motoras e cognitivas.
+
+No contexto de usuários com baixa alfabetização informática, as dimensões cognitivas da acessibilidade tornam-se especialmente relevantes. Como apontado por \cite{social_media_elderly}, usuários idosos apresentam dificuldades de memória, atenção e compreensão textual quando expostos a interfaces densas ou mal estruturadas. Da mesma forma, o estudo de \cite{weighted_heuristic} mostra que diretrizes baseadas em heurísticas são capazes de antecipar falhas de navegação e auxiliar no refinamento de interfaces voltadas a iniciantes. Em ambientes de saúde, conforme relata \cite{secure_messaging}, barreiras como menus complexos ou falta de clareza estrutural podem comprometer até mesmo tarefas simples, especialmente entre usuários com pouca experiência digital.
+
+\section{Métricas e métodos de avaliação de usabilidade e acessibilidade}
+
+A literatura de IHC dispõe de um conjunto consolidado de métricas e métodos para avaliar interfaces. Para este estudo, destacam-se métricas como taxa de sucesso nas tarefas, taxa de erro, tempo até a completude da tarefa, número de tentativas, busca por ajuda, medidas de carga cognitiva e indicadores de satisfação do usuário obtidos por meio de instrumentos padronizados. Como demonstrado por \cite{weighted_heuristic}, heurísticas ponderadas podem prever o desempenho geral do usuário, correlacionando pontuações heurísticas com número de erros, tempo de navegação e cliques necessários.
+
+As técnicas de avaliação frequentemente utilizadas envolvem testes com usuários, observação direta, registros de interação, entrevistas e métodos de acompanhamento comportamental. A combinação de dados quantitativos e qualitativos permite compreender não apenas o desempenho observável, mas também as causas das dificuldades encontradas.
+
+No campo da acessibilidade, o estudo de \cite{esticky2023} mostra que avaliações iterativas e multidimensionais — combinando métricas de aprendibilidade, clareza e acessibilidade — favorecem o desenvolvimento de interfaces mais consistentes e intuitivas. De forma complementar, \cite{health_problem_solving} destaca que métricas como número de cliques, tempo de navegação e taxa de abandono são fundamentais para identificar obstáculos enfrentados por usuários com baixa proficiência digital em serviços governamentais.
+
+\section{Diretrizes e princípios de design para usuários com baixa alfabetização informática}
+
+Projetar para pessoas com pouca familiaridade tecnológica exige considerar limitações cognitivas, falta de vocabulário técnico e possíveis apreensões quanto ao uso de dispositivos. \cite{social_media_elderly} demonstra que ajustes como aumento de fonte, botões maiores e uso de linguagem simples reduzem significativamente a carga cognitiva. Em paralelo, \cite{esticky2023} reforça a importância de layouts minimalistas com poucos elementos por tela e feedback constante. \cite{weighted_heuristic} indica ainda que diretrizes visuais claras — como contraste adequado e elementos distinguíveis — reduzem erros de interação. Finalmente, \cite{breaking_barriers} mostra que adaptações culturais e linguísticas melhoram a compreensão e o engajamento de populações vulneráveis.
+
+Seguem os principais princípios identificados:
+
+\begin{itemize}
+    \item \textbf{Simplicidade e clareza:} reduzir elementos visuais desnecessários e adotar linguagem direta.
+    \item \textbf{Consistência e previsibilidade:} padrões de navegação estáveis favorecem o aprendizado.
+    \item \textbf{Feedback imediato:} confirmações claras reduzem incertezas e ansiedade.
+    \item \textbf{Tamanhos e espaciamentos adequados:} tornam a interação menos sujeita a erros.
+    \item \textbf{Progressive disclosure:} evita sobrecarga cognitiva.
+    \item \textbf{Multimodalidade:} uso combinado de texto, ícones e imagens favorece a compreensão.
+    \item \textbf{Tolerância a erros:} caminhos de correção devem ser facilmente compreensíveis.
+\end{itemize}
+
+\section{Componentes e padrões de interface aplicáveis}
+
+A construção de um catálogo de componentes exige identificar padrões que historicamente se mostraram eficazes para iniciantes. Conforme \cite{social_media_elderly}, elementos como botões grandes, ícones acompanhados de rótulos textuais e menus simplificados promovem melhor compreensão. \cite{esticky2023} demonstra que componentes reduzidos e layouts consistentes favorecem usuários com limitações cognitivas. \cite{weighted_heuristic} destaca que componentes visualmente claros reduzem erros e tempo de navegação. Já \cite{breaking_barriers} enfatiza a importância de componentes adaptados culturalmente.
+
+\section{Abordagens metodológicas para concepção e avaliação}
+
+Para a concepção do guia e do catálogo, utilizam-se metodologias que integram conhecimento teórico com construção de artefatos. A Design Science Research (DSR) permite desenvolver soluções práticas por meio de ciclos de construção e avaliação. Estudos como o de \cite{esticky2023} mostra que ciclos iterativos com prototipação contribuem para interfaces mais intuitivas. \cite{weighted_heuristic} reforça que avaliações heurísticas e métricas estruturadas identificam problemas profundos de usabilidade. \cite{breaking_barriers} destaca que validar soluções em contextos reais melhora sua adequação cultural.
+
+\section{Lacunas identificadas e contribuição esperada}
+
+Apesar dos avanços, ainda são raros estudos que consolidam métricas, diretrizes e componentes voltados especificamente para pessoas com baixa alfabetização informática. Também há escassez de catálogos práticos destinados a desenvolvedores sem formação em IHC. Este trabalho busca preencher essa lacuna por meio da síntese de evidências, da construção de diretrizes e da validação sistemática junto ao público-alvo.
