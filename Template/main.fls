@@ -386,6 +386,8 @@ INPUT D:\MiKTeX D\tex\latex\tools\shellesc.sty
 INPUT D:\MiKTeX D\tex\latex\tools\shellesc.sty
 INPUT D:\MiKTeX D\tex\latex\tools\tabularx.sty
 INPUT D:\MiKTeX D\tex\latex\tools\tabularx.sty
+INPUT D:\MiKTeX D\tex\latex\tools\longtable.sty
+INPUT D:\MiKTeX D\tex\latex\tools\longtable.sty
 INPUT D:\MiKTeX D\tex\latex\blindtext\blindtext.sty
 INPUT D:\MiKTeX D\tex\latex\blindtext\blindtext.sty
 INPUT D:\MiKTeX D\tex\latex\lipsum\lipsum.sty
@@ -449,6 +451,8 @@ OUTPUT main.pdf
 INPUT .\main.out
 INPUT .\main.out
 OUTPUT main.out
+INPUT D:\MiKTeX D\tex\latex\caption\ltcaption.sty
+INPUT D:\MiKTeX D\tex\latex\caption\ltcaption.sty
 INPUT D:\MiKTeX D\tex\latex\pdflscape\pdflscape.sty
 INPUT D:\MiKTeX D\tex\latex\pdflscape\pdflscape.sty
 INPUT D:\MiKTeX D\tex\latex\pdflscape\pdflscape-nometadata.sty
@@ -574,17 +578,40 @@ INPUT D:\MiKTeX D\tex\latex\psnfss\ts1ptm.fd
 INPUT D:\MiKTeX D\tex\latex\psnfss\ts1ptm.fd
 INPUT D:\MiKTeX D\tex\latex\psnfss\ts1ptm.fd
 INPUT D:\MiKTeX D\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT D:\MiKTeX D\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\capitulos\2 - Fundamentacao_teorica.tex
 INPUT .\capitulos\2 - Fundamentacao_teorica.tex
 INPUT .\capitulos\2 - Fundamentacao_teorica.tex
 INPUT .\capitulos\2 - Fundamentacao_teorica.tex
 INPUT capitulos\2 - Fundamentacao_teorica.tex
-INPUT D:\MiKTeX D\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\capitulos\3 - Revisao.tex
 INPUT .\capitulos\3 - Revisao.tex
 INPUT .\capitulos\3 - Revisao.tex
 INPUT .\capitulos\3 - Revisao.tex
 INPUT capitulos\3 - Revisao.tex
+INPUT .\tabelas\tabela1.tex
+INPUT .\tabelas\tabela1.tex
+INPUT tabelas\tabela1.tex
+INPUT .\tabelas\tabela2.tex
+INPUT .\tabelas\tabela2.tex
+INPUT tabelas\tabela2.tex
+INPUT D:\MiKTeX D\fonts\tfm\jknappen\ec\ectt1200.tfm
+INPUT .\tabelas\tabela3.tex
+INPUT .\tabelas\tabela3.tex
+INPUT tabelas\tabela3.tex
+INPUT .\tabelas\tabela4.tex
+INPUT .\tabelas\tabela4.tex
+INPUT tabelas\tabela4.tex
+INPUT .\imagens\fluxograma_rapid_review.png
+INPUT .\imagens\fluxograma_rapid_review.png
+INPUT .\imagens\fluxograma_rapid_review.png
+INPUT .\imagens\fluxograma_rapid_review.png
+INPUT .\imagens\fluxograma_rapid_review.png
+INPUT .\imagens\fluxograma_rapid_review.png
+INPUT .\imagens\fluxograma_rapid_review.png
+INPUT .\tabelas\tabela5.tex
+INPUT .\tabelas\tabela5.tex
+INPUT tabelas\tabela5.tex
 INPUT .\capitulos\4 - Proposta.tex
 INPUT .\capitulos\4 - Proposta.tex
 INPUT .\capitulos\4 - Proposta.tex
@@ -601,6 +628,8 @@ INPUT main.bbl
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
+INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT D:\MiKTeX D\fonts\type1\urw\times\utmb8a.pfb
 INPUT D:\MiKTeX D\fonts\type1\urw\times\utmb8a.pfb
 INPUT D:\MiKTeX D\fonts\type1\urw\times\utmr8a.pfb

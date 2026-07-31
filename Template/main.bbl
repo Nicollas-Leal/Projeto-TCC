@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,6 +13,22 @@ Sara~A. Becker.
   Meeting}, 48\penalty0 (3):\penalty0 365--369, 2004.
 \newblock \doi{10.1177/154193120404800316}.
 
+\bibitem[Chevalier and Ivory(2003)]{chevalier2003web}
+Aline Chevalier and Melody~Y. Ivory.
+\newblock Web site designs: Influences of designer's expertise and design
+  constraints.
+\newblock \emph{International Journal of Human-Computer Studies}, 58\penalty0
+  (1):\penalty0 57--87, 2003.
+\newblock \doi{10.1016/S1071-5819(02)00126-X}.
+
+\bibitem[Cowan and Jack(2011)]{cowan2011exploring}
+Benjamin~R. Cowan and Merryn~A. Jack.
+\newblock Exploring the wiki user experience: The effects of training spaces on
+  novice user usability and anxiety towards wiki editing.
+\newblock \emph{Interacting with Computers}, 23\penalty0 (2):\penalty0
+  117--128, 2011.
+\newblock \doi{10.1016/j.intcom.2010.11.002}.
+
 \bibitem[Dresch et~al.(2014)Dresch, Lacerda, and Antunes~Jr.]{dresch2014design}
 Aline Dresch, Daniel~Pacheco Lacerda, and José Antônio~Valle Antunes~Jr.
 \newblock \emph{Design Science Research: A Method for Science and Technology
@@ -20,6 +36,23 @@ Aline Dresch, Daniel~Pacheco Lacerda, and José Antônio~Valle Antunes~Jr.
 \newblock Springer International Publishing, Cham, 2014.
 \newblock ISBN 978-3-319-07373-6.
 \newblock \doi{10.1007/978-3-319-07374-3}.
+
+\bibitem[Duarte et~al.(2025)Duarte, Alves, and Mota]{duarte2025designing}
+Rui~P. Duarte, Valter N.~N. Alves, and Mickael Mota.
+\newblock Designing inclusive smartwatch interfaces: Guidelines for enhancing
+  usability and adoption among older adults.
+\newblock \emph{IEEE Access}, 13:\penalty0 64901--64929, 2025.
+\newblock \doi{10.1109/ACCESS.2025.3559726}.
+
+\bibitem[Goonetilleke et~al.(2001)Goonetilleke, Shih, On, and
+  Fritsch]{goonetilleke2001effects}
+Ravindra~S. Goonetilleke, Heloisa~Martins Shih, Hung~Kai On, and Julien
+  Fritsch.
+\newblock Effects of training and representational characteristics in icon
+  design.
+\newblock \emph{International Journal of Human-Computer Studies}, 55\penalty0
+  (5):\penalty0 741--760, 2001.
+\newblock \doi{10.1006/ijhc.2001.0501}.
 
 \bibitem[Haddara et~al.(2023)Haddara, Sundgren, Hansson, et~al.]{esticky2023}
 Mahmoud Haddara, Maria Sundgren, Jesper Hansson, et~al.
@@ -35,6 +68,30 @@ Dave Harley, Geraldine Fitzpatrick, Frank Vetere, and Sri~H. Kurniawan.
 \newblock In \emph{Proceedings of the 21st British HCI Group Annual Conference
   on People and Computers}, pages 155--164, 2007.
 
+\bibitem[Hornbaek and Frokjaer(2004)]{hornbaek2004usability}
+Kasper Hornbaek and Erik Frokjaer.
+\newblock Usability inspection by metaphors of human thinking compared to
+  heuristic evaluation.
+\newblock \emph{International Journal of Human-Computer Interaction},
+  17\penalty0 (3):\penalty0 357--374, 2004.
+\newblock \doi{10.1207/s15327590ijhc1703_4}.
+
+\bibitem[Kabassi and Virvou(2004)]{kabassi2004personalised}
+Katerina Kabassi and Maria Virvou.
+\newblock Personalised adult e-training on computer use based on multiple
+  attribute decision making.
+\newblock \emph{Interacting with Computers}, 16\penalty0 (1):\penalty0
+  115--132, 2004.
+\newblock \doi{10.1016/j.intcom.2003.11.006}.
+
+\bibitem[Kouroupetroglou et~al.(2016)Kouroupetroglou, Pino, and
+  Riga]{kouroupetroglou2016methodological}
+Georgios Kouroupetroglou, Alexandros Pino, and Paraskevi Riga.
+\newblock A methodological approach for designing and developing web-based
+  inventories of mobile assistive technology applications.
+\newblock \emph{Multimedia Tools and Applications}, 2016.
+\newblock \doi{10.1007/s11042-016-3822-3}.
+
 \bibitem[Kurniawan and Zaphiris(2006)]{weighted_heuristic}
 Sri~Hastuti Kurniawan and Panayiotis Zaphiris.
 \newblock Development of a weighted heuristic for website evaluation for older
@@ -42,6 +99,25 @@ Sri~Hastuti Kurniawan and Panayiotis Zaphiris.
 \newblock \emph{Universal Access in the Information Society}, 4\penalty0
   (3):\penalty0 240--252, 2006.
 \newblock \doi{10.1007/s10209-005-0001-3}.
+
+\bibitem[Lum et~al.(2016)Lum, Chiew, Ng, Lee, Lee, and Teo]{lum2016development}
+Angeline Su~Lyn Lum, Thiam~Kian Chiew, Chirk~Jenn Ng, Yew~Kong Lee, Ping~Yein
+  Lee, and Chin~Hai Teo.
+\newblock Development of a web-based insulin decision aid for the elderly:
+  usability barriers and guidelines.
+\newblock \emph{Universal Access in the Information Society}, 2016.
+\newblock \doi{10.1007/s10209-016-0503-y}.
+\newblock Published online: 08 November 2016.
+
+\bibitem[Morash et~al.(2015)Morash, Siu, Miele, Hasty, and
+  Landau]{morash2015guiding}
+Valerie~S. Morash, Yue-Ting Siu, Joshua~A. Miele, Lucia Hasty, and Steven
+  Landau.
+\newblock Guiding novice web workers in making image descriptions using
+  templates.
+\newblock \emph{ACM Transactions on Accessible Computing}, 7\penalty0
+  (4):\penalty0 12:1--12:21, 2015.
+\newblock \doi{10.1145/2764916}.
 
 \bibitem[Ortiz-Rodríguez et~al.(2024)Ortiz-Rodríguez, Rodríguez,
   Sánchez-Vázquez, et~al.]{breaking_barriers}
@@ -52,6 +128,23 @@ Amarilis Ortiz-Rodríguez, Jessica Rodríguez, Lilliam Sánchez-Vázquez,
 \newblock \emph{Disabilities}, 4\penalty0 (4):\penalty0 777--795, 2024.
 \newblock \doi{10.3390/disabilities4040053}.
 
+\bibitem[Park and Kim(2015)]{park2015personalized}
+Bu-Mi Park and Chang-Soo Kim.
+\newblock Personalized service studies css for web accessibility improvement of
+  the senior generation.
+\newblock \emph{International Journal of Multimedia and Ubiquitous
+  Engineering}, 10\penalty0 (12):\penalty0 89--96, 2015.
+\newblock \doi{10.14257/ijmue.2015.10.12.10}.
+
+\bibitem[Ro et~al.(2024)Ro, An, Kim, Jang, Kim, and Eun]{ro2024usability}
+Eun~Rae Ro, Kwang~Ok An, Agnes~Jihae Kim, Sung~Uk Jang, Eun~Joo Kim, and
+  Seon~Deok Eun.
+\newblock Usability study to promote co-creation among people with
+  disabilities, developers, and makers with a focus on the assistive technology
+  open platform in korea.
+\newblock \emph{IEEE Access}, 12:\penalty0 39017--39027, 2024.
+\newblock \doi{10.1109/ACCESS.2024.3401235}.
+
 \bibitem[Sharit et~al.(2008)Sharit, Hernández, Czaja, and
   Pirolli]{sharit2008information}
 Joseph Sharit, Mario~A. Hernández, Sara~J. Czaja, and Peter Pirolli.
@@ -61,6 +154,21 @@ Joseph Sharit, Mario~A. Hernández, Sara~J. Czaja, and Peter Pirolli.
   (1):\penalty0 1--25, 2008.
 \newblock \doi{10.1145/1352782.1352786}.
 
+\bibitem[Skov and Stage(2009)]{skov2009conceptual}
+Mikael~B. Skov and Jan Stage.
+\newblock A conceptual tool for usability problem identification in website
+  development.
+\newblock \emph{International Journal of Information Technology and Web
+  Engineering}, 4\penalty0 (4):\penalty0 22--35, 2009.
+\newblock \doi{10.4018/jitwe.2009100102}.
+
+\bibitem[Sustar et~al.(2008)Sustar, Pfeil, and
+  Zaphiris]{sustar2008requirements}
+Helena Sustar, Ulrike Pfeil, and Panayiotis Zaphiris.
+\newblock Requirements elicitation with and for older adults.
+\newblock \emph{IEEE Software}, 25\penalty0 (3):\penalty0 16--17, 2008.
+\newblock \doi{10.1109/MS.2008.67}.
+
 \bibitem[Theofanidis et~al.(2016)Theofanidis, Vikas, Filippidis,
   et~al.]{secure_messaging}
 Dimitrios Theofanidis, Prashanth Vikas, Petros Filippidis, et~al.
@@ -69,5 +177,12 @@ Dimitrios Theofanidis, Prashanth Vikas, Petros Filippidis, et~al.
 \newblock \emph{Journal of Medical Systems}, 40\penalty0 (5):\penalty0 1--12,
   2016.
 \newblock \doi{10.1007/s10916-016-0505-3}.
+
+\bibitem[Trilar et~al.(2021)Trilar, Sobočan, and Duh]{trilar2021family}
+Jure Trilar, Tjaša Sobočan, and Emilija~Stojmenova Duh.
+\newblock Family-centered design: Interactive performance testing and user
+  interface evaluation of the slovenian edavki public tax portal.
+\newblock \emph{Sensors}, 21\penalty0 (15):\penalty0 5161, 2021.
+\newblock \doi{10.3390/s21155161}.
 
 \end{thebibliography}

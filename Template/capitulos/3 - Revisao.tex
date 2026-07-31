@@ -1,42 +1,115 @@
 \chapter{Revisão da Literatura / Trabalhos Relacionados}
 \label{sec:revisao}
 
-Este capítulo apresenta a revisão da literatura realizada com o objetivo de identificar e analisar trabalhos relacionados ao desenvolvimento e à avaliação de interfaces voltadas a usuários com baixa alfabetização informática. A revisão busca situar o presente trabalho no contexto do estado da arte, evidenciando abordagens existentes, métodos utilizados e lacunas ainda não plenamente exploradas pela literatura.
+Este capítulo apresenta a revisão da literatura realizada com o objetivo de identificar estudos relacionados ao desenvolvimento e à avaliação de interfaces voltadas a usuários com baixa alfabetização informática. Para isso, foi conduzida uma \textit{Rapid Review}, permitindo a identificação e a síntese das principais evidências disponíveis sobre usabilidade, acessibilidade, Interação Humano-Computador (IHC) e diretrizes de desenvolvimento para esse público.
 
-A revisão foi conduzida de forma estruturada, seguindo os princípios de uma \textit{Rapid Review}, permitindo uma análise sistemática e objetiva dos estudos mais relevantes para o tema investigado.
+A revisão também busca posicionar o presente trabalho em relação ao estado da arte, identificando lacunas existentes na literatura e justificando a proposta de construção de um guia de desenvolvimento direcionado a desenvolvedores de software.
 
-\section{Metodologia da Revisão da Literatura}
 
-A revisão da literatura foi conduzida por meio de uma \textit{Rapid Review}, abordagem que se caracteriza por aplicar procedimentos sistemáticos de seleção e análise de estudos, porém de maneira mais ágil quando comparada a revisões sistemáticas tradicionais. Essa estratégia mostrou-se adequada ao contexto deste trabalho, pois possibilita identificar evidências relevantes sem comprometer o rigor metodológico.
+\section{Protocolo da Rapid Review}
 
-A busca pelos estudos foi realizada na base de dados Scopus, escolhida por sua ampla cobertura de publicações científicas nas áreas de computação, Interação Humano-Computador e design de interfaces. Os resultados obtidos foram importados e organizados na ferramenta Parsifal, utilizada para apoiar o processo de triagem, extração de dados e avaliação da qualidade dos artigos selecionados.
+A revisão foi conduzida seguindo os princípios de uma \textit{Rapid Review}, metodologia caracterizada pela aplicação de procedimentos sistemáticos de busca, seleção e análise de estudos científicos, porém com um processo simplificado em comparação às revisões sistemáticas tradicionais.
 
-Os critérios de inclusão consideraram estudos que abordassem, ao menos, um dos seguintes aspectos: métricas de usabilidade e acessibilidade, diretrizes de design de interface, métodos de avaliação em IHC ou estratégias voltadas a usuários com baixa proficiência digital. Foram excluídos trabalhos que não apresentavam relação direta com interfaces digitais, que não envolviam usuários finais ou que não forneciam evidências empíricas ou conceituais relevantes para o tema.
+Optou-se por essa abordagem devido ao equilíbrio entre rigor metodológico e tempo de execução, permitindo reunir evidências suficientes para fundamentar a proposta deste trabalho.
 
-\section{Caracterização dos Estudos Selecionados}
 
-Os estudos selecionados abrangem diferentes contextos de aplicação, incluindo sistemas governamentais, aplicações de saúde, plataformas web e tecnologias assistivas. Observa-se uma predominância de pesquisas voltadas a públicos considerados vulneráveis do ponto de vista digital, como pessoas idosas, usuários com comprometimentos cognitivos leves e indivíduos com pouca experiência no uso de computadores e dispositivos digitais.
+\section{Bases de Dados}
 
-Em relação aos métodos empregados, os trabalhos analisados utilizam predominantemente testes de usabilidade com usuários reais, avaliações heurísticas, análises baseadas em métricas quantitativas (como tempo de tarefa e taxa de erro) e abordagens qualitativas, como entrevistas e observação direta. Essa diversidade metodológica evidencia a complexidade do problema e a necessidade de múltiplas perspectivas para compreender as dificuldades enfrentadas por usuários com baixa alfabetização informática.
+Inicialmente, a revisão foi realizada utilizando exclusivamente a base de dados Scopus, selecionada devido à sua ampla cobertura de publicações científicas nas áreas de Computação, Interação Humano-Computador, Engenharia de Software e Experiência do Usuário.
+
+Embora a estratégia metodológica preveja a ampliação das buscas para outras bases de dados, como IEEE Xplore e ScienceDirect, nesta etapa do trabalho os resultados apresentados correspondem apenas à execução da busca na Scopus.
+
+Neste ponto será apresentada a Tabela~\ref{tab:bases}, contendo as bases consideradas para a revisão.
+
+\input{tabelas/tabela1.tex}
+
+A busca foi realizada em 24 de outubro de 2025.
+
+\section{Estratégia de Busca}
+
+A estratégia de busca foi construída a partir dos conceitos centrais da pesquisa, envolvendo quatro dimensões principais:
+
+\begin{itemize}
+\item sistemas e aplicações computacionais;
+\item usuários com baixa alfabetização informática;
+\item métricas de usabilidade e acessibilidade;
+\item contexto Web.
+\end{itemize}
+
+Os sinônimos identificados para cada dimensão permitiram a elaboração da string de busca utilizada na base Scopus. Os termos pertencentes a uma mesma dimensão foram conectados pelo operador lógico \textit{OR}, enquanto as diferentes dimensões foram relacionadas pelo operador lógico \textit{AND}.
+
+
+Neste ponto será apresentada a Tabela~\ref{tab:searchstring}, contendo a string de busca utilizada.
+
+\input{tabelas/tabela2.tex}
+
+
+\section{Critérios de Inclusão e Exclusão}
+
+Com o objetivo de garantir que apenas estudos relevantes fossem considerados, foram definidos critérios de inclusão e exclusão antes da realização da etapa de seleção dos artigos.
+
+Os critérios de inclusão contemplam trabalhos que apresentam características alinhadas ao objetivo desta pesquisa, enquanto os critérios de exclusão eliminam estudos que não contribuem diretamente para responder às questões de pesquisa.
+
+Neste ponto serão apresentada a Tabela~\ref{tab:criterios},contendo os critérios de inclusão e exclusão:
+
+\input{tabelas/tabela3.tex}
+
+\section{Processo de Seleção dos Estudos}
+
+A aplicação da estratégia de busca na base Scopus retornou inicialmente 601 documentos.
+
+Após a aplicação dos filtros disponíveis na base, foram considerados apenas artigos científicos, reduzindo o conjunto para 180 estudos. Em seguida, uma filtragem temática resultou em 71 artigos potencialmente relevantes.
+
+Na etapa seguinte foi realizada a leitura dos títulos e resumos, eliminando trabalhos fora do escopo da pesquisa e reduzindo o conjunto para 28 artigos.
+
+Por fim, foi realizada a leitura completa dos estudos remanescentes, considerando os critérios de inclusão e exclusão previamente estabelecidos. Ao final desse processo, 21 artigos foram selecionados para compor a revisão da literatura.
+
+Após a definição dos critérios de inclusão e exclusão, foi realizado o processo de seleção dos estudos. A Tabela \ref{tab:processoSelecao} apresenta um resumo quantitativo das etapas percorridas durante a revisão rápida.
+
+\input{tabelas/tabela4.tex}
+
+O processo de seleção dos estudos foi realizado em etapas sucessivas, desde a recuperação inicial dos documentos até a definição do conjunto final de trabalhos incluídos na revisão. A Figura \ref{imagens:fluxograma_rapid_review} apresenta esse processo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.60\textwidth]{imagens/fluxograma_rapid_review.png}
+    \caption{Fluxo do processo de seleção dos estudos da Rapid Review.}
+    \label{imagens:fluxograma_rapid_review}
+\end{figure}
+
+\section{Estudos Selecionados}
+
+Os artigos selecionados abrangem diferentes contextos de aplicação, incluindo sistemas governamentais, aplicações de saúde, tecnologias assistivas, plataformas web e estudos voltados à interação de usuários idosos ou iniciantes com sistemas computacionais.
+
+A Tabela~\ref{tab:selected_papers} apresenta todos os estudos selecionados, indicando quais questões de pesquisa (Q1 a Q4) são respondidas por cada trabalho.
+
+\input{tabelas/tabela5.tex}
+
 
 \section{Síntese dos Trabalhos Relacionados}
 
-A análise dos estudos permite identificar quatro eixos principais de contribuição na literatura. O primeiro eixo concentra trabalhos que investigam métricas de usabilidade e acessibilidade, destacando indicadores como eficácia, eficiência, satisfação e carga cognitiva como fundamentais para avaliar interfaces utilizadas por usuários iniciantes. Esses estudos demonstram que métricas tradicionais de IHC permanecem relevantes, mas precisam ser interpretadas considerando o perfil do usuário.
+A análise dos estudos permitiu identificar quatro principais eixos de contribuição.
 
-O segundo eixo reúne pesquisas focadas em diretrizes e princípios de design de interface. Esses trabalhos ressaltam a importância da simplicidade visual, da consistência na navegação, do uso de linguagem clara e da redução da sobrecarga cognitiva. Interfaces que seguem essas diretrizes tendem a apresentar melhores resultados de desempenho e menor taxa de erro entre usuários com baixa proficiência digital.
+O primeiro eixo reúne pesquisas que investigam métricas de usabilidade e acessibilidade, destacando indicadores como eficácia, eficiência, satisfação e carga cognitiva para avaliação de interfaces destinadas a usuários iniciantes.
 
-O terceiro eixo engloba estudos que exploram métodos e estratégias de avaliação, como avaliações heurísticas adaptadas, testes iterativos e uso combinado de dados quantitativos e qualitativos. Os resultados indicam que abordagens iterativas e centradas no usuário são essenciais para identificar problemas de usabilidade que não seriam detectados apenas por inspeções técnicas.
+O segundo eixo concentra estudos voltados às diretrizes de design de interface, enfatizando aspectos como simplicidade visual, consistência da navegação, utilização de linguagem clara e redução da sobrecarga cognitiva.
 
-Por fim, um quarto eixo contempla trabalhos voltados ao desenvolvimento de sistemas específicos, como aplicações de saúde e tecnologias assistivas, que demonstram como a adaptação cultural, linguística e cognitiva da interface impacta diretamente a aceitação e o uso efetivo das soluções propostas.
+O terceiro eixo contempla métodos de avaliação, incluindo testes de usabilidade, avaliações heurísticas, estudos observacionais e abordagens iterativas centradas no usuário.
+
+Por fim, o quarto eixo reúne trabalhos aplicados ao desenvolvimento de sistemas específicos, evidenciando como adaptações cognitivas, culturais e linguísticas contribuem para ampliar a acessibilidade e a inclusão digital.
+
 
 \section{Comparação com o Trabalho Proposto}
 
-Embora os trabalhos analisados apresentem contribuições relevantes, observa-se que a maioria deles aborda métricas, diretrizes ou componentes de interface de forma isolada, geralmente aplicada a contextos específicos. Poucos estudos propõem uma visão integrada que reúna métricas de avaliação, princípios de design e componentes reutilizáveis voltados explicitamente a desenvolvedores que não possuem formação em Interação Humano-Computador.
+Apesar das contribuições encontradas, observa-se que a maior parte dos estudos aborda métricas, diretrizes ou componentes de interface de forma isolada e aplicada a contextos específicos.
 
-Nesse contexto, o presente trabalho se diferencia ao propor a consolidação desses elementos em um guia prático de desenvolvimento, com foco em usuários com baixa alfabetização informática. Ao articular resultados da literatura com uma abordagem metodológica estruturada, busca-se oferecer uma referência aplicável e acessível para o desenvolvimento de interfaces mais intuitivas e inclusivas.
+Poucos trabalhos consolidam esses conhecimentos em um material direcionado ao desenvolvimento de software para pessoas com baixa alfabetização informática.
+
+Nesse contexto, este trabalho busca preencher essa lacuna por meio da elaboração de um guia de desenvolvimento que reúna métricas, recomendações de projeto e componentes de interface fundamentados na literatura científica.
+
 
 \section{Considerações Finais do Capítulo}
 
-A revisão da literatura evidencia avanços significativos no estudo da usabilidade e da acessibilidade para públicos com baixa proficiência digital, mas também revela lacunas relacionadas à integração prática desses conhecimentos. Os trabalhos analisados reforçam a necessidade de abordagens centradas no usuário e fundamentadas em evidências empíricas.
+A revisão da literatura permitiu identificar as principais abordagens utilizadas para o desenvolvimento de interfaces inclusivas e evidenciou a necessidade de integrar métricas de avaliação, princípios de design e recomendações práticas em um único artefato.
 
-Os resultados desta revisão servem como base para a proposta apresentada nos capítulos seguintes, orientando a definição das métricas, dos componentes de interface e da metodologia adotada para o desenvolvimento do guia proposto.
+Os resultados obtidos fundamentam as etapas seguintes deste trabalho, servindo de base para a construção do guia de desenvolvimento proposto.
