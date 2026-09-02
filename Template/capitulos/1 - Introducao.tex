@@ -2,45 +2,126 @@
 
 \section{Conceituação}
 
-O avanço das tecnologias digitais transformou profundamente a maneira como indivíduos interagem com informações, serviços e sistemas computacionais. Contudo, apesar do acesso à internet e a dispositivos eletrônicos estar cada vez mais difundido, ainda há uma parcela significativa da população que enfrenta dificuldades para utilizar ferramentas digitais básicas. Essa realidade está associada à baixa alfabetização informática, entendida como a limitação de conhecimentos e habilidades necessárias para operar computadores, navegadores, aplicativos e outros recursos digitais de forma autônoma.
+O crescimento da utilização da Internet e de sistemas computacionais ampliou as possibilidades de acesso a informações, serviços e recursos digitais. Entretanto, a interação com esses recursos não ocorre de maneira uniforme entre os diferentes perfis de usuários. Nesse contexto, \cite{kabassi2004personalised} destacam que a alfabetização digital e a familiaridade com tecnologias da informação passaram a ser necessárias em diferentes atividades da vida cotidiana, ao mesmo tempo em que existem adultos que não tiveram oportunidade de receber formação em informática e podem apresentar pouca ou nenhuma familiaridade com computadores.
 
-Tal dificuldade impacta diretamente o processo de inclusão digital, uma vez que pessoas com baixo domínio tecnológico acabam excluídas de serviços essenciais e oportunidades que dependem do uso de plataformas digitais. Nesse contexto, desenvolver softwares e sites que considerem as necessidades e limitações desse público é um desafio tanto técnico quanto social.
+A diferença no nível de familiaridade com recursos computacionais pode influenciar a forma como os usuários interagem com sistemas digitais. \cite{sharit2008information}, ao investigarem a busca de informações na Web por usuários idosos, discutem que fatores relacionados ao conhecimento sobre a Internet, às capacidades cognitivas e à complexidade das tarefas podem influenciar o desempenho durante a utilização de sistemas digitais.
 
-O campo da Interação Humano-Computador (IHC) oferece importantes contribuições nesse sentido, pois se dedica ao estudo da relação entre usuários e sistemas, buscando promover interfaces acessíveis, intuitivas e eficientes. Aliar conceitos de IHC a métricas de usabilidade e acessibilidade torna possível avaliar e aprimorar soluções de modo sistemático, garantindo que sejam realmente eficazes para pessoas com pouca familiaridade com a tecnologia.
+No contexto de usuários idosos, diferentes características podem influenciar a forma como ocorre a interação com websites. O estudo apresentado em \cite{weighted_heuristic} destaca aspectos relacionados à percepção, às capacidades motoras e cognitivas, aos modelos mentais e ao conhecimento técnico como elementos que devem ser considerados durante o desenvolvimento e a avaliação de interfaces destinadas a esse público. Dessa forma, compreender as características dos usuários torna-se relevante para a elaboração de interfaces adequadas às suas necessidades.
 
-Assim, este trabalho propõe-se a investigar e organizar diretrizes, métricas e recomendações que possam servir de base para o desenvolvimento de sistemas voltados a pessoas com baixa alfabetização informática. A partir desse contexto, torna-se necessário definir de forma objetiva o problema que orienta esta pesquisa.
+A complexidade das interfaces também pode representar uma dificuldade durante a utilização de sistemas digitais. Em um estudo sobre a utilização de um website governamental, os autores de \cite{health_problem_solving} analisaram o processo de resolução de problemas realizado por usuários idosos e identificaram dificuldades relacionadas às características e à complexidade do sistema. O estudo evidencia a importância da forma como as informações e as tarefas são organizadas para a realização das atividades pelos usuários.
 
-\section{Questão de Pesquisa}
+Além das dificuldades relacionadas à compreensão e ao uso de sistemas, a experiência inicial com uma interface também pode influenciar a percepção do usuário durante a interação. \cite{cowan2011exploring} investigaram a experiência de usuários novatos em sistemas Wiki e observaram que diferentes formas de treinamento incorporadas à interface influenciaram tanto a avaliação de usabilidade quanto a ansiedade durante a interação. Os autores verificaram que usuários expostos a tutoriais avaliaram a interface de maneira mais positiva e apresentaram menor ansiedade durante a edição.
 
-Este trabalho busca responder à seguinte questão de pesquisa:
+Nesse contexto, a Interação Humano-Computador (IHC) constitui uma área relacionada ao desenvolvimento e à avaliação de sistemas, considerando a interação entre pessoas e tecnologias. Entre as abordagens utilizadas nesse contexto encontram-se avaliações heurísticas, testes de usabilidade e métricas de desempenho. No estudo apresentado em \cite{weighted_heuristic}, por exemplo, foram consideradas medidas como número de cliques, quantidade de erros, tempo necessário para a execução das tarefas e pontuações obtidas por meio do System Usability Scale (SUS) na avaliação da usabilidade de websites.
+
+Além das métricas utilizadas para avaliar a interação, diferentes estudos apresentam recomendações para orientar o desenvolvimento de interfaces destinadas a usuários que podem apresentar dificuldades durante a utilização de sistemas digitais. Como discutido em \cite{health_problem_solving}, aspectos relacionados à organização das informações e à forma de apresentação das tarefas podem influenciar a interação dos usuários com websites. De maneira semelhante, \cite{weighted_heuristic} apresenta aspectos relacionados às características da interface e às necessidades de usuários idosos que podem ser considerados durante o processo de desenvolvimento e avaliação.
+
+A aplicação desses princípios também pode ser observada em trabalhos que envolvem o desenvolvimento de sistemas direcionados a públicos específicos. O estudo apresentado por \cite{breaking_barriers}, por exemplo, descreve o desenvolvimento de uma aplicação Web voltada a adultos mais velhos com deficiências. Os autores utilizaram uma abordagem centrada no usuário e realizaram avaliações com participantes do público-alvo, considerando aspectos relacionados à acessibilidade e à usabilidade da solução.
+
+Dessa forma, os estudos encontrados na literatura apresentam diferentes contribuições relacionadas ao desenvolvimento e à avaliação de interfaces, envolvendo métricas, métodos de avaliação, características dos usuários e recomendações de projeto. A partir dessas contribuições, este trabalho concentra-se na elaboração de uma proposta de guia que reúna informações provenientes da literatura sobre métricas, diretrizes e elementos de interface aplicáveis ao desenvolvimento de sistemas destinados a pessoas com baixa alfabetização informática.
+
+\section{Problema Investigado}
+
+A utilização de sistemas digitais pode exigir conhecimentos prévios relacionados ao funcionamento de computadores, navegadores, mecanismos de busca, interfaces e diferentes formas de interação. \cite{kabassi2004personalised} discutem que existem adultos que não tiveram oportunidade de receber formação em informática e que podem apresentar pouca familiaridade com computadores, tornando o processo de aprendizagem e interação com esses recursos mais desafiador.
+
+A relação entre conhecimento prévio e desempenho durante a utilização de sistemas também é discutida por \cite{sharit2008information}. Os autores analisam a influência do conhecimento sobre a Internet e de capacidades cognitivas no desempenho de usuários idosos durante atividades de busca e navegação na Web, especialmente diante de tarefas que apresentam maior complexidade.
+
+Além disso, estudos voltados à avaliação de websites identificam diferentes características das interfaces que podem influenciar a interação de determinados perfis de usuários. O trabalho apresentado em \cite{weighted_heuristic}, por exemplo, considera aspectos relacionados à apresentação das informações, aos elementos textuais, à quantidade de informações disponibilizadas e às instruções oferecidas ao usuário. Em sistemas que envolvem tarefas mais complexas, o estudo de \cite{health_problem_solving} também evidencia dificuldades relacionadas à necessidade de compreender informações e executar diferentes etapas para alcançar um objetivo.
+
+As dificuldades enfrentadas por usuários com pouca experiência também podem estar relacionadas à forma como a primeira interação com o sistema é conduzida. \cite{cowan2011exploring} verificaram que usuários novatos apresentaram avaliações diferentes da usabilidade de uma interface conforme o tipo de treinamento disponibilizado antes da realização das tarefas. O estudo também identificou diferenças nos níveis de ansiedade durante a interação, indicando que elementos incorporados ao próprio sistema podem influenciar a experiência inicial do usuário.
+
+Embora a literatura apresente métricas, heurísticas, diretrizes e métodos de avaliação voltados à melhoria da interação, essas contribuições estão distribuídas entre diferentes estudos e contextos de aplicação. Essa característica dificulta a utilização dessas informações como uma referência única para orientar o desenvolvimento de sistemas destinados a usuários com pouca experiência ou conhecimento em informática.
+
+Diante desse cenário, o problema investigado neste trabalho está relacionado à identificação e à organização de conhecimentos presentes na literatura que possam orientar o desenvolvimento de interfaces mais adequadas às necessidades de pessoas com baixa alfabetização informática.
+
+\section{Motivação}
+
+A motivação deste trabalho está relacionada à necessidade de considerar as características e os conhecimentos prévios dos usuários durante o desenvolvimento de sistemas digitais. \cite{kabassi2004personalised} discutem a existência de adultos com pouca familiaridade com computadores e apresentam uma solução de treinamento adaptada às características individuais dos usuários, considerando fatores como conhecimento, idade, hábitos e dificuldades.
+
+Essa preocupação também pode ser observada em pesquisas relacionadas à interação de pessoas idosas com a Web. Conforme discutido por \cite{sharit2008information}, conhecimentos relacionados à Internet, capacidades cognitivas e características das tarefas podem estar associados ao desempenho de usuários idosos durante atividades de busca e navegação.
+
+A experiência inicial também representa um aspecto relevante para usuários que ainda não possuem familiaridade com determinado sistema. \cite{cowan2011exploring} observaram que a utilização de tutoriais durante a primeira experiência com uma interface esteve associada a avaliações de usabilidade mais positivas e a níveis menores de ansiedade durante a interação. Esses resultados reforçam a relevância de considerar não apenas as funcionalidades disponibilizadas, mas também a forma como o sistema apresenta informações e orienta o usuário durante sua utilização.
+
+Essa relação também pode ser observada em estudos voltados à avaliação de interfaces. O trabalho apresentado em \cite{weighted_heuristic} mostra a utilização de diferentes critérios e métricas para analisar a interação de usuários idosos com websites, considerando aspectos relacionados à realização das tarefas e às características das interfaces. Além disso, o estudo de \cite{health_problem_solving} discute dificuldades encontradas por usuários idosos durante a utilização de um website governamental, destacando a relação entre as características do sistema e a realização das tarefas.
+
+A existência de diferentes métodos de avaliação, métricas e recomendações distribuídos na literatura constitui, portanto, uma motivação para a realização deste estudo. A organização dessas contribuições pode permitir a construção de uma referência que reúna conhecimentos relacionados ao desenvolvimento de sistemas destinados a usuários com menor familiaridade com recursos computacionais.
+
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+
+O objetivo geral deste estudo é propor um guia de desenvolvimento de software voltado a pessoas com baixa alfabetização informática, reunindo métricas de usabilidade, acessibilidade, princípios de Interação Humano-Computador e boas práticas de projeto que possam auxiliar no desenvolvimento de sistemas mais acessíveis e intuitivos.
+
+\subsection{Objetivos Específicos}
+
+Para alcançar o objetivo geral, são estabelecidos os seguintes objetivos específicos:
+
+\begin{itemize}
+
+    \item Identificar, por meio da revisão da literatura, métricas de usabilidade e acessibilidade aplicáveis à avaliação de sistemas destinados a usuários com baixa proficiência digital;
+
+    \item Identificar diretrizes e elementos de interface que possam contribuir para facilitar a interação de pessoas com pouca experiência no uso de sistemas computacionais;
+
+    \item Analisar métodos de avaliação de interfaces e sua relação com características de usuários com baixa proficiência digital;
+
+    \item Estruturar um guia contendo métricas, diretrizes, componentes e recomendações que possam servir como referência prática para o desenvolvimento de softwares destinados a esse público.
+
+\end{itemize}
+
+\section{Justificativa}
+
+A literatura apresenta diferentes estudos relacionados à avaliação e ao desenvolvimento de interfaces destinadas a usuários que podem apresentar dificuldades durante a interação com sistemas digitais. O estudo apresentado em \cite{weighted_heuristic}, por exemplo, demonstra a utilização de métricas de desempenho, avaliações heurísticas e testes de usabilidade para investigar características da interação de usuários idosos com websites.
+
+Outros trabalhos também apontam para a influência da complexidade dos sistemas sobre a realização de tarefas. Conforme discutido em \cite{health_problem_solving}, usuários idosos podem encontrar dificuldades durante a utilização de websites quando precisam lidar com estruturas e tarefas mais complexas. \cite{sharit2008information}, por sua vez, analisam a relação entre o conhecimento sobre a Internet, as capacidades cognitivas e o desempenho de usuários idosos durante atividades de busca e navegação na Web.
+
+A literatura também apresenta trabalhos voltados a adultos com pouca familiaridade com computadores. Kabassi e Virvou \cite{kabassi2004personalised}, por exemplo, desenvolveram um ambiente de treinamento destinado a usuários adultos novatos, adaptando o suporte oferecido pelo sistema de acordo com características como conhecimento, idade, hábitos e dificuldades dos usuários. Essa abordagem demonstra a possibilidade de considerar as características individuais do público durante o desenvolvimento de soluções computacionais.
+
+Da mesma forma, \cite{cowan2011exploring} demonstram, por meio de um estudo experimental com usuários novatos, que características relacionadas à experiência inicial e ao treinamento oferecido pela interface podem influenciar a avaliação de usabilidade e a ansiedade durante a interação. A pesquisa reforça a importância de considerar aspectos relacionados à aprendizagem e à experiência do usuário no desenvolvimento de sistemas destinados a pessoas que ainda não possuem familiaridade com determinada tecnologia.
+
+Também existem pesquisas que utilizam abordagens centradas no usuário para desenvolver e avaliar soluções destinadas a públicos específicos. O estudo de \cite{breaking_barriers} apresenta o desenvolvimento de uma aplicação Web para adultos mais velhos com deficiências, empregando avaliações com participantes do público-alvo e considerando aspectos relacionados à acessibilidade e à usabilidade.
+
+Esses trabalhos demonstram a existência de diferentes contribuições relacionadas às características dos usuários, às métricas de avaliação, às práticas de desenvolvimento e às formas de apoio durante a interação. Entretanto, essas contribuições são apresentadas em diferentes contextos e abordagens. Diante disso, este trabalho justifica-se pela possibilidade de organizar e consolidar conhecimentos provenientes de diferentes estudos em uma referência única, direcionada ao desenvolvimento de sistemas para pessoas com baixa alfabetização informática.
+
+\section{Questões de Pesquisa para o Estudo de Caso}
+
+A partir do problema investigado e dos objetivos estabelecidos, este trabalho busca responder à seguinte questão principal:
 
 \begin{quote}
 Como desenvolver softwares e sites voltados a pessoas com baixa alfabetização informática, utilizando métricas de usabilidade, acessibilidade e princípios de Interação Humano-Computador para promover interfaces mais intuitivas e inclusivas?
 \end{quote}
 
-A resposta para essa questão será construída por meio da revisão da literatura, da identificação de métricas e diretrizes de projeto e da consolidação desses resultados em um guia de desenvolvimento voltado a desenvolvedores interessados em produzir interfaces mais inclusivas.
-
-\section{Objetivos}
-
-O objetivo geral deste estudo é propor um guia de desenvolvimento de software voltado a pessoas com baixa alfabetização informática, reunindo métricas de usabilidade, acessibilidade, princípios de Interação Humano-Computador e boas práticas de projeto que auxiliem no desenvolvimento de sistemas acessíveis, intuitivos e inclusivos.
-
-Para alcançar esse propósito, são estabelecidos os seguintes objetivos específicos:
+Para auxiliar na investigação da questão principal, foram definidas as seguintes questões de pesquisa:
 
 \begin{itemize}
-    \item Identificar, por meio da revisão de literatura, as principais métricas de usabilidade e acessibilidade aplicáveis ao público com baixa proficiência digital;
-    \item Analisar elementos de interface e design de interação que possam ser adaptados para facilitar o uso por pessoas com pouca experiência tecnológica;
-    \item Avaliar como métricas de IHC podem orientar a criação de interfaces mais intuitivas e inclusivas;
-    \item Estruturar um catálogo de componentes e bibliotecas de apoio que sirva como referência prática para o desenvolvimento de softwares destinados a esse público.
+
+    \item RQ1: Quais métricas de usabilidade e acessibilidade são utilizadas para avaliar sistemas destinados a usuários com baixa proficiência digital?
+
+    \item RQ2: Quais elementos de interface e diretrizes de design podem facilitar a interação de pessoas com pouca experiência no uso de sistemas computacionais?
+
+    \item RQ3: Como métricas e métodos de avaliação de IHC podem contribuir para a identificação e redução de problemas de usabilidade em interfaces destinadas a usuários com baixa proficiência digital?
+
+    \item RQ4: Quais estratégias de avaliação podem ser utilizadas para verificar a adequação de interfaces às necessidades de usuários com baixa proficiência digital?
+
 \end{itemize}
 
-\section{Metodologia}
+Essas questões orientam a revisão da literatura apresentada no Capítulo 3 e a análise dos estudos selecionados.
 
-Para atingir os objetivos propostos, este estudo adota uma metodologia de caráter exploratório e bibliográfico com base em princípios da Design Science Research (DSR), conforme descrito por \citet{dresch2014design}. A DSR é adequada a pesquisas que buscam gerar artefatos --- no caso deste trabalho, um guia de desenvolvimento e um catálogo de componentes --- a partir da identificação de um problema real e da sistematização de evidências científicas e técnicas.
+\section{Delimitação do Estudo}
 
-O estudo parte da revisão da literatura sobre alfabetização digital, IHC, usabilidade, acessibilidade e design centrado no usuário, buscando identificar lacunas e boas práticas aplicáveis ao público-alvo. Em seguida, realiza-se a análise e categorização de métricas e diretrizes encontradas, relacionando-as às dificuldades enfrentadas por pessoas com baixa familiaridade tecnológica.
+Este trabalho delimita-se à investigação de aspectos relacionados à usabilidade, acessibilidade e Interação Humano-Computador aplicados ao desenvolvimento de sistemas e interfaces digitais destinados a pessoas com baixa alfabetização informática.
 
-A partir desses resultados, será estruturado um modelo conceitual de guia, reunindo métricas, componentes de interface e recomendações práticas. Por fim, o estudo propõe direções para testes e validações futuras desses elementos em contextos reais de aplicação.
+A revisão da literatura concentra-se em estudos que apresentam métricas, métodos de avaliação, diretrizes ou recomendações relacionadas à interação com sistemas digitais. Também são considerados estudos envolvendo usuários idosos, usuários novatos ou pessoas com pouca experiência no uso de tecnologias digitais, desde que suas contribuições apresentem relação com o problema investigado.
 
-\section{Organização do texto}
+O trabalho não tem como objetivo desenvolver uma solução completa para uma situação real de uso ou estabelecer uma métrica inédita de usabilidade. A proposta concentra-se na organização e sistematização dos conhecimentos encontrados na literatura para a elaboração de um guia de desenvolvimento.
 
-Este artigo está estruturado em cinco seções. A primeira seção apresenta a introdução, abordando a contextualização do problema, a questão de pesquisa, os objetivos, a metodologia e a estrutura geral do trabalho. A segunda seção traz a fundamentação teórica, que discute os conceitos de alfabetização digital, IHC, usabilidade, acessibilidade e design centrado no usuário. Na terceira seção, descreve-se a metodologia adotada, detalhando as etapas de levantamento, análise e sistematização das informações. A quarta seção apresenta os resultados obtidos, incluindo a síntese das métricas, diretrizes e componentes que compõem o guia de desenvolvimento. Por fim, a quinta seção reúne as considerações finais, destacando as contribuições do estudo e as perspectivas para trabalhos futuros.
+\section{Estrutura do Estudo}
+
+Este trabalho está organizado em cinco capítulos. O primeiro capítulo apresenta a introdução, contemplando a conceituação do tema, o problema investigado, a motivação, os objetivos, a justificativa, as questões de pesquisa, a delimitação e a estrutura do estudo.
+
+O segundo capítulo apresenta a fundamentação teórica, abordando os conceitos necessários para a compreensão do trabalho, incluindo alfabetização informática, Interação Humano-Computador, usabilidade, acessibilidade e design centrado no usuário.
+
+O terceiro capítulo apresenta a metodologia da revisão da literatura, descrevendo a estratégia de busca, as bases de dados utilizadas, a string de busca, os critérios de inclusão e exclusão e o processo de seleção dos estudos.
+
+O quarto capítulo apresenta os resultados obtidos a partir da revisão da literatura, incluindo a análise e a síntese das métricas, diretrizes, métodos e componentes identificados nos estudos selecionados.
+
+Por fim, o quinto capítulo apresenta as considerações finais, discutindo as contribuições do trabalho, suas limitações e possibilidades para trabalhos futuros.
