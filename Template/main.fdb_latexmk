@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1785531653.82057 "main.aux" "main.bbl" "main" 1785531712.65385 0
+["bibtex main"] 1788325345.75376 "main.aux" "main.bbl" "main" 1788325526.44152 0
   "./references.bib" 1785529386 9243 1d099a9725ec229f0957d2c2db5110fd ""
   "D:/MiKTeX D/bibtex/bst/natbib/plainnat.bst" 1284455456 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1785531711 10186 42e37c77a6490d107d02121032c923b3 "pdflatex"
+  "main.aux" 1788325525 12725 f924b3e435766670a55a48f6c0a817bc "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1785531709.2716 "d:/Faculdade/TCC-main/Template/main.tex" "main.pdf" "main" 1785531712.65492 0
+["pdflatex"] 1788325523.07958 "d:/Faculdade/TCC-main/Template/main.tex" "main.pdf" "main" 1788325526.44441 0
   "C:/Users/Nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762106386 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Nico/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1766279084 24152 f003cacf10f3abf923a6ef895763fbd7 ""
   "C:/Users/Nico/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762106900 13306025 41dd91cac494b1f681d71e1f3264690f ""
@@ -252,9 +252,9 @@
   "D:/MiKTeX D/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "D:/MiKTeX D/tex/latex/xfor/xfor.sty" 1233849756 2689 44855b72da58344b1c1d9b3087bce6ca ""
   "D:/MiKTeX D/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "capitulos/1 - Introducao.tex" 1784591764 5675 995d1ca8be4fa464c86b80896f62b0f4 ""
-  "capitulos/2 - Fundamentacao_teorica.tex" 1784590935 8813 a3912202875b9c76442a040034901da7 ""
-  "capitulos/3 - Revisao.tex" 1785531708 7719 61cc9844389154fcf0cab05846235524 ""
+  "capitulos/1 - Introducao.tex" 1788323673 18724 85a79d71d3b157dc17ba07e0451ad09f ""
+  "capitulos/2 - Fundamentacao_teorica.tex" 1788325522 15868 52997dde86ed5109fe15af1a2f523b45 ""
+  "capitulos/3 - Revisao.tex" 1788324344 17189 a7d9bb66ccf35f2b2fc4fc598224d546 ""
   "capitulos/4 - Proposta.tex" 1762107227 40 8f1025e389e42ce66a4b18e64f94cb1f ""
   "capitulos/5 - conclusao.tex" 1762107227 45 9da2a6fce8c6c8aaced6bcdaf4488237 ""
   "config/acronimos.tex" 1762107227 114 444fef5f250d7b57d112867e3d412d80 ""
@@ -265,13 +265,13 @@
   "config/pacotes.tex" 1785529726 577 c0b0cc109068143a73440f16715a7337 ""
   "d:/Faculdade/TCC-main/Template/main.tex" 1762287124 1389 e3ef80f8c0bb53fe3bea0fba1be29f4f ""
   "imagens/fluxograma_rapid_review.png" 1785531328 1205024 7adbb89c79116f9673eab3ac84bd09ac ""
-  "main.aux" 1785531711 10186 42e37c77a6490d107d02121032c923b3 "pdflatex"
-  "main.bbl" 1785531654 8837 23243adf5d0275bfaf25bf1dbf154cac "bibtex main"
-  "main.lof" 1785531711 281 eb359eb096fef82a359ce7837f56217f "pdflatex"
-  "main.lot" 1785531711 828 0c20052f43fb7bd48e6098f8c8215c79 "pdflatex"
-  "main.out" 1785531711 5811 0dc78f5004fb583ab9de77ec1ce30b60 "pdflatex"
+  "main.aux" 1788325525 12725 f924b3e435766670a55a48f6c0a817bc "pdflatex"
+  "main.bbl" 1788325345 8837 23243adf5d0275bfaf25bf1dbf154cac "bibtex main"
+  "main.lof" 1788325525 281 b5fc9ba0cd0ceffb51255f92c6128005 "pdflatex"
+  "main.lot" 1788325525 828 2496e86c6656f83d2e765d4976cda038 "pdflatex"
+  "main.out" 1788325525 6684 ac98ca999e1f1f826f75321cc1ab221e "pdflatex"
   "main.tex" 1762287124 1389 e3ef80f8c0bb53fe3bea0fba1be29f4f ""
-  "main.toc" 1785531711 2489 b9df4198f5582208e44c9452a551f9d9 "pdflatex"
+  "main.toc" 1788325525 2932 38c402ca4d3e3e9ee6d3f96b13dbc7ad "pdflatex"
   "pre-textuais/abstract.tex" 1762121164 1059 2950669dd02f2222c783c18583e45d49 ""
   "pre-textuais/agradecimentos.tex" 1762107227 48 8f9a44c6615192281234bd592ff0eb16 ""
   "pre-textuais/dedicatoria.tex" 1762107227 55 9193911d2aa1d9be6e24c4df805467c1 ""

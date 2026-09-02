@@ -1,54 +1,110 @@
 \chapter{Fundamentação Teórica}
+
 \label{sec:fundamentacao}
 
-A fundamentação teórica reúne os conceitos, modelos e estudos que embasam este trabalho, oferecendo a base necessária para a análise crítica e a proposição do guia de desenvolvimento voltado a pessoas com baixa alfabetização informática. Nesta seção são abordados os principais tópicos que formam o arcabouço conceitual da pesquisa: alfabetização digital e inclusão, princípios de Interação Humano-Computador (IHC), métricas e métodos de avaliação de usabilidade e acessibilidade, diretrizes de design para usuários com baixa proficiência digital, e abordagens metodológicas para concepção e validação de artefatos de software.
+A fundamentação teórica reúne os conceitos, modelos e estudos que embasam este trabalho, oferecendo a base necessária para a análise crítica e a proposição do guia de desenvolvimento voltado a pessoas com baixa alfabetização informática. Nesta seção são abordados os principais tópicos que formam o arcabouço conceitual da pesquisa: alfabetização digital e inclusão, princípios de Interação Humano-Computador (IHC), métricas e métodos de avaliação de usabilidade e acessibilidade, diretrizes de design para usuários com baixa proficiência digital e abordagens metodológicas para concepção e validação de artefatos de software.
+
 
 \section{Alfabetização digital e inclusão tecnológica}
 
-A alfabetização digital compreende um conjunto de conhecimentos, habilidades e atitudes que permitem ao indivíduo acessar, avaliar, utilizar e criar informações por meio de tecnologias digitais. Em um sentido ampliado, ela não se limita ao domínio de comandos e operações, mas envolve também a capacidade de compreender interfaces, interpretar feedbacks e resolver problemas básicos no ambiente digital. A falta dessas competências gera barreiras à participação plena em atividades cotidianas, o que caracteriza a exclusão digital em sua dimensão cognitiva e funcional.
+A alfabetização digital está relacionada aos conhecimentos e habilidades necessários para utilizar tecnologias digitais e realizar atividades mediadas por computadores e outros recursos tecnológicos. \cite{kabassi2004personalised} discutem que a alfabetização digital e a familiaridade com tecnologias da informação passaram a ser necessárias em diferentes atividades da vida cotidiana. Os autores também destacam a existência de adultos que não tiveram oportunidade de receber formação em informática e que podem apresentar pouca ou nenhuma familiaridade com computadores.
 
-Do ponto de vista do desenvolvimento de sistemas, reconhecer diferentes níveis de alfabetização digital implica projetar interfaces que reduzam a carga cognitiva, facilitem a aprendizagem progressiva e ofereçam caminhos claros para a realização de tarefas. Como discutido por \cite{sharit2008information}, usuários idosos — frequentemente representando grupos com baixa proficiência digital — tendem a enfrentar dificuldades acentuadas ao navegar por interfaces complexas ou pouco previsíveis. Essa limitação também foi observada por \cite{health_problem_solving}, que identificou desafios significativos na interação com serviços governamentais digitais devido à sobrecarga informacional e processos extensos de navegação.
+A relação entre conhecimento prévio e utilização de recursos digitais também é observada em estudos sobre usuários idosos. \cite{sharit2008information} investigaram a influência do conhecimento relacionado à Internet, dos modelos mentais e das capacidades cognitivas sobre o desempenho de usuários idosos durante atividades de busca de informações na Web. Os resultados indicaram que o conhecimento relacionado à Internet é importante para o desempenho, mas que sua influência deve ser considerada em conjunto com outras capacidades cognitivas, especialmente quando as tarefas apresentam maior complexidade.
 
-Essa perspectiva orienta a escolha de métricas de avaliação, a seleção de componentes de interface e a adoção de métodos de design centrados no usuário que privilegiem a inclusão.
+A pouca familiaridade com sistemas computacionais também pode estar relacionada à experiência inicial do usuário. \cite{cowan2011exploring} investigaram usuários novatos durante a utilização de uma interface Web e analisaram a influência de diferentes formas de treinamento sobre a usabilidade e a ansiedade durante a interação. Os autores observaram que a utilização de tutoriais incorporados ao sistema esteve associada a avaliações de usabilidade mais positivas e a uma redução da ansiedade durante a interação.
+
+Dessa forma, a literatura indica que o conhecimento prévio, a familiaridade com tecnologias e as características das tarefas devem ser considerados durante o desenvolvimento de sistemas destinados a usuários com diferentes níveis de experiência. Essa perspectiva é relevante para este trabalho, uma vez que a proposta do guia considera aspectos relacionados à compreensão da interface, à aprendizagem da utilização do sistema e à redução de dificuldades durante a interação.
+
 
 \section{Interação Humano-Computador, usabilidade e acessibilidade}
 
-A Interação Humano-Computador é a área que estuda as relações entre usuários e sistemas computacionais, buscando entender como projetar interfaces que suportem a execução de tarefas de maneira eficiente, eficaz e satisfatória. Usabilidade refere-se à facilidade com que usuários realizam suas tarefas em um sistema, normalmente avaliada por medidas como eficácia, eficiência e satisfação. A acessibilidade diz respeito à possibilidade de uso por pessoas com diferentes capacidades sensoriais, motoras e cognitivas.
+A Interação Humano-Computador está relacionada ao estudo da interação entre pessoas e sistemas computacionais, considerando aspectos associados à forma como os usuários realizam tarefas por meio das interfaces. Estudos presentes na literatura analisam essa interação a partir de características dos usuários, das tarefas e dos elementos que compõem os sistemas.
 
-No contexto de usuários com baixa alfabetização informática, as dimensões cognitivas da acessibilidade tornam-se especialmente relevantes. Como apontado por \cite{social_media_elderly}, usuários idosos apresentam dificuldades de memória, atenção e compreensão textual quando expostos a interfaces densas ou mal estruturadas. Da mesma forma, o estudo de \cite{weighted_heuristic} mostra que diretrizes baseadas em heurísticas são capazes de antecipar falhas de navegação e auxiliar no refinamento de interfaces voltadas a iniciantes. Em ambientes de saúde, conforme relata \cite{secure_messaging}, barreiras como menus complexos ou falta de clareza estrutural podem comprometer até mesmo tarefas simples, especialmente entre usuários com pouca experiência digital.
+No contexto de usuários com baixa alfabetização informática, aspectos relacionados à compreensão das informações e à realização das tarefas tornam-se relevantes. \cite{sharit2008information} identificaram relações entre o conhecimento sobre a Internet, capacidades cognitivas e desempenho durante atividades de busca de informações. Os autores também observaram que a complexidade dos problemas influencia quais capacidades são mais relevantes para o desempenho dos usuários.
+
+A usabilidade pode ser analisada por meio de medidas relacionadas ao desempenho e à percepção dos usuários. \cite{weighted_heuristic} utilizaram, em sua avaliação de websites para usuários idosos, medidas como tempo total de execução das tarefas, quantidade de cliques, número de erros e pontuações obtidas por meio do System Usability Scale (SUS). Os resultados mostraram diferenças de desempenho entre os websites avaliados e relações entre os indicadores de desempenho e a avaliação de usabilidade.
+
+A acessibilidade também constitui um aspecto relevante no desenvolvimento de interfaces destinadas a diferentes perfis de usuários. No estudo de \cite{breaking_barriers}, o desenvolvimento de uma aplicação Web destinada a adultos mais velhos com deficiências considerou as necessidades do público-alvo e aspectos relacionados à acessibilidade durante o processo de desenvolvimento e avaliação.
+
+Em aplicações destinadas a diferentes perfis de usuários, a avaliação de usabilidade também pode revelar problemas que não são identificados apenas pela análise da interface. \cite{secure_messaging} utilizaram métodos qualitativos e quantitativos para avaliar um sistema de mensagens seguras, considerando erros de uso, conclusão de tarefas, tempo de execução e satisfação dos usuários. Os autores identificaram problemas relacionados a instruções pouco claras e destacaram a importância de aspectos de eficiência, treinamento e personalização da interface.
+
 
 \section{Métricas e métodos de avaliação de usabilidade e acessibilidade}
 
-A literatura de IHC dispõe de um conjunto consolidado de métricas e métodos para avaliar interfaces. Para este estudo, destacam-se métricas como taxa de sucesso nas tarefas, taxa de erro, tempo até a completude da tarefa, número de tentativas, busca por ajuda, medidas de carga cognitiva e indicadores de satisfação do usuário obtidos por meio de instrumentos padronizados. Como demonstrado por \cite{weighted_heuristic}, heurísticas ponderadas podem prever o desempenho geral do usuário, correlacionando pontuações heurísticas com número de erros, tempo de navegação e cliques necessários.
+A avaliação da interação pode utilizar diferentes métricas para analisar o desempenho dos usuários durante a realização de tarefas. \cite{weighted_heuristic} utilizaram tempo de execução, quantidade de cliques, número de erros e pontuações do SUS para avaliar diferentes websites. O estudo também demonstrou que alterações no índice de usabilidade estavam associadas a diferenças no tempo de conclusão das tarefas, na quantidade de cliques e no número de erros.
 
-As técnicas de avaliação frequentemente utilizadas envolvem testes com usuários, observação direta, registros de interação, entrevistas e métodos de acompanhamento comportamental. A combinação de dados quantitativos e qualitativos permite compreender não apenas o desempenho observável, mas também as causas das dificuldades encontradas.
+De forma complementar, \cite{secure_messaging} avaliaram um sistema de mensagens utilizando dados de conclusão das tarefas, tempo de execução, erros de uso e satisfação. Os autores também utilizaram observação e registros das sessões de uso para identificar aspectos que facilitavam ou dificultavam a interação.
 
-No campo da acessibilidade, o estudo de \cite{esticky2023} mostra que avaliações iterativas e multidimensionais — combinando métricas de aprendibilidade, clareza e acessibilidade — favorecem o desenvolvimento de interfaces mais consistentes e intuitivas. De forma complementar, \cite{health_problem_solving} destaca que métricas como número de cliques, tempo de navegação e taxa de abandono são fundamentais para identificar obstáculos enfrentados por usuários com baixa proficiência digital em serviços governamentais.
+As técnicas de avaliação podem, portanto, combinar informações quantitativas e qualitativas. A utilização de métricas de desempenho permite analisar aspectos observáveis da interação, enquanto entrevistas, questionários e observações podem contribuir para a identificação das dificuldades percebidas pelos usuários. No estudo de \cite{cowan2011exploring}, por exemplo, foram utilizadas medidas de usabilidade e de ansiedade para investigar a experiência de usuários novatos durante diferentes condições de treinamento.
+
+No campo de interfaces destinadas a usuários idosos, \cite{health_problem_solving} empregou uma abordagem baseada em análise hierárquica de tarefas para investigar a realização de atividades complexas em um website governamental. O estudo identificou dificuldades relacionadas à execução de tarefas compostas por múltiplas etapas e analisou aspectos da interação que poderiam dificultar a continuidade da atividade.
+
+Esses estudos fornecem diferentes possibilidades de avaliação que podem ser consideradas na elaboração do guia proposto, especialmente aquelas relacionadas ao tempo de execução, erros, cliques, conclusão de tarefas, satisfação, usabilidade percebida e observação do comportamento dos usuários.
+
 
 \section{Diretrizes e princípios de design para usuários com baixa alfabetização informática}
 
-Projetar para pessoas com pouca familiaridade tecnológica exige considerar limitações cognitivas, falta de vocabulário técnico e possíveis apreensões quanto ao uso de dispositivos. \cite{social_media_elderly} demonstra que ajustes como aumento de fonte, botões maiores e uso de linguagem simples reduzem significativamente a carga cognitiva. Em paralelo, \cite{esticky2023} reforça a importância de layouts minimalistas com poucos elementos por tela e feedback constante. \cite{weighted_heuristic} indica ainda que diretrizes visuais claras — como contraste adequado e elementos distinguíveis — reduzem erros de interação. Finalmente, \cite{breaking_barriers} mostra que adaptações culturais e linguísticas melhoram a compreensão e o engajamento de populações vulneráveis.
+O desenvolvimento de interfaces para usuários com pouca familiaridade tecnológica requer atenção às características dos usuários, às tarefas realizadas e à forma como as informações são apresentadas. \cite{sharit2008information} identificaram que o conhecimento relacionado à Internet e determinadas capacidades cognitivas estão associados ao desempenho durante atividades de busca, destacando também que o desenvolvimento de diretrizes de interface deve considerar as necessidades específicas dos usuários.
 
-Seguem os principais princípios identificados:
+No estudo de \cite{health_problem_solving}, foram identificadas dificuldades relacionadas à navegação e à realização de tarefas com múltiplas etapas em um website governamental. Os autores destacam problemas relacionados à rolagem e à localização de elementos necessários para a continuidade das tarefas, sugerindo que controles de navegação importantes sejam apresentados de maneira facilmente localizável e que páginas extensas ofereçam indicações adicionais ao usuário.
+
+\cite{weighted_heuristic} também identificaram características de interface relevantes para usuários idosos. O estudo aponta que características relacionadas à facilidade de distinção dos textos e à localização dos menus receberam avaliações relevantes entre os participantes. Os autores também relacionaram características das interfaces a medidas objetivas de desempenho, como tempo, cliques e erros.
+
+A literatura também apresenta a importância do treinamento durante a primeira experiência com sistemas. \cite{cowan2011exploring} observaram que usuários novatos que utilizaram tutoriais incorporados à interface apresentaram avaliações de usabilidade mais positivas e menor ansiedade durante a interação.
+
+A partir dessas contribuições, podem ser considerados os seguintes princípios para o desenvolvimento de interfaces destinadas a usuários com baixa familiaridade tecnológica:
 
 \begin{itemize}
-    \item Simplicidade e clareza: reduzir elementos visuais desnecessários e adotar linguagem direta.
-    \item Consistência e previsibilidade: padrões de navegação estáveis favorecem o aprendizado.
-    \item Feedback imediato: confirmações claras reduzem incertezas e ansiedade.
-    \item Tamanhos e espaciamentos adequados: tornam a interação menos sujeita a erros.
-    \item Progressive disclosure: evita sobrecarga cognitiva.
-    \item Multimodalidade: uso combinado de texto, ícones e imagens favorece a compreensão.
-    \item Tolerância a erros: caminhos de correção devem ser facilmente compreensíveis.
+
+    \item Simplicidade e clareza: reduzir elementos desnecessários e apresentar informações de maneira compreensível;
+
+    \item Consistência e previsibilidade: utilizar padrões de interação e navegação que facilitem a compreensão do funcionamento do sistema;
+
+    \item Feedback imediato: fornecer informações ao usuário após ações realizadas no sistema;
+
+    \item Tamanhos e espaçamentos adequados: utilizar elementos de interface que possam ser identificados e acionados com facilidade;
+
+    \item Divulgação progressiva: apresentar informações e funcionalidades de maneira gradual, evitando disponibilizar uma quantidade excessiva de informações simultaneamente;
+
+    \item Multimodalidade: combinar diferentes formas de apresentação das informações quando isso contribuir para a compreensão;
+
+    \item Tolerância a erros: permitir que o usuário compreenda e corrija ações realizadas de maneira inadequada.
+
 \end{itemize}
+
 
 \section{Componentes e padrões de interface aplicáveis}
 
-A construção de um catálogo de componentes exige identificar padrões que historicamente se mostraram eficazes para iniciantes. Conforme \cite{social_media_elderly}, elementos como botões grandes, ícones acompanhados de rótulos textuais e menus simplificados promovem melhor compreensão. \cite{esticky2023} demonstra que componentes reduzidos e layouts consistentes favorecem usuários com limitações cognitivas. \cite{weighted_heuristic} destaca que componentes visualmente claros reduzem erros e tempo de navegação. Já \cite{breaking_barriers} enfatiza a importância de componentes adaptados culturalmente.
+A definição de componentes de interface deve considerar as características e necessidades dos usuários que utilizarão o sistema. O estudo de Chou, Lai e Liu \cite{social_media_elderly} utilizou uma abordagem centrada no usuário para investigar requisitos relacionados ao uso de mídias sociais por pessoas idosas, considerando aspectos de acessibilidade, design de interface e experiência de uso.
+
+Lynch et al. \cite{weighted_heuristic} também identificaram características de interface consideradas relevantes pelos usuários idosos, incluindo elementos relacionados à navegação, à distinção dos textos e à localização dos menus. Os resultados do estudo indicaram que características relacionadas à navegação apresentaram importância entre os participantes.
+
+Além dos componentes visuais, recursos de apoio à aprendizagem também podem fazer parte da interface. \cite{kabassi2004personalised} desenvolveram o Web-IT, um ambiente de aprendizagem destinado a usuários adultos novatos, que utiliza técnicas de apresentação e navegação adaptativas para fornecer suporte de acordo com o conhecimento e as dificuldades identificadas para cada usuário.
+
+\cite{cowan2011exploring} também demonstraram a relevância de recursos de treinamento para usuários novatos. Os autores verificaram que a presença de tutoriais incorporados ao sistema esteve associada a avaliações mais positivas da usabilidade e a menores níveis de ansiedade durante a interação.
+
+Essas contribuições fundamentam a inclusão, no guia proposto, de componentes e padrões relacionados à organização da navegação, apresentação das informações, identificação dos elementos de interface, orientação do usuário e apoio à aprendizagem.
+
 
 \section{Abordagens metodológicas para concepção e avaliação}
 
-Para a concepção do guia e do catálogo, utilizam-se metodologias que integram conhecimento teórico com construção de artefatos. A Design Science Research (DSR) permite desenvolver soluções práticas por meio de ciclos de construção e avaliação. Estudos como o de \cite{esticky2023} mostra que ciclos iterativos com prototipação contribuem para interfaces mais intuitivas. \cite{weighted_heuristic} reforça que avaliações heurísticas e métricas estruturadas identificam problemas profundos de usabilidade. \cite{breaking_barriers} destaca que validar soluções em contextos reais melhora sua adequação cultural.
+Para a concepção do guia e do catálogo, utilizam-se metodologias que integram conhecimento teórico com construção e avaliação de artefatos. A Design Science Research (DSR) constitui uma abordagem voltada à construção e avaliação de artefatos destinados à solução de problemas identificados em determinado contexto \cite{dresch2014design}.
+
+A literatura analisada também apresenta exemplos de processos iterativos e avaliações centradas no usuário. O estudo de \cite{health_problem_solving} apresenta uma metodologia que pode ser aplicada de forma iterativa para identificar e avaliar problemas encontrados por usuários durante a realização de tarefas complexas em websites.
+
+De maneira semelhante, o trabalho apresentado em \cite{breaking_barriers} empregou uma abordagem centrada no usuário para o desenvolvimento de uma aplicação Web destinada a adultos mais velhos com deficiências, considerando as necessidades do público-alvo durante o desenvolvimento da solução.
+
+\cite{cowan2011exploring} utilizaram experimentos controlados com usuários novatos para investigar os efeitos de diferentes formas de treinamento sobre a usabilidade e a ansiedade durante a interação. Os resultados demonstram como avaliações com usuários podem fornecer evidências para decisões relacionadas ao projeto das interfaces.
+
+Essas abordagens fornecem subsídios para a construção e posterior avaliação do artefato proposto neste trabalho, permitindo relacionar os conhecimentos identificados na literatura às etapas de concepção e avaliação do guia.
+
 
 \section{Lacunas identificadas e contribuição esperada}
 
-Apesar dos avanços, ainda são raros estudos que consolidam métricas, diretrizes e componentes voltados especificamente para pessoas com baixa alfabetização informática. Também há escassez de catálogos práticos destinados a desenvolvedores sem formação em IHC. Este trabalho busca preencher essa lacuna por meio da síntese de evidências, da construção de diretrizes e da validação sistemática junto ao público-alvo.
+Os estudos analisados apresentam diferentes contribuições relacionadas à interação de usuários com pouca experiência ou com características específicas. Essas contribuições abrangem aspectos como conhecimento prévio, características cognitivas, métricas de desempenho, avaliação de usabilidade, requisitos de interface, treinamento e desenvolvimento centrado no usuário.
+
+\cite{sharit2008information}, por exemplo, demonstram a relação entre conhecimento sobre a Internet, capacidades cognitivas e desempenho durante atividades de busca. \cite{weighted_heuristic} apresentam uma abordagem quantitativa para avaliação de websites, relacionando heurísticas a métricas de desempenho. Já \cite{kabassi2004personalised} e \cite{cowan2011exploring} apresentam estratégias relacionadas ao treinamento e à experiência de usuários novatos.
+
+Entretanto, os estudos analisados apresentam diferentes objetivos, públicos e contextos de aplicação. As contribuições relacionadas às métricas, diretrizes, componentes e estratégias de apoio encontram-se distribuídas entre diferentes trabalhos.
+
+Diante disso, este trabalho busca organizar essas contribuições em um guia de desenvolvimento voltado a pessoas com baixa alfabetização informática. A proposta consiste em reunir conhecimentos relacionados à avaliação de usabilidade e acessibilidade, princípios de design, componentes de interface e estratégias de apoio ao usuário, buscando disponibilizá-los de forma estruturada para apoiar o desenvolvimento de softwares e sites destinados a esse público.
