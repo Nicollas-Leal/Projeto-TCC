@@ -1,9 +1,52 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{53}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abdullah~AlHammoodi et~al.(2025)Abdullah~AlHammoodi, Özer, Uysal,
+  Erol, and Korkmaz]{abdullah2025navigating}
+Tareq M~F Abdullah~AlHammoodi, Kaan Özer, Hulki~Enes Uysal, Kutluhan Erol, and
+  İlker Korkmaz.
+\newblock Navigating the healthcare maze through natural language: Haan an
+  ai-based health tool.
+\newblock In \emph{2025 Medical Technologies Congress (TIPTEKNO)}, pages 1--4.
+  IEEE, 2025.
+\newblock \doi{10.1109/TIPTEKNO68206.2025.11270190}.
+
+\bibitem[Ahmad et~al.(2013)Ahmad, Razak, Zainal, Kahar, and
+  Adnan]{ahmad2013teaching}
+Nahdatul~Akma Ahmad, Fariza Hanis~Abdul Razak, Azaliza Zainal, Saliyah Kahar,
+  and Wan Adilah~Wan Adnan.
+\newblock Teaching older people using web technology: A case study.
+\newblock In \emph{2013 International Conference on Advanced Computer Science
+  Applications and Technologies (ACSAT)}, pages 396--400. IEEE, 2013.
+\newblock \doi{10.1109/ACSAT.2013.84}.
+
+\bibitem[Allah et~al.(2021)Allah, Ismail, and Elrobaa]{allah2021empathy}
+Khalid~Krayz Allah, Nor~Azman Ismail, and Hisham Elrobaa.
+\newblock Empathy map instrument for analyzing human-computer interaction in
+  using web search ui by elderly users.
+\newblock In \emph{2021 International Congress of Advanced Technology and
+  Engineering (ICOTEN)}, pages 1--5. IEEE, 2021.
+\newblock \doi{10.1109/ICOTEN52080.2021.9493548}.
+
+\bibitem[Balakrishnan et~al.(2012)Balakrishnan, Salim, and
+  Hong]{balakrishnan2012user}
+Sumathi Balakrishnan, Siti Salwah~Binti Salim, and Jer~Lang Hong.
+\newblock User centered design approach for elderly people in using website.
+\newblock In \emph{2012 International Conference on Advanced Computer Science
+  Applications and Technologies (ACSAT)}, pages 382--387. IEEE, 2012.
+\newblock \doi{10.1109/ACSAT.2012.11}.
+
+\bibitem[Barron and Finkelstein(2013)]{barron2013feasibility}
+Jeremy~S. Barron and Joseph Finkelstein.
+\newblock Feasibility of providing personalized health information to older
+  adults and their caregivers.
+\newblock In \emph{2013 IEEE Point-of-Care Healthcare Technologies (PHT)},
+  pages 232--235. IEEE, 2013.
+\newblock \doi{10.1109/PHT.2013.6461327}.
 
 \bibitem[Becker(2004)]{health_problem_solving}
 Sara~A. Becker.
@@ -29,6 +72,13 @@ Benjamin~R. Cowan and Merryn~A. Jack.
   117--128, 2011.
 \newblock \doi{10.1016/j.intcom.2010.11.002}.
 
+\bibitem[Dombrovskaia and Vilches(2021)]{dombrovskaia2021guideline}
+Lioubov Dombrovskaia and Alejandro Vilches.
+\newblock Guideline for web pages design inclusive for senior users.
+\newblock In \emph{2021 40th International Conference of the Chilean Computer
+  Science Society (SCCC)}, pages 1--7. IEEE, 2021.
+\newblock \doi{10.1109/SCCC54552.2021.9650420}.
+
 \bibitem[Dresch et~al.(2014)Dresch, Lacerda, and Antunes~Jr.]{dresch2014design}
 Aline Dresch, Daniel~Pacheco Lacerda, and José Antônio~Valle Antunes~Jr.
 \newblock \emph{Design Science Research: A Method for Science and Technology
@@ -43,6 +93,30 @@ Rui~P. Duarte, Valter N.~N. Alves, and Mickael Mota.
   usability and adoption among older adults.
 \newblock \emph{IEEE Access}, 13:\penalty0 64901--64929, 2025.
 \newblock \doi{10.1109/ACCESS.2025.3559726}.
+
+\bibitem[Filgueiras et~al.(2009)Filgueiras, Martins, Tambascia, and
+  Duarte]{filgueiras2009recoverability}
+Lucia Filgueiras, Stefan Martins, Claudia Tambascia, and Robson Duarte.
+\newblock Recoverability walkthrough: An alternative to evaluate digital
+  inclusion interfaces.
+\newblock In \emph{2009 Latin American Web Congress}, pages 71--76. IEEE, 2009.
+\newblock \doi{10.1109/LA-WEB.2009.32}.
+
+\bibitem[Gatsou et~al.(2017)Gatsou, Politis, and Zevgolis]{gatsou2017seniors}
+Chrysoula Gatsou, Anastasios Politis, and Dimitrios Zevgolis.
+\newblock Seniors' experiences with online banking.
+\newblock In \emph{2017 Federated Conference on Computer Science and
+  Information Systems (FedCSIS)}, pages 623--627. IEEE, 2017.
+\newblock \doi{10.15439/2017F57}.
+
+\bibitem[González-Mora et~al.(2025)González-Mora, Garrigós,
+  Celdrán-Bernabeu, Giner-Sánchez, and Mazón]{gonzalez2025augmenting}
+Cesar González-Mora, Irene Garrigós, Marco~A. Celdrán-Bernabeu, David
+  Giner-Sánchez, and Jose-Norberto Mazón.
+\newblock Augmenting tourism websites with voice commands for increasing
+  accessibility in smart tourism destinations.
+\newblock \emph{IEEE Access}, 13:\penalty0 98158--98174, 2025.
+\newblock \doi{10.1109/ACCESS.2025.3575725}.
 
 \bibitem[Goonetilleke et~al.(2001)Goonetilleke, Shih, On, and
   Fritsch]{goonetilleke2001effects}
@@ -61,12 +135,31 @@ Mahmoud Haddara, Maria Sundgren, Jesper Hansson, et~al.
 \newblock In \emph{Proceedings of the International Conference on Smart Homes
   and Health Telematics}, pages 35--50. Springer, 2023.
 
+\bibitem[Halbach(2009)]{halbach2009framework}
+Till Halbach.
+\newblock A framework for serving inclusive web forms to disabled and elderly
+  individuals.
+\newblock In \emph{2009 Second International Conference on Advances in
+  Human-Oriented and Personalized Mechanisms, Technologies, and Services},
+  pages 27--32. IEEE, 2009.
+\newblock \doi{10.1109/CENTRIC.2009.10}.
+
 \bibitem[Harley et~al.(2007)Harley, Fitzpatrick, Vetere, and
   Kurniawan]{social_media_elderly}
 Dave Harley, Geraldine Fitzpatrick, Frank Vetere, and Sri~H. Kurniawan.
 \newblock User requirements of social media for the elderly.
 \newblock In \emph{Proceedings of the 21st British HCI Group Annual Conference
   on People and Computers}, pages 155--164, 2007.
+
+\bibitem[Herrera-Murillo et~al.(2026)Herrera-Murillo, Abad-Power,
+  Lopez-Pellicer, Baldassarri, and Nogueras-Iso]{herrera2026applicability}
+Dagoberto~Jose Herrera-Murillo, Paloma Abad-Power, Francisco~J. Lopez-Pellicer,
+  Sandra Baldassarri, and Javier Nogueras-Iso.
+\newblock Applicability of process mining in usability tests: A case study for
+  identifying user mental models in geospatial search engines.
+\newblock \emph{IEEE Open Journal of the Computer Society}, 7:\penalty0
+  730--741, 2026.
+\newblock \doi{10.1109/OJCS.2026.3682070}.
 
 \bibitem[Hornbaek and Frokjaer(2004)]{hornbaek2004usability}
 Kasper Hornbaek and Erik Frokjaer.
@@ -84,6 +177,13 @@ Katerina Kabassi and Maria Virvou.
   115--132, 2004.
 \newblock \doi{10.1016/j.intcom.2003.11.006}.
 
+\bibitem[Ko and Liu(2019)]{ko2019old}
+Chihisang Ko and Yuchun Liu.
+\newblock Old and young users' white space preferences for online news web
+  pages.
+\newblock \emph{IEEE Access}, 7:\penalty0 57284--57297, 2019.
+\newblock \doi{10.1109/ACCESS.2019.2913407}.
+
 \bibitem[Kouroupetroglou et~al.(2016)Kouroupetroglou, Pino, and
   Riga]{kouroupetroglou2016methodological}
 Georgios Kouroupetroglou, Alexandros Pino, and Paraskevi Riga.
@@ -100,6 +200,41 @@ Sri~Hastuti Kurniawan and Panayiotis Zaphiris.
   (3):\penalty0 240--252, 2006.
 \newblock \doi{10.1007/s10209-005-0001-3}.
 
+\bibitem[Kusumaningayu and Ayu(2017)]{kusumaningayu2017web}
+Fajar Kusumaningayu and Media~Anugerah Ayu.
+\newblock A web accessing tool for blind and visually impaired people using
+  bahasa indonesia.
+\newblock In \emph{2017 Second International Conference on Informatics and
+  Computing (ICIC)}, pages 1--6. IEEE, 2017.
+\newblock \doi{10.1109/IAC.2017.8280605}.
+
+\bibitem[Kymäläinen et~al.(2012)Kymäläinen, Heinilä, Tuomisto, Plomp, and
+  Urhemaa]{kymäläinen2012creating}
+Tiina Kymäläinen, Juhani Heinilä, Timo Tuomisto, Johan Plomp, and Timo
+  Urhemaa.
+\newblock Creating scenes for an intelligent nursing environment: Co-design and
+  user evaluations of a home control system.
+\newblock In \emph{2012 Eighth International Conference on Intelligent
+  Environments}, pages 87--94. IEEE, 2012.
+\newblock \doi{10.1109/IE.2012.50}.
+
+\bibitem[Lee and Singh(2021)]{lee2021factors}
+Chien-Sing Lee and Raj Kiran Kaur d/o Charan~Jeet Singh.
+\newblock Factors facilitating socio-cognitive-affective engagements and
+  playfulness among malaysian seniors: A case study towards link recommender
+  design.
+\newblock In \emph{2021 21st International Conference on Computational Science
+  and Its Applications (ICCSA)}, pages 204--210. IEEE, 2021.
+\newblock \doi{10.1109/ICCSA54496.2021.00036}.
+
+\bibitem[Li et~al.(2013)Li, Theng, Foo, and Fernando]{li2013content}
+Jinhui Li, Yin-Leng Theng, Schubert Foo, and Owen Noel~Newton Fernando.
+\newblock Content analysis on user-focused support features of health support
+  sites for geriatric depression.
+\newblock In \emph{2013 IEEE International Conference on Healthcare
+  Informatics}, pages 367--375. IEEE, 2013.
+\newblock \doi{10.1109/ICHI.2013.51}.
+
 \bibitem[Lum et~al.(2016)Lum, Chiew, Ng, Lee, Lee, and Teo]{lum2016development}
 Angeline Su~Lyn Lum, Thiam~Kian Chiew, Chirk~Jenn Ng, Yew~Kong Lee, Ping~Yein
   Lee, and Chin~Hai Teo.
@@ -108,6 +243,25 @@ Angeline Su~Lyn Lum, Thiam~Kian Chiew, Chirk~Jenn Ng, Yew~Kong Lee, Ping~Yein
 \newblock \emph{Universal Access in the Information Society}, 2016.
 \newblock \doi{10.1007/s10209-016-0503-y}.
 \newblock Published online: 08 November 2016.
+
+\bibitem[Martínez-Alcalá et~al.(2020)Martínez-Alcalá, Salazar-Sanchez,
+  Rosales-Lagarde, Galindo-Luna, López-Noguerola, Agis-Juarez, and
+  Hernández-Alonso]{martinez2020effectiveness}
+Claudia~I. Martínez-Alcalá, Alejandro~Filiberto Salazar-Sanchez, Alejandra
+  Rosales-Lagarde, Dulce~Abril Galindo-Luna, José~Sócrates López-Noguerola,
+  Raúl~Azael Agis-Juarez, and Esmeralda Hernández-Alonso.
+\newblock Effectiveness of using web applications to preserve cognitive
+  functionality in older adults: Mobile first experience.
+\newblock In \emph{2020 15th Iberian Conference on Information Systems and
+  Technologies (CISTI)}, pages 1--6. IEEE, 2020.
+\newblock \doi{10.23919/CISTI49556.2020.9141033}.
+
+\bibitem[Mastarone and Feinberg(2007)]{mastarone2007access}
+Ginnifer~L. Mastarone and Susan Feinberg.
+\newblock Access to legal services: Organizing better self-help systems.
+\newblock In \emph{2007 IEEE International Professional Communication
+  Conference}, pages 1--5. IEEE, 2007.
+\newblock \doi{10.1109/IPCC.2007.4464041}.
 
 \bibitem[Morash et~al.(2015)Morash, Siu, Miele, Hasty, and
   Landau]{morash2015guiding}
@@ -118,6 +272,14 @@ Valerie~S. Morash, Yue-Ting Siu, Joshua~A. Miele, Lucia Hasty, and Steven
 \newblock \emph{ACM Transactions on Accessible Computing}, 7\penalty0
   (4):\penalty0 12:1--12:21, 2015.
 \newblock \doi{10.1145/2764916}.
+
+\bibitem[Nosseir and Terzis(2011)]{nosseir2011novice}
+Ann Nosseir and Sotirios Terzis.
+\newblock Novice user perception of e-services: A study in the egyptian public
+  sector.
+\newblock In \emph{2011 IEEE Jordan Conference on Applied Electrical
+  Engineering and Computing Technologies (AEECT)}, pages 1--6. IEEE, 2011.
+\newblock \doi{10.1109/AEECT.2011.6132518}.
 
 \bibitem[Ortiz-Rodríguez et~al.(2024)Ortiz-Rodríguez, Rodríguez,
   Sánchez-Vázquez, et~al.]{breaking_barriers}
@@ -136,6 +298,17 @@ Bu-Mi Park and Chang-Soo Kim.
   Engineering}, 10\penalty0 (12):\penalty0 89--96, 2015.
 \newblock \doi{10.14257/ijmue.2015.10.12.10}.
 
+\bibitem[Ramineni et~al.(2024)Ramineni, Ingole, Jayaram, Mehta, Krishnappa,
+  Nagpal, and Banarse]{ramineni2024enhancing}
+Vishnu Ramineni, Balaji~Shesharao Ingole, Vivekananda Jayaram, Gaurav Mehta,
+  Manjunatha~Sughaturu Krishnappa, Akshay Nagpal, and Amey~Ram Banarse.
+\newblock Enhancing e-commerce accessibility through a novel voice assistant
+  approach for web and mobile applications.
+\newblock In \emph{2024 Third International Conference on Artificial
+  Intelligence, Computational Electronics and Communication System (AICECS)},
+  pages 1--7. IEEE, 2024.
+\newblock \doi{10.1109/AICECS63354.2024.10956866}.
+
 \bibitem[Ro et~al.(2024)Ro, An, Kim, Jang, Kim, and Eun]{ro2024usability}
 Eun~Rae Ro, Kwang~Ok An, Agnes~Jihae Kim, Sung~Uk Jang, Eun~Joo Kim, and
   Seon~Deok Eun.
@@ -144,6 +317,24 @@ Eun~Rae Ro, Kwang~Ok An, Agnes~Jihae Kim, Sung~Uk Jang, Eun~Joo Kim, and
   open platform in korea.
 \newblock \emph{IEEE Access}, 12:\penalty0 39017--39027, 2024.
 \newblock \doi{10.1109/ACCESS.2024.3401235}.
+
+\bibitem[Sadeghi et~al.(2020)Sadeghi, Homayounvala, and
+  Borhani]{sadeghi2020hci}
+Zahra Sadeghi, Elaheh Homayounvala, and Mostafa Borhani.
+\newblock Hci for elderly, measuring visual complexity of webpages based on
+  machine learning.
+\newblock In \emph{2020 Digital Image Computing: Techniques and Applications
+  (DICTA)}, pages 1--6. IEEE, 2020.
+\newblock \doi{10.1109/DICTA51227.2020.9363381}.
+
+\bibitem[Shafiq and Wani(2018)]{shafiq2018assessment}
+Huma Shafiq and Zahid~Ashraf Wani.
+\newblock Assessment of search interface of information retrieval systems: A
+  case study of select academic databases.
+\newblock In \emph{2018 5th International Symposium on Emerging Trends and
+  Technologies in Libraries and Information Services (ETTLIS)}, pages 45--53.
+  IEEE, 2018.
+\newblock \doi{10.1109/ETTLIS.2018.8485262}.
 
 \bibitem[Sharit et~al.(2008)Sharit, Hernández, Czaja, and
   Pirolli]{sharit2008information}
@@ -154,6 +345,21 @@ Joseph Sharit, Mario~A. Hernández, Sara~J. Czaja, and Peter Pirolli.
   (1):\penalty0 1--25, 2008.
 \newblock \doi{10.1145/1352782.1352786}.
 
+\bibitem[Shi and Chu(2026)]{shi2026usability}
+Huilin Shi and Chen Chu.
+\newblock A usability study of interpretable aesthetic evaluation as decision
+  support in full-site ai website generators for novice users.
+\newblock \emph{IEEE Access}, 14:\penalty0 64263--64276, 2026.
+\newblock \doi{10.1109/ACCESS.2026.3686928}.
+
+\bibitem[Shi and Liu(2016)]{shi2016supporting}
+Tiansheng Shi and Haiming Liu.
+\newblock Supporting world war i heritage digitisation and presentation through
+  user-centered web design.
+\newblock In \emph{2016 SAI Computing Conference (SAI)}, pages 1349--1352.
+  IEEE, 2016.
+\newblock \doi{10.1109/SAI.2016.7556157}.
+
 \bibitem[Skov and Stage(2009)]{skov2009conceptual}
 Mikael~B. Skov and Jan Stage.
 \newblock A conceptual tool for usability problem identification in website
@@ -162,12 +368,30 @@ Mikael~B. Skov and Jan Stage.
   Engineering}, 4\penalty0 (4):\penalty0 22--35, 2009.
 \newblock \doi{10.4018/jitwe.2009100102}.
 
+\bibitem[Sun and Zhao(2010)]{sun2010preliminary}
+Zhenxiang Sun and Yang Zhao.
+\newblock The preliminary construction of accessibility design guidelines of
+  learning website for old people.
+\newblock In \emph{2010 Second International Workshop on Education Technology
+  and Computer Science}, volume~2, pages 612--615. IEEE, 2010.
+\newblock \doi{10.1109/ETCS.2010.157}.
+
 \bibitem[Sustar et~al.(2008)Sustar, Pfeil, and
   Zaphiris]{sustar2008requirements}
 Helena Sustar, Ulrike Pfeil, and Panayiotis Zaphiris.
 \newblock Requirements elicitation with and for older adults.
 \newblock \emph{IEEE Software}, 25\penalty0 (3):\penalty0 16--17, 2008.
 \newblock \doi{10.1109/MS.2008.67}.
+
+\bibitem[Taylor~Sr. et~al.(2009)Taylor~Sr., Miller, Nilakanta, Sander, Mitra,
+  Sharda, and Chama]{taylor2009using}
+Alfred Taylor~Sr., Les Miller, Sree Nilakanta, Jeffry Sander, Saayan Mitra,
+  Anurag Sharda, and Bachar Chama.
+\newblock Using an error detection strategy for improving web accessibility for
+  older adults.
+\newblock In \emph{2009 Second International Conferences on Advances in
+  Computer-Human Interactions}, pages 375--380. IEEE, 2009.
+\newblock \doi{10.1109/ACHI.2009.34}.
 
 \bibitem[Theofanidis et~al.(2016)Theofanidis, Vikas, Filippidis,
   et~al.]{secure_messaging}
@@ -184,5 +408,46 @@ Jure Trilar, Tjaša Sobočan, and Emilija~Stojmenova Duh.
   interface evaluation of the slovenian edavki public tax portal.
 \newblock \emph{Sensors}, 21\penalty0 (15):\penalty0 5161, 2021.
 \newblock \doi{10.3390/s21155161}.
+
+\bibitem[Ueki et~al.(2025)Ueki, Muto, Wada, Akaba, and
+  Fernandez]{ueki2025ucker}
+Kazuya Ueki, Ryo Muto, Takuya Wada, Ryota Akaba, and Genesis~Faith Fernandez.
+\newblock U-cker: Initial development of an interactive video retrieval system
+  for novice users.
+\newblock In \emph{2025 International Conference on Content-Based Multimedia
+  Indexing (CBMI)}, pages 1--5. IEEE, 2025.
+\newblock \doi{10.1109/CBMI66578.2025.11339284}.
+
+\bibitem[Wang(2020)]{wang2020research}
+Shao-Feng Wang.
+\newblock Research on web interface barrier-free design for elderly people.
+\newblock In \emph{2020 International Conference on Intelligent Design (ICID)},
+  pages 157--159. IEEE, 2020.
+\newblock \doi{10.1109/ICID52250.2020.00040}.
+
+\bibitem[Wickramathilaka and Mueller(2023)]{wickramathilaka2023addressing}
+Shavindra Wickramathilaka and Ingo Mueller.
+\newblock Addressing age-related accessibility needs of senior users through
+  model-driven engineering.
+\newblock In \emph{2023 IEEE/ACM 16th International Conference on Cooperative
+  and Human Aspects of Software Engineering (CHASE)}, pages 121--126. IEEE,
+  2023.
+\newblock \doi{10.1109/CHASE58964.2023.00021}.
+
+\bibitem[Xie and Pearson(2010)]{xie2010usability}
+Bo~Xie and Glenn Pearson.
+\newblock Usability testing by older americans of a prototype google map web
+  site to select nursing homes.
+\newblock In \emph{2010 43rd Hawaii International Conference on System
+  Sciences}, pages 1--10. IEEE, 2010.
+\newblock \doi{10.1109/HICSS.2010.423}.
+
+\bibitem[Yalçın et~al.(2018)Yalçın, Elmqvist, and
+  Bederson]{yalcin2018keshif}
+Mehmet~Adil Yalçın, Niklas Elmqvist, and Benjamin~B. Bederson.
+\newblock Keshif: Rapid and expressive tabular data exploration for novices.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
+  24\penalty0 (8):\penalty0 2339--2352, 2018.
+\newblock \doi{10.1109/TVCG.2017.2723393}.
 
 \end{thebibliography}

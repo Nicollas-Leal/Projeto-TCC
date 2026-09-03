@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.2)  2 SEP 2026 02:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.2)  2 SEP 2026 23:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1792,10 +1792,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20] (tabelas/tabela4.tex)
-<imagens/fluxograma_rapid_review.png, id=434, 1027.84pt x 1541.76pt>
+<imagens/fluxograma_rapid_review.png, id=435, 1027.84pt x 1541.76pt>
 File: imagens/fluxograma_rapid_review.png Graphic file (type png)
 <use imagens/fluxograma_rapid_review.png>
-Package pdftex.def Info: imagens/fluxograma_rapid_review.png  used on input line 92.
+Package pdftex.def Info: imagens/fluxograma_rapid_review.png  used on input line 90.
 (pdftex.def)             Requested size: 273.14923pt x 409.7172pt.
 
 
@@ -1916,6 +1916,181 @@ Underfull \hbox (badness 3954) in paragraph at lines 73--73
  []
 
 
+Underfull \hbox (badness 1107) in paragraph at lines 79--79
+\T1/ptm/m/n/12 Aesthe-tic Eva-lu-a-tion as De-ci-sion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|[]\T1/ptm/m/n/12 Shi and Chu[]
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 82--82
+[]|\T1/ptm/m/n/12 A web ac-ces-sing tool for blind
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|[]\T1/ptm/m/n/12 Kusumaningayu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|[]\T1/ptm/m/n/12 Mastarone and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|[]\T1/ptm/m/n/12 Wickramathilaka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T1/ptm/m/n/12 and Mu-el-ler[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|[]\T1/ptm/m/n/12 Herrera-Murillo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\T1/ptm/m/n/12 Augmenting Tou-rism Web-si-tes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|[]\T1/ptm/m/n/12 González-Mora
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|[]\T1/ptm/m/n/12 Martínez-Alcalá
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]|\T1/ptm/m/n/12 Empathy Map Ins-tru-ment for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]|[]\T1/ptm/m/n/12 Allah et al.[]
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 112--112
+[]|[]\T1/ptm/m/n/12 Ramineni et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|[]\T1/ptm/m/n/12 Lee and Singh[]
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 118--118
+[]|\T1/ptm/m/n/12 Feasibility of Pro-vi-ding Per-so-na-
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 118--118
+[]|[]\T1/ptm/m/n/12 Barron and Fin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|[]\T1/ptm/m/n/12 Dombrovskaia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\T1/ptm/m/n/12 and Vil-ches[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|[]\T1/ptm/m/n/12 Sadeghi et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|[]\T1/ptm/m/n/12 Yalç^^Yn et al.[]
+ []
+
+
+Overfull \hbox (0.90895pt too wide) in paragraph at lines 130--130
+[]|[]\T1/ptm/m/n/12 Abdullah AlHam-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+\T1/ptm/m/n/12 mo-odi et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\T1/ptm/m/n/12 Novice user per-cep-tion of e-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|[]\T1/ptm/m/n/12 Ko and Liu[]
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 139--139
+[]|\T1/ptm/m/n/12 Recoverability Walkth-rough: An
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 139--139
+[]|[]\T1/ptm/m/n/12 Filgueiras et al.[]
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 145--145
+[]|\T1/ptm/m/n/12 Seniors' ex-pe-ri-en-ces with on-line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[]|[]\T1/ptm/m/n/12 Gatsou et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|[]\T1/ptm/m/n/12 Shi and Liu[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]|[]\T1/ptm/m/n/12 Ahmad et al.[]
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 154--154
+[]|\T1/ptm/m/n/12 The Pre-li-mi-nary Cons-truc-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|[]\T1/ptm/m/n/12 Sun and Zhao[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|[]\T1/ptm/m/n/12 Balakrishnan
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 166--166
+\T1/ptm/m/n/12 for Im-pro-ving Web Ac-ces-si-bi-lity
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1932,8 +2107,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24])
-
+[24]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1943,6 +2117,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [25]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1950,16 +2131,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26]) (capitulos/4 - Proposta.tex
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[27]
+[27])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1969,6 +2141,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]) (capitulos/4 - Proposta.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
 Cap\'{\i }tulo 4.
 ) (capitulos/5 - conclusao.tex
 
@@ -1979,7 +2178,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29
+[32
 
 ]
 Cap\'{\i }tulo 5.
@@ -1992,7 +2191,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[30
+[33
 
 ] (main.bbl
 
@@ -2003,7 +2202,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31
+[34
 
 ]
 
@@ -2014,7 +2213,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32])
+[35]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2023,8 +2222,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33]
-runsystem(latexminted cleantemp  --timestamp 20260902020523 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+[36]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
+runsystem(latexminted cleantemp  --timestamp 20260902234217 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
  ***********
@@ -2035,17 +2270,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AC98CA999E1F1F826F75321CC1AB221E;6684.
  ) 
 Here is how much of TeX's memory you used:
- 46957 strings out of 468080
- 981883 string characters out of 5441614
- 1694684 words of memory out of 5000000
- 74765 multiletter control sequences out of 15000+600000
- 667601 words of font info for 89 fonts, out of 8000000 for 9000
+ 47088 strings out of 468080
+ 985179 string characters out of 5441614
+ 1755685 words of memory out of 5000000
+ 74858 multiletter control sequences out of 15000+600000
+ 667608 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,12n,95p,1110b,706s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,95p,1110b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><D:/MiKTeX D/fonts/type1/urw/times/utmb8a.pfb><D:/MiKTeX D/fonts/type1/urw/times/utmr8a.pfb><D:/MiKTeX D/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (43 pages, 1405358 bytes).
+Output written on main.pdf (50 pages, 1614752 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
+ 834 PDF objects out of 1000 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
  274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
