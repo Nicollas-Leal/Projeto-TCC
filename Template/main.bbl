@@ -1,4 +1,4 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{80}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,6 +15,15 @@ Tareq M~F Abdullah~AlHammoodi, Kaan Özer, Hulki~Enes Uysal, Kutluhan Erol, and
   IEEE, 2025.
 \newblock \doi{10.1109/TIPTEKNO68206.2025.11270190}.
 
+\bibitem[Adabinejad and Latulipe(2026)]{adabinejad2026engaging}
+Melika Adabinejad and Celine Latulipe.
+\newblock Engaging older adults in online everyday creativity with sound-based
+  art.
+\newblock In \emph{Proceedings of the 2026 Conference on Creativity and
+  Cognition (C and C)}, pages 944--957. Association for Computing Machinery,
+  2026.
+\newblock \doi{10.1145/3803784.3807534}.
+
 \bibitem[Ahmad et~al.(2013)Ahmad, Razak, Zainal, Kahar, and
   Adnan]{ahmad2013teaching}
 Nahdatul~Akma Ahmad, Fariza Hanis~Abdul Razak, Azaliza Zainal, Saliyah Kahar,
@@ -24,6 +33,16 @@ Nahdatul~Akma Ahmad, Fariza Hanis~Abdul Razak, Azaliza Zainal, Saliyah Kahar,
   Applications and Technologies (ACSAT)}, pages 396--400. IEEE, 2013.
 \newblock \doi{10.1109/ACSAT.2013.84}.
 
+\bibitem[Al~Mahmud et~al.(2022)Al~Mahmud, Long, Harrington, Casey, Bhar,
+  Curran, Hunter, and Lim]{almahmud2022developing}
+Abdullah Al~Mahmud, Katrina~M. Long, Karra~D. Harrington, Kit Casey, Sunil
+  Bhar, Simon Curran, Kristie Hunter, and Michelle~H. Lim.
+\newblock Developing a digital psychoeducational tool to reduce loneliness in
+  older adults: A design case study.
+\newblock \emph{International Journal of Human-Computer Interaction},
+  38\penalty0 (6):\penalty0 499--528, 2022.
+\newblock \doi{10.1080/10447318.2021.1949854}.
+
 \bibitem[Allah et~al.(2021)Allah, Ismail, and Elrobaa]{allah2021empathy}
 Khalid~Krayz Allah, Nor~Azman Ismail, and Hisham Elrobaa.
 \newblock Empathy map instrument for analyzing human-computer interaction in
@@ -31,6 +50,22 @@ Khalid~Krayz Allah, Nor~Azman Ismail, and Hisham Elrobaa.
 \newblock In \emph{2021 International Congress of Advanced Technology and
   Engineering (ICOTEN)}, pages 1--5. IEEE, 2021.
 \newblock \doi{10.1109/ICOTEN52080.2021.9493548}.
+
+\bibitem[Arfaa and Wang(2015)]{arfaa2015usability}
+Jessica Arfaa and Yuanqiong~Kathy Wang.
+\newblock Usability evaluation of a social networking site prototype for the
+  elderly.
+\newblock In \emph{Human Aspects of IT for the Aged Population: Design for
+  Aging}, volume 9193 of \emph{Lecture Notes in Computer Science}, pages
+  297--306. Springer, 2015.
+\newblock \doi{10.1007/978-3-319-20892-3_29}.
+
+\bibitem[Artis and Kleiner(2006)]{artis2006effects}
+Sharnnia Artis and Brian~M. Kleiner.
+\newblock The effects of age and the design of web-based training on computer
+  task performance.
+\newblock In \emph{Proceedings of the Human Factors and Ergonomics Society 50th
+  Annual Meeting}, pages 185--189. Human Factors and Ergonomics Society, 2006.
 
 \bibitem[Balakrishnan et~al.(2012)Balakrishnan, Salim, and
   Hong]{balakrishnan2012user}
@@ -48,13 +83,32 @@ Jeremy~S. Barron and Joseph Finkelstein.
   pages 232--235. IEEE, 2013.
 \newblock \doi{10.1109/PHT.2013.6461327}.
 
-\bibitem[Becker(2004)]{health_problem_solving}
+\bibitem[Becker(2004{\natexlab{a}})]{health_problem_solving}
 Sara~A. Becker.
 \newblock Health problem solving by older persons using a complex government
   web site: Analysis and implications for web design.
 \newblock \emph{Proceedings of the Human Factors and Ergonomics Society Annual
-  Meeting}, 48\penalty0 (3):\penalty0 365--369, 2004.
+  Meeting}, 48\penalty0 (3):\penalty0 365--369, 2004{\natexlab{a}}.
 \newblock \doi{10.1177/154193120404800316}.
+
+\bibitem[Becker(2004{\natexlab{b}})]{becker2004study}
+Shirley~Ann Becker.
+\newblock A study of web usability for older adults seeking online health
+  resources.
+\newblock \emph{ACM Transactions on Computer-Human Interaction}, 11\penalty0
+  (4):\penalty0 387--406, 2004{\natexlab{b}}.
+\newblock \doi{10.1145/1035575.1035578}.
+
+\bibitem[Biswas et~al.(2014)Biswas, Langdon, Sarangi, Mimrot, Kar, Ribeiro,
+  Umadikar, and Prashant]{biswas2014interface}
+Pradipta Biswas, Pat Langdon, Sanat Sarangi, Vineet Mimrot, Subrat Kar,
+  Vinay~J. Ribeiro, Jaya Umadikar, and Suma Prashant.
+\newblock Interface personalization through inclusive user modelling web
+  service.
+\newblock In \emph{Proceedings of the 15th International Conference on Human
+  Computer Interaction (INTERACCION)}. Association for Computing Machinery,
+  2014.
+\newblock \doi{10.1145/2662253.2664632}.
 
 \bibitem[Chevalier and Ivory(2003)]{chevalier2003web}
 Aline Chevalier and Melody~Y. Ivory.
@@ -64,6 +118,32 @@ Aline Chevalier and Melody~Y. Ivory.
   (1):\penalty0 57--87, 2003.
 \newblock \doi{10.1016/S1071-5819(02)00126-X}.
 
+\bibitem[Chiriboga-Casanova et~al.(2025)Chiriboga-Casanova, Medina-Medina, and
+  Paderewski-Rodríguez]{chiriboga2025accessible}
+Washington Chiriboga-Casanova, Nuria Medina-Medina, and Patricia
+  Paderewski-Rodríguez.
+\newblock Accessible web design for older adults: Challenges and solutions.
+\newblock \emph{ACM Transactions on Accessible Computing}, 18\penalty0
+  (3):\penalty0 14, 2025.
+\newblock \doi{10.1145/3763243}.
+
+\bibitem[Chittaro et~al.(2003)Chittaro, Ranon, and
+  Ieronutti]{chittaro2003guiding}
+Luca Chittaro, Roberto Ranon, and Lucio Ieronutti.
+\newblock Guiding visitors of web3d worlds through automatically generated
+  tours.
+\newblock In \emph{Proceedings of the 7th International Conference on 3D Web
+  Technology (Web3D)}, pages 27--38. Association for Computing Machinery, 2003.
+\newblock \doi{10.1145/636596.636598}.
+
+\bibitem[Christel and Conescu(2005)]{christel2005addressing}
+Michael~G. Christel and Ronald~M. Conescu.
+\newblock Addressing the challenge of visual information access from digital
+  image and video libraries.
+\newblock In \emph{Proceedings of the 5th ACM/IEEE Joint Conference on Digital
+  Libraries (JCDL)}, pages 69--78. IEEE, 2005.
+\newblock \doi{10.1145/1065385.1065402}.
+
 \bibitem[Cowan and Jack(2011)]{cowan2011exploring}
 Benjamin~R. Cowan and Merryn~A. Jack.
 \newblock Exploring the wiki user experience: The effects of training spaces on
@@ -71,6 +151,34 @@ Benjamin~R. Cowan and Merryn~A. Jack.
 \newblock \emph{Interacting with Computers}, 23\penalty0 (2):\penalty0
   117--128, 2011.
 \newblock \doi{10.1016/j.intcom.2010.11.002}.
+
+\bibitem[Crabb and Hanson(2014)]{crabb2014age}
+Michael Crabb and Vicki~L. Hanson.
+\newblock Age, technology usage, and cognitive characteristics in relation to
+  perceived disorientation and reported website ease of use.
+\newblock In \emph{Proceedings of the 16th International ACM SIGACCESS
+  Conference on Computers and Accessibility (ASSETS)}, pages 193--200.
+  Association for Computing Machinery, 2014.
+\newblock \doi{10.1145/2661334.2661356}.
+
+\bibitem[Darvishy and Good(2013)]{darvishy2013inclusive}
+Alireza Darvishy and Alice Good.
+\newblock Inclusive websites for the elderly: User friendly guidelines for
+  designers and managers.
+\newblock In \emph{HCI International 2013 -- Posters' Extended Abstracts},
+  volume 373 of \emph{Communications in Computer and Information Science},
+  pages 226--230. Springer, 2013.
+\newblock \doi{10.1007/978-3-642-39473-7_46}.
+
+\bibitem[de~Lara et~al.(2016)de~Lara, Fortes, Russo, and
+  Freire]{delara2016study}
+Silvana Maria~Affonso de~Lara, Renata Pontin de~Mattos Fortes, Cibele~Maria
+  Russo, and Andre~Pimenta Freire.
+\newblock A study on the acceptance of website interaction aids by older
+  adults.
+\newblock \emph{Universal Access in the Information Society}, 15\penalty0
+  (3):\penalty0 445--460, 2016.
+\newblock \doi{10.1007/s10209-015-0419-y}.
 
 \bibitem[Dombrovskaia and Vilches(2021)]{dombrovskaia2021guideline}
 Lioubov Dombrovskaia and Alejandro Vilches.
@@ -102,12 +210,29 @@ Lucia Filgueiras, Stefan Martins, Claudia Tambascia, and Robson Duarte.
 \newblock In \emph{2009 Latin American Web Congress}, pages 71--76. IEEE, 2009.
 \newblock \doi{10.1109/LA-WEB.2009.32}.
 
+\bibitem[Finn and Johnson(2013)]{finn2013usability}
+Kate Finn and Jeff Johnson.
+\newblock A usability study of websites for older travelers.
+\newblock In \emph{Universal Access in Human-Computer Interaction: User and
+  Context Diversity}, volume 8010 of \emph{Lecture Notes in Computer Science},
+  pages 59--67. Springer, 2013.
+\newblock \doi{10.1007/978-3-642-39191-0_7}.
+
 \bibitem[Gatsou et~al.(2017)Gatsou, Politis, and Zevgolis]{gatsou2017seniors}
 Chrysoula Gatsou, Anastasios Politis, and Dimitrios Zevgolis.
 \newblock Seniors' experiences with online banking.
 \newblock In \emph{2017 Federated Conference on Computer Science and
   Information Systems (FedCSIS)}, pages 623--627. IEEE, 2017.
 \newblock \doi{10.15439/2017F57}.
+
+\bibitem[Gautam et~al.(2019)Gautam, Tatar, and Harrison]{gautam2019adding}
+Aakash Gautam, Deborah Tatar, and Steve Harrison.
+\newblock Adding voices to support web navigation among a low digital literacy
+  group.
+\newblock In \emph{Companion Publication of the 2019 ACM Designing Interactive
+  Systems Conference (DIS Companion)}, pages 165--169. Association for
+  Computing Machinery, 2019.
+\newblock \doi{10.1145/3301019.3323884}.
 
 \bibitem[González-Mora et~al.(2025)González-Mora, Garrigós,
   Celdrán-Bernabeu, Giner-Sánchez, and Mazón]{gonzalez2025augmenting}
@@ -151,6 +276,14 @@ Dave Harley, Geraldine Fitzpatrick, Frank Vetere, and Sri~H. Kurniawan.
 \newblock In \emph{Proceedings of the 21st British HCI Group Annual Conference
   on People and Computers}, pages 155--164, 2007.
 
+\bibitem[Hart et~al.(2008)Hart, Chaparro, and Halcomb]{hart2008evaluating}
+T.~A. Hart, B.~S. Chaparro, and C.~G. Halcomb.
+\newblock Evaluating websites for older adults: adherence to 'senior-friendly'
+  guidelines and end-user performance.
+\newblock \emph{Behaviour and Information Technology}, 27\penalty0
+  (3):\penalty0 191--199, 2008.
+\newblock \doi{10.1080/01449290600802031}.
+
 \bibitem[Herrera-Murillo et~al.(2026)Herrera-Murillo, Abad-Power,
   Lopez-Pellicer, Baldassarri, and Nogueras-Iso]{herrera2026applicability}
 Dagoberto~Jose Herrera-Murillo, Paloma Abad-Power, Francisco~J. Lopez-Pellicer,
@@ -169,6 +302,15 @@ Kasper Hornbaek and Erik Frokjaer.
   17\penalty0 (3):\penalty0 357--374, 2004.
 \newblock \doi{10.1207/s15327590ijhc1703_4}.
 
+\bibitem[Jonasson et~al.(2007)Jonasson, Fjeld, and
+  Yamashita]{jonasson2007expert}
+Per~A. Jonasson, Morten Fjeld, and Aiko~Fallas Yamashita.
+\newblock Expert habits vs. ui improvements: Re-design of a room booking
+  system.
+\newblock In \emph{Proceedings of the 21st British HCI Group Annual Conference
+  on People and Computers}, volume~2. British Computer Society, 2007.
+\newblock \doi{10.14236/ewic/hci2007.59}.
+
 \bibitem[Kabassi and Virvou(2004)]{kabassi2004personalised}
 Katerina Kabassi and Maria Virvou.
 \newblock Personalised adult e-training on computer use based on multiple
@@ -176,6 +318,17 @@ Katerina Kabassi and Maria Virvou.
 \newblock \emph{Interacting with Computers}, 16\penalty0 (1):\penalty0
   115--132, 2004.
 \newblock \doi{10.1016/j.intcom.2003.11.006}.
+
+\bibitem[Kanjanakuha et~al.(2019)Kanjanakuha, Janecek, and
+  Techawut]{kanjanakuha2019comprehensibility}
+Natanun Kanjanakuha, Paul Janecek, and Churee Techawut.
+\newblock The comprehensibility assessment of visualization of semantic data
+  representation (vsdr) reflecting user capability of knowledge exploration and
+  discovery.
+\newblock In \emph{Proceedings of the 7th International Conference on Computer
+  and Communications Management (ICCCM)}, pages 195--199. Association for
+  Computing Machinery, 2019.
+\newblock \doi{10.1145/3348445.3348450}.
 
 \bibitem[Ko and Liu(2019)]{ko2019old}
 Chihisang Ko and Yuchun Liu.
@@ -191,6 +344,14 @@ Georgios Kouroupetroglou, Alexandros Pino, and Paraskevi Riga.
   inventories of mobile assistive technology applications.
 \newblock \emph{Multimedia Tools and Applications}, 2016.
 \newblock \doi{10.1007/s11042-016-3822-3}.
+
+\bibitem[Kurniawan and Zaphiris(2005)]{kurniawan2005research}
+Sri Kurniawan and Panayiotis Zaphiris.
+\newblock Research-derived web design guidelines for older people.
+\newblock In \emph{Proceedings of the 7th International ACM SIGACCESS
+  Conference on Computers and Accessibility (ASSETS)}, pages 129--135.
+  Association for Computing Machinery, 2005.
+\newblock \doi{10.1145/1090785.1090810}.
 
 \bibitem[Kurniawan and Zaphiris(2006)]{weighted_heuristic}
 Sri~Hastuti Kurniawan and Panayiotis Zaphiris.
@@ -235,6 +396,14 @@ Jinhui Li, Yin-Leng Theng, Schubert Foo, and Owen Noel~Newton Fernando.
   Informatics}, pages 367--375. IEEE, 2013.
 \newblock \doi{10.1109/ICHI.2013.51}.
 
+\bibitem[Lindberg and De~Troyer(2021)]{lindberg2021towards}
+Renny S.~N. Lindberg and Olga De~Troyer.
+\newblock Towards an up to date list of design guidelines for elderly users.
+\newblock In \emph{Proceedings of the 1st International Conference of the ACM
+  Greek SIGCHI Chapter (CHI Greece)}. Association for Computing Machinery,
+  2021.
+\newblock \doi{10.1145/3489410.3489418}.
+
 \bibitem[Lum et~al.(2016)Lum, Chiew, Ng, Lee, Lee, and Teo]{lum2016development}
 Angeline Su~Lyn Lum, Thiam~Kian Chiew, Chirk~Jenn Ng, Yew~Kong Lee, Ping~Yein
   Lee, and Chin~Hai Teo.
@@ -263,6 +432,14 @@ Ginnifer~L. Mastarone and Susan Feinberg.
   Conference}, pages 1--5. IEEE, 2007.
 \newblock \doi{10.1109/IPCC.2007.4464041}.
 
+\bibitem[Molina et~al.(2011)Molina, Parodi, and Stent]{molina2011using}
+Martin Molina, Enrique Parodi, and Amanda Stent.
+\newblock Using the journalistic metaphor to design user interfaces that
+  explain sensor data.
+\newblock In \emph{Human-Computer Interaction -- INTERACT 2011}, volume 6948 of
+  \emph{Lecture Notes in Computer Science}, pages 636--643. Springer, 2011.
+\newblock \doi{10.1007/978-3-642-23765-2_43}.
+
 \bibitem[Morash et~al.(2015)Morash, Siu, Miele, Hasty, and
   Landau]{morash2015guiding}
 Valerie~S. Morash, Yue-Ting Siu, Joshua~A. Miele, Lucia Hasty, and Steven
@@ -273,6 +450,23 @@ Valerie~S. Morash, Yue-Ting Siu, Joshua~A. Miele, Lucia Hasty, and Steven
   (4):\penalty0 12:1--12:21, 2015.
 \newblock \doi{10.1145/2764916}.
 
+\bibitem[Mowar et~al.(2025)Mowar, Peng, Wu, Steinfeld, and
+  Bigham]{mowar2025codea11y}
+Peya Mowar, Yi-Hao Peng, Jason Wu, Aaron Steinfeld, and Jeffrey~P. Bigham.
+\newblock Codea11y: Making ai coding assistants useful for accessible web
+  development.
+\newblock In \emph{Proceedings of the 2025 CHI Conference on Human Factors in
+  Computing Systems (CHI)}. Association for Computing Machinery, 2025.
+\newblock \doi{10.1145/3706598.3713335}.
+
+\bibitem[Nabok et~al.(2026)Nabok, Probst, and Keck]{nabok2026navigating}
+Nadzeya Nabok, Kathrin Probst, and Mandy Keck.
+\newblock Navigating the pattern maze: A human-centered investigation into
+  structuring web design patterns.
+\newblock In \emph{Proceedings of the 2026 International Conference on Advanced
+  Visual Interfaces (AVI)}. Association for Computing Machinery, 2026.
+\newblock \doi{10.1145/3811427.3811446}.
+
 \bibitem[Nosseir and Terzis(2011)]{nosseir2011novice}
 Ann Nosseir and Sotirios Terzis.
 \newblock Novice user perception of e-services: A study in the egyptian public
@@ -280,6 +474,15 @@ Ann Nosseir and Sotirios Terzis.
 \newblock In \emph{2011 IEEE Jordan Conference on Applied Electrical
   Engineering and Computing Technologies (AEECT)}, pages 1--6. IEEE, 2011.
 \newblock \doi{10.1109/AEECT.2011.6132518}.
+
+\bibitem[Oehme et~al.(2014)Oehme, Wiedemann, Krug, and Gaedke]{oehme2014easing}
+Philipp Oehme, Fabian Wiedemann, Michael Krug, and Martin Gaedke.
+\newblock Easing access for novice users in multi-screen mashups by rule-based
+  adaption.
+\newblock In \emph{Web Engineering -- 14th International Conference, ICWE
+  2014}, volume 8541 of \emph{Lecture Notes in Computer Science}, pages
+  511--514. Springer, 2014.
+\newblock \doi{10.1007/978-3-319-08245-5_39}.
 
 \bibitem[Ortiz-Rodríguez et~al.(2024)Ortiz-Rodríguez, Rodríguez,
   Sánchez-Vázquez, et~al.]{breaking_barriers}
@@ -297,6 +500,14 @@ Bu-Mi Park and Chang-Soo Kim.
 \newblock \emph{International Journal of Multimedia and Ubiquitous
   Engineering}, 10\penalty0 (12):\penalty0 89--96, 2015.
 \newblock \doi{10.14257/ijmue.2015.10.12.10}.
+
+\bibitem[Patsoule and Koutsabasis(2012)]{patsoule2012redesigning}
+Evelina Patsoule and Panayiotis Koutsabasis.
+\newblock Redesigning web sites for older adults.
+\newblock In \emph{Proceedings of the 5th International Conference on PErvasive
+  Technologies Related to Assistive Environments (PETRA)}. Association for
+  Computing Machinery, 2012.
+\newblock \doi{10.1145/2413097.2413114}.
 
 \bibitem[Ramineni et~al.(2024)Ramineni, Ingole, Jayaram, Mehta, Krishnappa,
   Nagpal, and Banarse]{ramineni2024enhancing}
@@ -317,6 +528,15 @@ Eun~Rae Ro, Kwang~Ok An, Agnes~Jihae Kim, Sung~Uk Jang, Eun~Joo Kim, and
   open platform in korea.
 \newblock \emph{IEEE Access}, 12:\penalty0 39017--39027, 2024.
 \newblock \doi{10.1109/ACCESS.2024.3401235}.
+
+\bibitem[Romano~Bergstrom et~al.(2013)Romano~Bergstrom, Olmsted-Hawala, and
+  Jans]{romano2013age}
+Jennifer~C. Romano~Bergstrom, Erica~L. Olmsted-Hawala, and Matt~E. Jans.
+\newblock Age-related differences in eye tracking and usability performance:
+  Website usability for older adults.
+\newblock \emph{International Journal of Human-Computer Interaction},
+  29\penalty0 (8):\penalty0 541--548, 2013.
+\newblock \doi{10.1080/10447318.2012.728493}.
 
 \bibitem[Sadeghi et~al.(2020)Sadeghi, Homayounvala, and
   Borhani]{sadeghi2020hci}
@@ -418,6 +638,14 @@ Kazuya Ueki, Ryo Muto, Takuya Wada, Ryota Akaba, and Genesis~Faith Fernandez.
   Indexing (CBMI)}, pages 1--5. IEEE, 2025.
 \newblock \doi{10.1109/CBMI66578.2025.11339284}.
 
+\bibitem[Vaughan and Dillon(2006)]{vaughan2006why}
+Misha~W. Vaughan and Andrew Dillon.
+\newblock Why structure and genre matter for users of digital information: A
+  longitudinal experiment with readers of a web-based newspaper.
+\newblock \emph{International Journal of Human-Computer Studies}, 64\penalty0
+  (6):\penalty0 502--526, 2006.
+\newblock \doi{10.1016/j.ijhcs.2005.11.002}.
+
 \bibitem[Wang(2020)]{wang2020research}
 Shao-Feng Wang.
 \newblock Research on web interface barrier-free design for elderly people.
@@ -449,5 +677,13 @@ Mehmet~Adil Yalçın, Niklas Elmqvist, and Benjamin~B. Bederson.
 \newblock \emph{IEEE Transactions on Visualization and Computer Graphics},
   24\penalty0 (8):\penalty0 2339--2352, 2018.
 \newblock \doi{10.1109/TVCG.2017.2723393}.
+
+\bibitem[Zaphiris et~al.(2003)Zaphiris, Kurniawan, and Ellis]{zaphiris2003age}
+Panayiotis Zaphiris, Sri~Hastuti Kurniawan, and R.~Darin Ellis.
+\newblock Age related differences and the depth vs. breadth tradeoff in
+  hierarchical online information systems.
+\newblock In \emph{User Modeling 2003}, volume 2615 of \emph{Lecture Notes in
+  Artificial Intelligence}, pages 23--42. Springer, 2003.
+\newblock \doi{10.1007/3-540-36572-9_2}.
 
 \end{thebibliography}

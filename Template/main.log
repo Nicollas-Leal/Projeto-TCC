@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.2)  2 SEP 2026 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.2)  21 SEP 2026 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1744,7 +1744,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [17
 
-] (tabelas/tabela1.tex)
+] (tabelas/tabela1.tex
+Overfull \hbox (9.76567pt too wide) in paragraph at lines 5--5
+[]|\T1/ptm/b/n/12 Identificador| 
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 10--10
+[]|\T1/ptm/m/n/12 Engineering Vil-
+ []
+
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1763,22 +1773,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19] (tabelas/tabela3.tex
-Underfull \hbox (badness 1675) in paragraph at lines 18--19
+Underfull \hbox (badness 1675) in paragraph at lines 17--17
 \T1/ptm/m/n/12 cos ou con-fe-rên-cias re-vi-sa-dos
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 32--33
+Underfull \hbox (badness 1122) in paragraph at lines 23--23
 []|\T1/ptm/m/n/12 Pesquisas en-vol-vendo sis-te-mas
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 39--40
+Underfull \hbox (badness 1137) in paragraph at lines 26--26
 []|\T1/ptm/m/n/12 Usuários ido-sos, ini-ci-an-tes ou
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 42--43
+Underfull \hbox (badness 2205) in paragraph at lines 26--27
 []|\T1/ptm/m/n/12 Revisões se-cun-dá-rias não ali-
  []
 
@@ -1792,11 +1802,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20] (tabelas/tabela4.tex)
-<imagens/fluxograma_rapid_review.png, id=435, 1027.84pt x 1541.76pt>
+<imagens/fluxograma_rapid_review.png, id=430, 1453.43pt x 1090.0725pt>
 File: imagens/fluxograma_rapid_review.png Graphic file (type png)
 <use imagens/fluxograma_rapid_review.png>
-Package pdftex.def Info: imagens/fluxograma_rapid_review.png  used on input line 90.
-(pdftex.def)             Requested size: 273.14923pt x 409.7172pt.
+Package pdftex.def Info: imagens/fluxograma_rapid_review.png  used on input line 88.
+(pdftex.def)             Requested size: 273.14923pt x 204.85382pt.
 
 
 
@@ -1806,7 +1816,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]
+[21 <./imagens/fluxograma_rapid_review.png (PNG copy)>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1815,28 +1825,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22 <./imagens/fluxograma_rapid_review.png (PNG copy)>] (tabelas/tabela5.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[22] (tabelas/tabela5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 []|[]\T1/ptm/m/n/12 Morash et al.[]
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 19--19
-[]|\T1/ptm/m/n/12 Personalized ser-vice stu-dies CSS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
 []|[]\T1/ptm/m/n/12 Park and Kim[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 []|[]\T1/ptm/m/n/12 Harley et al.[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
 []|[]\T1/ptm/m/n/12 Kurniawan and
  []
 
@@ -1846,251 +1851,304 @@ Underfull \hbox (badness 2846) in paragraph at lines 31--31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 []|[]\T1/ptm/m/n/12 Sustar et al.[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 []|[]\T1/ptm/m/n/12 Chevalier and
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 40--40
-[]|\T1/ptm/m/n/12 Designing In-clu-sive Smartwatch
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 []|[]\T1/ptm/m/n/12 Duarte et al.[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []|[]\T1/ptm/m/n/12 Ortiz-Rodríguez
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 49--49
-[]|\T1/ptm/m/n/12 Family-centered de-sign: eDavki
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 []|[]\T1/ptm/m/n/12 Trilar et al.[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 []|[]\T1/ptm/m/n/12 Kouroupetroglou
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 []|[]\T1/ptm/m/n/12 Sharit et al.[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 []|[]\T1/ptm/m/n/12 Goonetilleke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 []|[]\T1/ptm/m/n/12 Haddara et al.[]
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 64--64
-[]|\T1/ptm/m/n/12 Usability As-ses-s-ment of Se-cure
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 []|[]\T1/ptm/m/n/12 Hornbaek and
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 73--73
-[]|\T1/ptm/m/n/12 Personalised adult e-training on
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 79--79
-\T1/ptm/m/n/12 Aesthe-tic Eva-lu-a-tion as De-ci-sion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []|[]\T1/ptm/m/n/12 Shi and Chu[]
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 82--82
-[]|\T1/ptm/m/n/12 A web ac-ces-sing tool for blind
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 []|[]\T1/ptm/m/n/12 Kusumaningayu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []|[]\T1/ptm/m/n/12 Mastarone and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|[]\T1/ptm/m/n/12 Wickramathilaka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \T1/ptm/m/n/12 and Mu-el-ler[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 []|[]\T1/ptm/m/n/12 Herrera-Murillo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-[]|\T1/ptm/m/n/12 Augmenting Tou-rism Web-si-tes
+Underfull \hbox (badness 1158) in paragraph at lines 75--75
+[]|\T1/ptm/m/n/12 Augmenting Tou-rism Web-si-tes With Voice Com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 []|[]\T1/ptm/m/n/12 González-Mora
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 []|[]\T1/ptm/m/n/12 Martínez-Alcalá
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]|\T1/ptm/m/n/12 Empathy Map Ins-tru-ment for
+Underfull \hbox (badness 1178) in paragraph at lines 83--83
+[]|\T1/ptm/m/n/12 Empathy Map Ins-tru-ment for Analy-zing Human-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 []|[]\T1/ptm/m/n/12 Allah et al.[]
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 112--112
+Underfull \hbox (badness 4036) in paragraph at lines 85--85
 []|[]\T1/ptm/m/n/12 Ramineni et al.[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 []|[]\T1/ptm/m/n/12 Lee and Singh[]
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 118--118
-[]|\T1/ptm/m/n/12 Feasibility of Pro-vi-ding Per-so-na-
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 118--118
+Underfull \hbox (badness 1406) in paragraph at lines 89--89
 []|[]\T1/ptm/m/n/12 Barron and Fin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|[]\T1/ptm/m/n/12 Dombrovskaia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \T1/ptm/m/n/12 and Vil-ches[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|[]\T1/ptm/m/n/12 Sadeghi et al.[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--127
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []|[]\T1/ptm/m/n/12 Yalç^^Yn et al.[]
  []
 
 
-Overfull \hbox (0.90895pt too wide) in paragraph at lines 130--130
+Overfull \hbox (0.90895pt too wide) in paragraph at lines 97--97
 []|[]\T1/ptm/m/n/12 Abdullah AlHam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 \T1/ptm/m/n/12 mo-odi et al.[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\T1/ptm/m/n/12 Novice user per-cep-tion of e-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|[]\T1/ptm/m/n/12 Ko and Liu[]
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 139--139
-[]|\T1/ptm/m/n/12 Recoverability Walkth-rough: An
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 139--139
+Underfull \hbox (badness 2875) in paragraph at lines 103--103
 []|[]\T1/ptm/m/n/12 Filgueiras et al.[]
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 145--145
-[]|\T1/ptm/m/n/12 Seniors' ex-pe-ri-en-ces with on-line
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 []|[]\T1/ptm/m/n/12 Gatsou et al.[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 []|[]\T1/ptm/m/n/12 Shi and Liu[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 []|[]\T1/ptm/m/n/12 Ahmad et al.[]
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 154--154
-[]|\T1/ptm/m/n/12 The Pre-li-mi-nary Cons-truc-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|[]\T1/ptm/m/n/12 Sun and Zhao[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|[]\T1/ptm/m/n/12 Balakrishnan
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 166--166
-\T1/ptm/m/n/12 for Im-pro-ving Web Ac-ces-si-bi-lity
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|[]\T1/ptm/m/n/12 Kurniawan and
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|[]\T1/ptm/m/n/12 Kanjanakuha
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]|[]\T1/ptm/m/n/12 Lindberg and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|[]\T1/ptm/m/n/12 Molina et al.[]
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 139--139
+[]|[]\T1/ptm/m/n/12 de Lara et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|[]\T1/ptm/m/n/12 Chiriboga-
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 143--143
+\T1/ptm/m/n/12 Casanova et al.[]
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 147--147
+[]|\T1/ptm/m/n/12 Easing ac-cess for no-vice users in multi-screen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+[]|[]\T1/ptm/m/n/12 Oehme et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[]|[]\T1/ptm/m/n/12 Adabinejad and
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 151--151
+[]|\T1/ptm/m/n/12 Evaluating web-si-tes for ol-der adults: adhe-rence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|[]\T1/ptm/m/n/12 Jonasson et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]|[]\T1/ptm/m/n/12 Chittaro et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]|[]\T1/ptm/m/n/12 Darvishy and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
+[]|[]\T1/ptm/m/n/12 Biswas et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|[]\T1/ptm/m/n/12 Nabok et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]|[]\T1/ptm/m/n/12 Patsoule and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/ptm/m/n/12 Kout-sa-ba-sis[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|[]\T1/ptm/m/n/12 Gautam et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]|[]\T1/ptm/m/n/12 Zaphiris et al.[]
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 171--171
+[]|[]\T1/ptm/m/n/12 Crabb and Han-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+[]|[]\T1/ptm/m/n/12 Romano Bergs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]|[]\T1/ptm/m/n/12 Mowar et al.[]
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2131,7 +2189,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27])
+[27]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2140,7 +2206,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28]
+[29]) (capitulos/4 - Proposta.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2149,25 +2215,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[30]) (capitulos/4 - Proposta.tex
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[31]
+[30]
 Cap\'{\i }tulo 4.
 ) (capitulos/5 - conclusao.tex
 
@@ -2178,7 +2226,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32
+[31
 
 ]
 Cap\'{\i }tulo 5.
@@ -2191,7 +2239,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33
+[32
 
 ] (main.bbl
 
@@ -2202,9 +2250,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34
+[33
 
 ]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2249,7 +2306,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39])
+[39]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2259,7 +2316,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [40]
-runsystem(latexminted cleantemp  --timestamp 20260902234217 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43]
+runsystem(latexminted cleantemp  --timestamp 20260921142157 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
  ***********
@@ -2267,20 +2351,20 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AC98CA999E1F1F826F75321CC1AB221E;6684.
+(rerunfilecheck)             Checksum: 8E58F397A54A650985FE201CDBE973F8;6441.
  ) 
 Here is how much of TeX's memory you used:
- 47088 strings out of 468080
- 985179 string characters out of 5441614
- 1755685 words of memory out of 5000000
- 74858 multiletter control sequences out of 15000+600000
- 667608 words of font info for 89 fonts, out of 8000000 for 9000
+ 47195 strings out of 468080
+ 987915 string characters out of 5441614
+ 1743685 words of memory out of 5000000
+ 74936 multiletter control sequences out of 15000+600000
+ 667611 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,12n,95p,1110b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,95p,1110b,816s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><D:/MiKTeX D/fonts/type1/urw/times/utmb8a.pfb><D:/MiKTeX D/fonts/type1/urw/times/utmr8a.pfb><D:/MiKTeX D/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (50 pages, 1614752 bytes).
+Output written on main.pdf (53 pages, 1630503 bytes).
 PDF statistics:
- 834 PDF objects out of 1000 (max. 8388607)
- 142 named destinations out of 1000 (max. 500000)
- 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 926 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 
