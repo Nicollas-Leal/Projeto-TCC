@@ -602,13 +602,13 @@ INPUT tabelas\tabela3.tex
 INPUT .\tabelas\tabela4.tex
 INPUT .\tabelas\tabela4.tex
 INPUT tabelas\tabela4.tex
-INPUT .\imagens\fluxograma_rapid_review.png
-INPUT .\imagens\fluxograma_rapid_review.png
-INPUT .\imagens\fluxograma_rapid_review.png
-INPUT .\imagens\fluxograma_rapid_review.png
-INPUT .\imagens\fluxograma_rapid_review.png
-INPUT .\imagens\fluxograma_rapid_review.png
-INPUT .\imagens\fluxograma_rapid_review.png
+INPUT .\imagens\fluxograma_revisao_sistematica.png
+INPUT .\imagens\fluxograma_revisao_sistematica.png
+INPUT .\imagens\fluxograma_revisao_sistematica.png
+INPUT .\imagens\fluxograma_revisao_sistematica.png
+INPUT .\imagens\fluxograma_revisao_sistematica.png
+INPUT .\imagens\fluxograma_revisao_sistematica.png
+INPUT .\imagens\fluxograma_revisao_sistematica.png
 INPUT .\tabelas\tabela5.tex
 INPUT .\tabelas\tabela5.tex
 INPUT tabelas\tabela5.tex
@@ -617,6 +617,18 @@ INPUT .\capitulos\4 - Proposta.tex
 INPUT .\capitulos\4 - Proposta.tex
 INPUT .\capitulos\4 - Proposta.tex
 INPUT capitulos\4 - Proposta.tex
+INPUT .\tabelas\tabela6.tex
+INPUT .\tabelas\tabela6.tex
+INPUT tabelas\tabela6.tex
+INPUT .\tabelas\tabela7.tex
+INPUT .\tabelas\tabela7.tex
+INPUT tabelas\tabela7.tex
+INPUT .\tabelas\tabela8.tex
+INPUT .\tabelas\tabela8.tex
+INPUT tabelas\tabela8.tex
+INPUT .\tabelas\tabela9.tex
+INPUT .\tabelas\tabela9.tex
+INPUT tabelas\tabela9.tex
 INPUT .\capitulos\5 - conclusao.tex
 INPUT .\capitulos\5 - conclusao.tex
 INPUT .\capitulos\5 - conclusao.tex

@@ -1,16 +1,185 @@
-\chapter{Proposta}
-\label{sec:proposta}
+\chapter{Resultados e Análise}
 
-% \section{Comparação com o Trabalho Proposto}
+\label{sec:resultados}
 
-% Os estudos selecionados apresentam contribuições relevantes para a compreensão das dificuldades e necessidades de diferentes perfis de usuários durante a interação com sistemas digitais. Entretanto, as pesquisas analisadas estão inseridas em diferentes contextos de aplicação e abordam aspectos específicos do problema.
+Este capítulo apresenta os resultados obtidos a partir da revisão sistemática da literatura realizada neste trabalho. A análise foi conduzida considerando os estudos selecionados nas bases Scopus, IEEE Xplore e Engineering Village, utilizando as questões de pesquisa estabelecidas no trabalho como referência para a organização das informações extraídas.
 
-% Por exemplo, \cite{weighted_heuristic} concentra-se na avaliação quantitativa da usabilidade de websites para usuários idosos, relacionando heurísticas a medidas de desempenho. Já \cite{health_problem_solving} investiga a realização de tarefas complexas em um website governamental, enquanto \cite{social_media_elderly} aborda requisitos de interação em plataformas de mídia social.
+Ao todo, foram selecionados 79 estudos para compor a revisão sistemática, sendo 21 provenientes da Scopus, 31 da IEEE Xplore e 27 da Engineering Village. A análise dos estudos foi organizada em quatro dimensões relacionadas às questões de pesquisa: métricas de usabilidade e acessibilidade, elementos de interface e diretrizes de design, métodos e estratégias de avaliação e características dos usuários e dos contextos de uso.
 
-% Outros estudos concentram-se em estratégias específicas de apoio ao usuário. \cite{kabassi2004personalised} apresentam um ambiente de treinamento adaptativo para adultos novatos, enquanto \cite{cowan2011exploring} investigam a influência do treinamento sobre a usabilidade percebida e a ansiedade de usuários novatos.
+Para a análise, os estudos foram classificados em três categorias em relação a cada questão de pesquisa. A primeira corresponde aos estudos que respondem diretamente à questão, apresentando informações diretamente relacionadas ao seu objetivo. A segunda corresponde aos estudos que não respondem diretamente à questão, mas apresentam informações relacionadas que podem contribuir para sua compreensão. A terceira corresponde aos estudos que não abordam a questão de pesquisa.
 
-% Também são encontrados trabalhos que aplicam processos de desenvolvimento centrados no usuário e avaliações com participantes do público-alvo para construir soluções acessíveis e utilizáveis, como aquele feito por \cite{breaking_barriers}.
+Inicialmente, é apresentado um panorama geral das contribuições encontradas nos estudos selecionados. Em seguida, os resultados são organizados de acordo com as quatro questões de pesquisa, permitindo analisar separadamente as métricas utilizadas, os elementos de interface e as diretrizes identificadas, os métodos e estratégias de avaliação empregados e as características dos usuários e dos contextos de uso considerados nos estudos.
 
-% Dessa forma, os estudos selecionados apresentam diferentes métricas, diretrizes, métodos de avaliação e estratégias de desenvolvimento, mas essas contribuições estão distribuídas entre diferentes contextos e objetivos de pesquisa.
+Ao final do capítulo, é apresentada uma síntese dos principais resultados encontrados, relacionando as diferentes contribuições identificadas ao longo da revisão.
 
-% Nesse contexto, o presente trabalho propõe organizar essas contribuições em um guia de desenvolvimento direcionado a softwares e sites destinados a pessoas com baixa alfabetização informática. A proposta busca reunir métricas, recomendações de projeto e componentes de interface identificados na literatura, de maneira a transformar os conhecimentos encontrados nos estudos selecionados em uma referência de apoio ao desenvolvimento.
+
+\section{Panorama Geral dos Resultados}
+
+Os 79 estudos selecionados apresentam diferentes contribuições relacionadas ao desenvolvimento e à avaliação de sistemas e interfaces destinados a usuários com pouca experiência ou familiaridade com tecnologias computacionais. Essas contribuições estão distribuídas entre diferentes contextos de aplicação, perfis de usuários e objetivos de pesquisa, fazendo com que os aspectos relacionados à usabilidade, acessibilidade e Interação Humano-Computador sejam abordados sob diferentes perspectivas.
+
+Em relação às métricas de avaliação, os estudos apresentam diferentes formas de analisar a interação dos usuários com os sistemas. Entre as medidas identificadas estão tempo de realização de tarefas, taxa de conclusão, quantidade de erros, número de cliques, satisfação e instrumentos padronizados de avaliação da usabilidade. Também foram identificadas medidas específicas relacionadas à acessibilidade, à navegação, à complexidade visual e ao comportamento dos usuários durante a interação.
+
+Também foram identificadas diferentes contribuições relacionadas aos elementos de interface e às diretrizes de design. Os estudos apresentam recomendações envolvendo tamanho de fontes e botões, contraste, organização das informações, simplicidade da navegação, linguagem utilizada, feedback ao usuário, redução de elementos desnecessários e mecanismos de apoio à interação. \cite{breaking_barriers}, por exemplo, apresenta recomendações relacionadas a botões maiores, alto contraste, linguagem simples e organização da interface para usuários idosos com deficiências.
+
+Quanto aos métodos e estratégias de avaliação, foram encontrados estudos que utilizam testes de usabilidade, entrevistas, questionários, observação, \textit{think-aloud}, avaliação heurística, grupos focais e diferentes estratégias de participação dos usuários. Em alguns casos, diferentes métodos são combinados para analisar tanto o desempenho dos usuários quanto suas percepções durante a interação. \cite{breaking_barriers}, por exemplo, combina grupos focais, entrevistas e avaliação de desempenho baseada em tarefas.
+
+Outro aspecto observado está relacionado às características dos usuários e aos contextos de uso considerados pelos estudos. Parte das pesquisas concentra-se em pessoas idosas, considerando limitações visuais, auditivas, motoras e cognitivas, além da experiência prévia com computadores e com a Web. Outros estudos investigam usuários novatos, pessoas com baixa alfabetização digital ou indivíduos com diferentes níveis de familiaridade com tecnologias computacionais. Também foram identificados contextos específicos, como serviços de saúde, serviços públicos, bancos, redes sociais, sistemas de tecnologia assistiva e diferentes dispositivos de interação.
+
+A diversidade das contribuições encontradas demonstra que o tema é abordado pela literatura a partir de diferentes perspectivas. Alguns trabalhos concentram-se principalmente na avaliação da usabilidade, enquanto outros priorizam diretrizes de design, acessibilidade, desenvolvimento centrado no usuário ou características específicas dos usuários.
+
+Nesse sentido, a revisão sistemática permite reunir e organizar essas diferentes contribuições, possibilitando analisar de forma conjunta os principais aspectos considerados na literatura. As próximas seções apresentam essa análise de maneira específica para cada questão de pesquisa.
+
+
+\section{Análise dos Estudos em Relação à RQ1}
+
+A primeira questão de pesquisa busca identificar as métricas de usabilidade e acessibilidade utilizadas para avaliar sistemas e interfaces destinados a pessoas com baixa alfabetização informática.
+
+\begin{quote}
+
+RQ1: Quais métricas de usabilidade e acessibilidade são utilizadas para avaliar sistemas e interfaces destinados a pessoas com baixa alfabetização informática?
+
+\end{quote}
+
+Dos 79 estudos selecionados, 40 respondem diretamente à RQ1, correspondendo a aproximadamente 50,6\% do conjunto analisado. Outros 31 estudos, equivalentes a aproximadamente 39,2\%, não respondem diretamente à questão, mas apresentam informações relacionadas à avaliação da interação. Os 8 estudos restantes, correspondentes a aproximadamente 10,1\%, não abordam aspectos que permitam responder à questão.
+
+Os estudos que respondem diretamente à questão apresentam diferentes formas de mensuração da interação dos usuários com os sistemas. Entre as métricas identificadas encontram-se medidas relacionadas ao desempenho na realização de tarefas, como tempo de execução, taxa de conclusão, taxa de sucesso, quantidade de erros e número de cliques. Também foram identificadas medidas relacionadas à satisfação, à percepção de usabilidade, à eficiência e à experiência de uso.
+
+Alguns estudos utilizam instrumentos padronizados para avaliação da usabilidade. O System Usability Scale (SUS), por exemplo, aparece em diferentes pesquisas como instrumento para obtenção da percepção dos usuários sobre a usabilidade dos sistemas. Também foram identificados instrumentos como o PSSUQ e o e-Qual, além de questionários e escalas utilizados para avaliar satisfação, facilidade de uso e percepção da experiência.
+
+Além das métricas relacionadas diretamente à usabilidade, alguns estudos apresentam medidas relacionadas à acessibilidade. Entre essas contribuições estão avaliações baseadas nas diretrizes WCAG e resultados obtidos por ferramentas automatizadas de avaliação. Também foram identificadas medidas relacionadas à complexidade visual, ao comportamento de navegação e à interação dos usuários com os elementos das interfaces.
+
+As métricas identificadas nos estudos que respondem diretamente à RQ1 foram organizadas em categorias de acordo com a finalidade da avaliação. A Tabela~\ref{tab:metricasRQ1} apresenta essas categorias e alguns dos estudos nos quais os respectivos indicadores foram identificados.
+
+\input{tabelas/tabela6.tex}
+
+A análise das métricas identificadas demonstra que os estudos utilizam tanto medidas objetivas quanto medidas subjetivas para avaliar a interação. As medidas objetivas estão relacionadas principalmente ao desempenho durante a realização de tarefas, considerando aspectos como tempo, sucesso, erros e ações realizadas pelos usuários. As medidas subjetivas, por sua vez, buscam identificar a percepção dos participantes em relação à usabilidade, satisfação e experiência de uso.
+
+Também foram identificadas métricas e indicadores relacionados à acessibilidade e a características específicas da interação. Entre esses elementos estão avaliações de conformidade com diretrizes, resultados de ferramentas automatizadas, medidas de comportamento visual e indicadores de complexidade das interfaces.
+
+Dessa forma, os estudos não utilizam uma única forma de avaliação. A literatura apresenta diferentes métricas de acordo com o objetivo do estudo, o tipo de sistema analisado e as características dos usuários participantes da avaliação.
+
+
+\section{Análise dos Estudos em Relação à RQ2}
+
+A segunda questão de pesquisa busca identificar os elementos de interface, diretrizes e princípios de design apresentados na literatura para facilitar a interação de pessoas com baixa alfabetização informática.
+
+\begin{quote}
+
+RQ2: Quais elementos de interface, diretrizes e princípios de design são apresentados na literatura para facilitar a interação de pessoas com baixa alfabetização informática?
+
+\end{quote}
+
+Dos 79 estudos selecionados, 55 respondem diretamente à RQ2, correspondendo a aproximadamente 69,6\% dos estudos. Outros 22 estudos, equivalentes a aproximadamente 27,8\%, não respondem diretamente à questão, mas apresentam informações relacionadas aos elementos de interface, diretrizes ou princípios de design. Apenas 2 estudos, correspondentes a aproximadamente 2,5\%, não abordam aspectos relacionados à questão.
+
+Os estudos que respondem diretamente à RQ2 apresentam diversas recomendações relacionadas à organização e à apresentação das informações nas interfaces. Entre os elementos encontrados estão o uso de fontes maiores e legíveis, contraste adequado entre texto e fundo, botões maiores, ícones claros, espaçamento entre elementos e redução da quantidade de informações apresentadas simultaneamente.
+
+A simplificação da navegação também aparece entre as contribuições identificadas. Alguns estudos recomendam reduzir níveis de navegação, evitar menus complexos e apresentar caminhos claros para que o usuário consiga identificar sua localização e retornar a etapas anteriores. Recursos como breadcrumbs, links para a página inicial, mecanismos de busca e organização hierárquica das informações também são encontrados em diferentes estudos.
+
+Outro aspecto identificado está relacionado à linguagem utilizada na interface. Alguns trabalhos recomendam o uso de linguagem simples, termos familiares e instruções claras, evitando terminologias técnicas que possam dificultar a compreensão por usuários com pouca experiência em informática.
+
+Também foram identificadas recomendações relacionadas ao feedback e ao tratamento de erros. Entre elas estão a apresentação de mensagens de erro compreensíveis, mecanismos para recuperação após uma ação incorreta, confirmação de determinadas operações e indicação clara do estado do sistema durante a execução de tarefas.
+
+A literatura também apresenta estratégias de adaptação e personalização das interfaces. Alguns estudos consideram alterações de tamanho de fonte, contraste, organização do conteúdo e modalidades alternativas de interação de acordo com as características ou necessidades dos usuários.
+
+Além desses elementos, foram encontradas abordagens que utilizam diferentes modalidades de interação, incluindo voz, texto, imagens e recursos multimodais. Essas estratégias aparecem principalmente em estudos voltados a usuários com necessidades específicas ou pouca experiência com determinadas tecnologias.
+
+Os elementos, diretrizes e princípios identificados nos estudos que respondem diretamente à RQ2 foram organizados em categorias na Tabela~\ref{tab:elementosRQ2}.
+
+\input{tabelas/tabela7.tex}
+
+A análise demonstra que diferentes recomendações presentes na literatura convergem para a redução da complexidade da interface e para o aumento da clareza das informações apresentadas ao usuário. Aspectos relacionados à legibilidade, navegação, consistência, feedback, prevenção de erros e acessibilidade aparecem associados à necessidade de facilitar a compreensão e a realização das tarefas.
+
+Também se observa que as recomendações não se restringem aos elementos visuais da interface. A literatura apresenta estratégias relacionadas à organização da navegação, à linguagem, à personalização e ao oferecimento de diferentes formas de interação. Dessa maneira, a adaptação da interface é tratada de forma ampla, considerando tanto a apresentação das informações quanto as formas pelas quais o usuário pode interagir com o sistema.
+
+
+\section{Análise dos Estudos em Relação à RQ3}
+
+A terceira questão de pesquisa busca identificar os métodos e estratégias utilizados para avaliar a usabilidade e a acessibilidade de interfaces destinadas a pessoas com baixa alfabetização informática.
+
+\begin{quote}
+
+RQ3: Quais métodos e estratégias são utilizados para avaliar a usabilidade e a acessibilidade de interfaces destinadas a pessoas com baixa alfabetização informática?
+
+\end{quote}
+
+Dos 79 estudos selecionados, 57 respondem diretamente à RQ3, correspondendo a aproximadamente 72,2\% do conjunto analisado. Outros 22 estudos, também correspondentes a aproximadamente 27,8\%, não respondem diretamente à questão, mas apresentam informações relacionadas aos métodos ou estratégias empregados. Nenhum dos estudos selecionados foi classificado como não abordando a RQ3.
+
+Entre os estudos que respondem diretamente à questão foram identificadas diferentes estratégias de avaliação, incluindo testes de usabilidade, entrevistas, questionários, observação, protocolos de \textit{think-aloud}, avaliações heurísticas, grupos focais e análise de tarefas.
+
+Os testes de usabilidade são utilizados em diferentes contextos para observar o comportamento dos participantes durante a realização de tarefas. Nesses estudos, podem ser registradas informações como tempo de execução, taxa de conclusão, erros, dificuldades encontradas e percepção dos usuários.
+
+As entrevistas e os questionários também aparecem como estratégias utilizadas para identificar percepções, dificuldades, preferências e níveis de satisfação. Em alguns trabalhos, esses instrumentos são aplicados como complemento aos testes de tarefas, permitindo reunir informações quantitativas e qualitativas sobre a experiência de uso.
+
+A observação e o protocolo de \textit{think-aloud} são empregados em alguns estudos para identificar dificuldades ocorridas durante a interação e compreender as decisões tomadas pelos usuários. Essas estratégias permitem complementar os dados obtidos durante os testes com informações qualitativas sobre a experiência de uso.
+
+Também foram identificadas avaliações realizadas por especialistas, incluindo avaliações heurísticas e inspeções baseadas em diretrizes de usabilidade e acessibilidade. Em alguns casos, essas avaliações são combinadas com testes realizados com usuários, permitindo analisar a interface a partir de diferentes perspectivas.
+
+Outras abordagens encontradas incluem análise de logs, \textit{eye tracking}, análise de conteúdo, \textit{process mining} e avaliações automatizadas de acessibilidade. A utilização dessas estratégias varia conforme o objetivo da avaliação e o tipo de sistema investigado.
+
+Os métodos e estratégias identificados nos estudos que respondem diretamente à RQ3 foram organizados na Tabela~\ref{tab:metodosRQ3}.
+
+\input{tabelas/tabela8.tex}
+
+A análise dos estudos demonstra que os métodos de avaliação são utilizados de maneira isolada ou combinada. Os testes com usuários permitem observar o desempenho durante a realização das tarefas, enquanto entrevistas, questionários e protocolos verbais possibilitam obter informações sobre a percepção e as dificuldades encontradas durante a interação.
+
+As avaliações por especialistas e as ferramentas automatizadas, por sua vez, possibilitam analisar aspectos da interface com base em critérios previamente estabelecidos, especialmente em relação à usabilidade e à acessibilidade. Já estratégias como \textit{eye tracking}, análise de logs e \textit{process mining} permitem investigar aspectos específicos do comportamento dos usuários durante a interação.
+
+Assim, os estudos analisados apresentam diferentes estratégias de avaliação, cuja escolha está relacionada às características dos usuários, ao tipo de sistema, ao contexto de utilização e aos objetivos definidos em cada pesquisa.
+
+
+\section{Análise dos Estudos em Relação à RQ4}
+
+A quarta questão de pesquisa busca identificar as características dos usuários e dos contextos de uso consideradas no desenvolvimento e na avaliação das interfaces.
+
+\begin{quote}
+
+RQ4: Quais características dos usuários e dos contextos de uso são consideradas no desenvolvimento e na avaliação de interfaces voltadas a pessoas com baixa alfabetização informática?
+
+\end{quote}
+
+Dos 79 estudos selecionados, 57 respondem diretamente à RQ4, correspondendo a aproximadamente 72,2\% do conjunto analisado. Outros 20 estudos, equivalentes a aproximadamente 25,3\%, não respondem diretamente à questão, mas apresentam informações relacionadas às características dos usuários ou dos contextos de uso. Apenas 2 estudos, correspondentes a aproximadamente 2,5\%, não abordam aspectos relacionados à questão.
+
+Os estudos selecionados apresentam diferentes perfis de usuários. Uma parcela significativa das pesquisas considera pessoas idosas, enquanto outros trabalhos investigam usuários novatos, pessoas com pouca experiência com computadores, usuários com baixa alfabetização digital e participantes com diferentes níveis de familiaridade com tecnologias computacionais.
+
+Entre as características consideradas estão idade, experiência prévia com computadores e Internet, frequência de uso de tecnologias, escolaridade e familiaridade com determinado sistema ou contexto de aplicação. Alguns estudos também consideram diferenças entre usuários novatos e experientes para analisar como a experiência influencia a interação.
+
+As limitações e necessidades relacionadas às características físicas e cognitivas dos usuários também são consideradas em diferentes pesquisas. Entre elas estão alterações visuais, auditivas, motoras e cognitivas, além de dificuldades relacionadas à memória, atenção, percepção, coordenação motora e leitura.
+
+Alguns trabalhos consideram ainda características sociais e culturais dos participantes. Há estudos que analisam grupos específicos de usuários, considerando aspectos como contexto cultural, condições socioeconômicas, idioma, participação de cuidadores e necessidades particulares associadas ao contexto de uso.
+
+Quanto aos contextos de interação, foram identificados estudos relacionados a diferentes tipos de sistemas e serviços. Entre os contextos encontrados estão websites de saúde, serviços públicos, serviços bancários, redes sociais, sistemas de tecnologia assistiva, sistemas educacionais, ferramentas de busca, aplicações domésticas e diferentes dispositivos computacionais.
+
+Também foram encontrados estudos que consideram o ambiente no qual a tecnologia é utilizada. Alguns trabalhos analisam situações domésticas, enquanto outros consideram ambientes institucionais, serviços públicos e situações específicas de trabalho, aprendizagem ou prestação de serviços.
+
+As características dos usuários e os contextos de uso identificados nos estudos que respondem diretamente à RQ4 foram organizados em categorias na Tabela~\ref{tab:caracteristicasRQ4}.
+
+\input{tabelas/tabela9.tex}
+
+A análise demonstra que os usuários investigados na literatura apresentam características distintas e não constituem um grupo homogêneo. Embora os estudos frequentemente considerem pessoas idosas ou usuários novatos, também são analisadas diferenças relacionadas à experiência tecnológica, às capacidades físicas e cognitivas, às necessidades de acessibilidade e às características sociodemográficas.
+
+Os contextos de uso também apresentam grande diversidade. As pesquisas abrangem sistemas destinados à saúde, serviços públicos, bancos, redes sociais, educação, tecnologia assistiva e outras atividades. Essa variedade demonstra que as características do contexto podem influenciar as necessidades dos usuários e, consequentemente, as formas de desenvolvimento e avaliação das interfaces.
+
+Dessa forma, os resultados indicam que a análise das características dos usuários e do contexto de uso constitui um aspecto importante para a compreensão das necessidades de interação. A literatura considera diferentes fatores individuais e contextuais para orientar o desenvolvimento ou a avaliação das interfaces destinadas a usuários com pouca experiência ou familiaridade com tecnologias computacionais.
+
+
+\section{Síntese dos Resultados}
+
+A análise dos 79 estudos selecionados permitiu identificar diferentes contribuições relacionadas às quatro dimensões investigadas nesta revisão sistemática. A classificação dos estudos demonstra diferentes níveis de cobertura da literatura em relação às questões de pesquisa.
+
+A RQ1 apresentou 40 estudos que respondem diretamente à questão, correspondendo a 50,6\% dos estudos selecionados. Outros 31 estudos, equivalentes a 39,2\%, apresentaram informações relacionadas, mas não suficientes para serem considerados respostas diretas, enquanto 8 estudos, correspondentes a 10,1\%, não abordaram a questão.
+
+A RQ2 apresentou 55 estudos com resposta direta, correspondendo a 69,6\% dos estudos selecionados. Outros 22 estudos, equivalentes a 27,8\%, apresentaram informações relacionadas e apenas 2 estudos, correspondentes a 2,5\%, não abordaram a questão.
+
+A RQ3 apresentou 57 estudos com resposta direta, correspondendo a 72,2\% do conjunto analisado. Outros 22 estudos, equivalentes a 27,8\%, apresentaram informações relacionadas, não havendo estudos classificados como não abordando a questão.
+
+A RQ4 também apresentou 57 estudos com resposta direta, correspondendo a 72,2\% dos estudos. Outros 20 estudos, equivalentes a 25,3\%, apresentaram informações relacionadas, enquanto apenas 2 estudos, correspondentes a 2,5\%, não abordaram a questão.
+
+Considerando conjuntamente as quatro questões, observa-se que a literatura selecionada apresenta maior presença de contribuições diretamente relacionadas aos métodos e estratégias de avaliação e às características dos usuários e contextos de uso. A RQ1 apresenta uma quantidade proporcionalmente menor de respostas diretas, indicando que nem todos os estudos que investigam usuários com pouca experiência ou familiaridade com tecnologias utilizam métricas de usabilidade ou acessibilidade como foco principal de sua avaliação.
+
+Em relação às contribuições identificadas, os estudos apresentam diferentes métricas e instrumentos para avaliar a interação dos usuários, diferentes elementos e diretrizes para a construção das interfaces, diferentes métodos para avaliar a usabilidade e a acessibilidade e diferentes características dos usuários e contextos de uso.
+
+De forma geral, os resultados demonstram que a literatura relacionada ao desenvolvimento e à avaliação de interfaces para pessoas com baixa alfabetização informática é composta por diferentes abordagens, perfis de usuários e contextos de aplicação. As contribuições não estão concentradas em uma única estratégia, mas distribuídas entre diferentes formas de avaliação, desenvolvimento e adaptação das interfaces.
+
+A revisão sistemática permite, dessa forma, organizar essas contribuições de maneira conjunta, possibilitando identificar os principais aspectos considerados pela literatura e estabelecer uma visão geral sobre as práticas utilizadas no desenvolvimento e na avaliação de interfaces destinadas a usuários com pouca experiência ou familiaridade com tecnologias computacionais.
+
+Os resultados apresentados neste capítulo constituem a base para as considerações finais do trabalho, nas quais serão discutidas as principais conclusões da revisão, suas limitações e possibilidades para trabalhos futuros.

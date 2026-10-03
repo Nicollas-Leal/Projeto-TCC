@@ -1,104 +1,112 @@
-\chapter{Revisão da Literatura / Trabalhos Relacionados}
+\chapter{Revisão Sistemática da Literatura}
 
 \label{sec:revisao}
 
-Este capítulo apresenta a revisão da literatura realizada com o objetivo de identificar estudos relacionados ao desenvolvimento e à avaliação de interfaces voltadas a usuários com baixa alfabetização informática. Para isso, foi conduzida uma \textit{Rapid Review}, permitindo a identificação e a síntese de estudos relacionados à usabilidade, acessibilidade, Interação Humano-Computador (IHC) e às diretrizes de desenvolvimento para diferentes perfis de usuários com pouca experiência ou familiaridade com sistemas computacionais.
+Este capítulo apresenta o processo de realização da Revisão Sistemática da Literatura (RSL), conduzida com o objetivo de identificar, analisar e sintetizar estudos relacionados ao desenvolvimento e à avaliação de interfaces voltadas a pessoas com baixa alfabetização informática. A revisão contempla estudos relacionados à usabilidade, acessibilidade, Interação Humano-Computador (IHC), métricas de avaliação, métodos de análise e diretrizes de desenvolvimento para diferentes perfis de usuários com pouca experiência ou familiaridade com sistemas computacionais.
 
-A revisão também busca posicionar o presente trabalho em relação aos estudos selecionados, identificando diferentes abordagens utilizadas para avaliar e desenvolver interfaces e verificando como essas contribuições podem ser organizadas para apoiar a construção de um guia de desenvolvimento direcionado a softwares e sites destinados a pessoas com baixa alfabetização informática.
+O processo de revisão foi estruturado de forma sistemática, contemplando a definição das bases de dados, a elaboração das estratégias de busca, o estabelecimento dos critérios de inclusão e exclusão, a seleção dos estudos e a análise das contribuições apresentadas pelos trabalhos selecionados.
+
+A partir dos estudos incluídos, busca-se identificar e organizar as principais contribuições da literatura relacionadas às métricas de usabilidade e acessibilidade, aos elementos e diretrizes de interface, aos métodos de avaliação e às características dos usuários e dos contextos de uso considerados no desenvolvimento e na avaliação de interfaces destinadas a pessoas com baixa alfabetização informática.
 
 
-\section{Protocolo da Rapid Review}
+\section{Protocolo da Revisão Sistemática}
 
-A revisão foi conduzida seguindo os princípios de uma \textit{Rapid Review}, metodologia caracterizada pela realização estruturada de etapas de busca, seleção e análise de estudos científicos, permitindo a obtenção e a síntese de evidências relacionadas a um determinado problema de pesquisa.
+A revisão foi conduzida seguindo um protocolo previamente definido, contemplando etapas estruturadas de busca, seleção e análise dos estudos científicos relacionados ao tema da pesquisa. A definição prévia dessas etapas tem como objetivo organizar o processo de revisão e estabelecer critérios para a identificação dos estudos que compõem o conjunto analisado.
 
-Optou-se por essa abordagem devido à necessidade de organizar os estudos relevantes ao tema da pesquisa de maneira sistematizada, permitindo identificar contribuições relacionadas às métricas de usabilidade e acessibilidade, às características dos usuários e às recomendações para o desenvolvimento de interfaces.
+A realização da revisão sistemática permite reunir estudos que abordam diferentes aspectos relacionados à interação de pessoas com pouca familiaridade com sistemas computacionais, possibilitando a identificação de métricas de usabilidade e acessibilidade, características de interface, métodos de avaliação e estratégias utilizadas no desenvolvimento e na avaliação desses sistemas.
 
-O protocolo da revisão foi estruturado considerando a definição das bases de dados, a elaboração da estratégia de busca, o estabelecimento dos critérios de inclusão e exclusão, a seleção dos estudos e, posteriormente, a análise das contribuições apresentadas pelos trabalhos selecionados.
+O protocolo da revisão foi estruturado considerando a definição das bases de dados, a elaboração das estratégias de busca, o estabelecimento dos critérios de inclusão e exclusão, a seleção dos estudos e, posteriormente, a extração e síntese das informações relevantes dos trabalhos selecionados.
 
 
 \section{Bases de Dados}
 
-A revisão foi realizada utilizando as bases de dados Scopus, IEEE Xplore e Engineering Village. A utilização dessas bases permitiu a realização da busca pelos estudos relacionados aos conceitos definidos na estratégia de pesquisa.
+A revisão foi realizada utilizando as bases de dados Scopus, IEEE Xplore e Engineering Village. A seleção dessas bases permitiu realizar buscas em diferentes fontes de literatura científica relacionadas às áreas de computação, sistemas de informação, engenharia e Interação Humano-Computador.
 
-Neste ponto será apresentada a Tabela~\ref{tab:bases}, contendo as bases consideradas para a revisão.
+Neste ponto será apresentada a Tabela~\ref{tab:bases}, contendo as bases de dados consideradas para a revisão.
 
 \input{tabelas/tabela1.tex}
 
 
 \section{Estratégia de Busca}
 
-A estratégia de busca foi construída a partir dos conceitos centrais da pesquisa, envolvendo quatro dimensões principais:
+A estratégia de busca foi definida a partir do tema e do objetivo geral da pesquisa, buscando recuperar estudos relacionados ao desenvolvimento e à avaliação de sistemas e interfaces destinados a usuários com pouca experiência ou familiaridade com tecnologias computacionais. Para isso, foram consideradas quatro dimensões principais:
 
 \begin{itemize}
 
 \item sistemas e aplicações computacionais;
 
-\item usuários com baixa alfabetização informática;
+\item usuários com baixa alfabetização informática ou pouca experiência com tecnologias computacionais;
 
-\item métricas de usabilidade e acessibilidade;
+\item aspectos relacionados à usabilidade, acessibilidade e Interação Humano-Computador;
 
 \item contexto Web.
 
 \end{itemize}
 
-Os sinônimos identificados para cada dimensão permitiram a elaboração da string de busca utilizada nas bases de dados. Os termos pertencentes a uma mesma dimensão foram conectados pelo operador lógico \textit{OR}, enquanto as diferentes dimensões foram relacionadas pelo operador lógico \textit{AND}.
+Os termos relacionados a cada dimensão foram definidos a partir de diferentes formas de representação encontradas na literatura para os conceitos de interesse. Os termos pertencentes a uma mesma dimensão foram conectados pelo operador lógico \textit{OR}, enquanto as diferentes dimensões foram relacionadas pelo operador lógico \textit{AND}.
 
-A definição dos termos relacionados aos usuários considerou diferentes formas de caracterizar pessoas com pouca experiência ou conhecimento no uso de tecnologias computacionais, incluindo termos como usuários idosos, usuários novatos, usuários não especialistas e pessoas com baixa alfabetização digital.
+A estratégia de busca foi elaborada de forma abrangente, uma vez que diferentes estudos podem abordar o problema investigado utilizando terminologias distintas para caracterizar os usuários, as tecnologias e os aspectos relacionados à avaliação das interfaces. Dessa forma, foram considerados termos relacionados a usuários idosos, usuários novatos, usuários não especialistas e pessoas com baixa alfabetização ou baixa proficiência digital.
 
-Essa abrangência é coerente com os estudos selecionados, que investigam diferentes perfis de usuários com dificuldades ou pouca familiaridade com tecnologias. \cite{sharit2008information}, por exemplo, analisaram a influência do conhecimento relacionado à Internet e de capacidades cognitivas sobre o desempenho de usuários idosos durante atividades de busca de informações na Web. De maneira semelhante, \cite{cowan2011exploring} investigaram a experiência de usuários novatos durante a utilização de uma aplicação Web, considerando aspectos relacionados à usabilidade e à ansiedade durante a interação.
+A escolha desses termos também considerou que a literatura relacionada ao tema apresenta diferentes perfis de usuários com pouca familiaridade ou experiência com sistemas computacionais. \cite{sharit2008information}, por exemplo, investigaram a influência do conhecimento relacionado à Internet e de capacidades cognitivas sobre o desempenho de usuários idosos durante atividades de busca de informações na Web. De maneira semelhante, \cite{cowan2011exploring} investigaram usuários novatos durante a utilização de uma aplicação Web, considerando aspectos relacionados à usabilidade e à ansiedade durante a interação.
 
-Neste ponto será apresentada a Tabela~\ref{tab:searchstring}, contendo a string de busca utilizada na base de dados Scopus, e que foi adaptada de acordo com a necessidade para IEEE Xplore e Engineering Village.
+A estratégia de busca foi utilizada nas três bases de dados selecionadas, com adaptações necessárias à sintaxe e aos mecanismos de pesquisa específicos de cada base. Na Scopus, a busca foi realizada por meio dos campos de título, resumo e palavras-chave, utilizando os operadores booleanos definidos na estratégia. Para as bases IEEE Xplore e Engineering Village, a estrutura conceitual da busca foi mantida, com os ajustes necessários à forma de consulta disponibilizada por cada plataforma.
+
+A estratégia de busca foi utilizada para a identificação inicial dos estudos e não teve como finalidade estabelecer uma correspondência direta entre cada termo pesquisado e uma questão de pesquisa específica. Após a seleção dos estudos, as questões de pesquisa foram utilizadas como referência para a extração, organização e análise das informações apresentadas nos trabalhos selecionados.
+
+Neste ponto será apresentada a Tabela~\ref{tab:searchstring}, contendo a string de busca utilizada na base de dados Scopus, adaptada de acordo com as características das bases IEEE Xplore e Engineering Village.
 
 \input{tabelas/tabela2.tex}
 
 
 \section{Critérios de Inclusão e Exclusão}
 
-Com o objetivo de garantir que apenas estudos relevantes fossem considerados, foram definidos critérios de inclusão e exclusão antes da realização da etapa de seleção dos artigos.
+Com o objetivo de estabelecer quais estudos seriam considerados na revisão, foram definidos critérios de inclusão e exclusão antes da realização da etapa de seleção dos artigos.
 
-Os critérios de inclusão contemplam trabalhos que apresentam características alinhadas ao objetivo desta pesquisa, enquanto os critérios de exclusão eliminam estudos que não contribuem diretamente para responder às questões de pesquisa.
+Os critérios de inclusão contemplam estudos relacionados ao desenvolvimento, avaliação ou utilização de sistemas e interfaces voltados a usuários com pouca experiência ou familiaridade com tecnologias computacionais, considerando aspectos relacionados à usabilidade, acessibilidade, Interação Humano-Computador e interação com sistemas Web. Os critérios de exclusão foram utilizados para eliminar estudos que não apresentavam relação suficiente com o tema ou que não atendiam às características estabelecidas para o conjunto de estudos da revisão.
 
-A definição dos critérios também considerou a necessidade de incluir estudos que, mesmo não tratando exclusivamente de pessoas com baixa alfabetização informática, apresentassem contribuições relacionadas à interação de usuários idosos, novatos ou com pouca experiência com sistemas computacionais. Essa delimitação permite considerar diferentes evidências relacionadas às dificuldades de interação e às estratégias utilizadas para tornar interfaces mais adequadas a esses usuários.
+A definição dos critérios também considerou a necessidade de incluir estudos que, mesmo não tratando exclusivamente de pessoas com baixa alfabetização informática, apresentassem contribuições relacionadas à interação de usuários idosos, novatos ou com pouca experiência com sistemas computacionais. Essa delimitação permitiu considerar diferentes evidências relacionadas às dificuldades de interação, às características dos usuários e às estratégias utilizadas para avaliar e desenvolver interfaces destinadas a esses públicos.
 
-Neste ponto será apresentada a Tabela~\ref{tab:criterios}, contendo os critérios de inclusão e exclusão:
+Os critérios foram aplicados durante as etapas de seleção dos estudos, inicialmente por meio da análise dos títulos e resumos e, posteriormente, por meio da leitura completa dos trabalhos selecionados para essa etapa. Após a definição do conjunto final de estudos, as questões de pesquisa foram utilizadas para orientar a extração e a organização das informações relevantes encontradas na literatura.
+
+Neste ponto será apresentada a Tabela~\ref{tab:criterios}, contendo os critérios de inclusão e exclusão utilizados na seleção dos estudos.
 
 \input{tabelas/tabela3.tex}
 
 
 \section{Processo de Seleção dos Estudos}
 
-A aplicação da estratégia de busca nas bases Scopus, IEEE Xplore e Engineering Village retornou inicialmente 601, 254 e 448 documentos, respectivamente.
+A aplicação das estratégias de busca nas bases Scopus, IEEE Xplore e Engineering Village retornou inicialmente 601, 254 e 448 documentos, respectivamente.
 
 Após a aplicação dos filtros disponíveis nas respectivas bases, foram considerados apenas artigos científicos, reduzindo o conjunto da Scopus para 180 estudos, o da IEEE Xplore para 231 estudos e o da Engineering Village para 278 estudos. Em seguida, foram aplicados os filtros temáticos definidos para a pesquisa, resultando em 71 artigos potencialmente relevantes na Scopus, 71 na IEEE Xplore e 145 na Engineering Village.
 
 Na etapa seguinte, foi realizada a leitura dos títulos e resumos dos estudos identificados. Essa etapa resultou em 28 artigos selecionados na Scopus, 46 na IEEE Xplore e 62 na Engineering Village, após a eliminação dos trabalhos que não apresentavam relação suficiente com o escopo da pesquisa.
 
-Por fim, foi realizada a leitura completa dos estudos remanescentes, considerando os critérios de inclusão e exclusão previamente estabelecidos. Ao final desse processo, foram incluídos 21 artigos provenientes da Scopus, 31 artigos provenientes da IEEE Xplore e 27 artigos provenientes da Engineering Village para compor a revisão da literatura.
+Por fim, foi realizada a leitura completa dos estudos remanescentes, considerando os critérios de inclusão e exclusão previamente estabelecidos. Ao final desse processo, foram incluídos 21 artigos provenientes da Scopus, 31 artigos provenientes da IEEE Xplore e 27 artigos provenientes da Engineering Village para compor o conjunto de estudos analisados na revisão.
 
 A Tabela~\ref{tab:processoSelecao} apresenta um resumo quantitativo das etapas percorridas durante o processo de seleção dos estudos nas três bases de dados utilizadas na pesquisa.
 
 \input{tabelas/tabela4.tex}
 
-O processo de seleção dos estudos foi realizado em etapas sucessivas, desde a recuperação inicial dos documentos até a definição do conjunto final de trabalhos incluídos na revisão. A Figura~\ref{imagens:fluxograma_rapid_review} apresenta esse processo.
+O processo de seleção dos estudos foi realizado em etapas sucessivas, desde a recuperação inicial dos documentos até a definição do conjunto final de trabalhos incluídos na revisão. A Figura~\ref{imagens:fluxograma_rapid_review} apresenta o fluxo desse processo.
 
 \begin{figure}[H]
 
     \centering
 
-    \includegraphics[width=0.60\textwidth]{imagens/fluxograma_rapid_review.png}
+    \includegraphics[width=0.60\textwidth]{imagens/fluxograma_revisao_sistematica.png}
 
-    \caption{Fluxo do processo de seleção dos estudos da Rapid Review.}
+    \caption{Fluxo do processo de seleção dos estudos da revisão sistemática da literatura.}
 
-    \label{imagens:fluxograma_rapid_review}
+    \label{imagens:fluxograma_revisao_sistematica}
 
 \end{figure}
 
 
 \section{Estudos Selecionados}
 
-Os artigos selecionados abrangem diferentes contextos de aplicação, incluindo sistemas governamentais, aplicações de saúde, tecnologias assistivas, plataformas Web e estudos voltados à interação de usuários idosos ou iniciantes com sistemas computacionais.
+Os estudos selecionados abrangem diferentes contextos de aplicação, incluindo sistemas governamentais, aplicações de saúde, tecnologias assistivas, plataformas Web e pesquisas voltadas à interação de usuários idosos ou iniciantes com sistemas computacionais.
 
-Entre os estudos selecionados, \cite{sharit2008information} investigaram a relação entre conhecimento sobre a Internet, capacidades cognitivas e desempenho durante atividades de busca de informações na Web. Os resultados apresentados pelos autores relacionam características cognitivas e conhecimento prévio ao desempenho dos participantes, fornecendo subsídios para a definição de estratégias de projeto e treinamento adaptadas às necessidades dos usuários.
+Entre os estudos selecionados, \cite{sharit2008information} investigaram a relação entre conhecimento sobre a Internet, capacidades cognitivas e desempenho durante atividades de busca de informações na Web. Os resultados apresentados pelos autores relacionam características cognitivas e conhecimento prévio ao desempenho dos participantes, fornecendo evidências sobre fatores que podem influenciar a interação de usuários com diferentes níveis de experiência.
 
 \cite{weighted_heuristic} desenvolveram uma abordagem de avaliação heurística ponderada para websites destinados a usuários idosos. O estudo relacionou características da interface a medidas de desempenho, considerando indicadores como tempo de execução das tarefas, quantidade de cliques, número de erros e pontuações obtidas no System Usability Scale (SUS).
 
@@ -112,34 +120,34 @@ Outros trabalhos concentram-se na identificação das necessidades dos usuários
 
 Também foram identificados estudos relacionados ao desenvolvimento de tecnologias assistivas. O trabalho apresentado por \cite{breaking_barriers} descreve o desenvolvimento de uma aplicação Web voltada a adultos mais velhos com deficiências, utilizando uma abordagem centrada no usuário e avaliações com participantes do público-alvo para analisar aspectos relacionados à acessibilidade e à usabilidade.
 
-A Tabela~\ref{tab:selected_papers} apresenta todos os estudos selecionados.
+A Tabela~\ref{tab:selected_papers} apresenta os estudos selecionados para compor a revisão.
 
 \input{tabelas/tabela5.tex}
 
 
-\section{Síntese dos Trabalhos Relacionados}
+\section{Síntese dos Estudos Selecionados}
 
-A análise dos estudos selecionados permitiu identificar quatro principais eixos de contribuição relacionados ao problema investigado.
+A análise dos estudos selecionados permitiu identificar diferentes dimensões de contribuição relacionadas ao problema investigado. Entre elas estão as métricas utilizadas na avaliação de interfaces, os elementos e diretrizes de design, os métodos e estratégias de avaliação e as características dos usuários e dos contextos de uso.
 
-O primeiro eixo reúne pesquisas que investigam métricas de usabilidade e desempenho. \cite{weighted_heuristic}, por exemplo, utilizaram tempo de execução das tarefas, quantidade de cliques, número de erros e pontuações do SUS para analisar a interação de usuários idosos com diferentes websites. Os resultados demonstraram diferenças de desempenho entre os websites avaliados e indicaram uma relação entre determinadas medidas de desempenho e a avaliação de usabilidade.
+As métricas de usabilidade e acessibilidade constituem uma das dimensões identificadas nos estudos. \cite{weighted_heuristic}, por exemplo, utilizaram tempo de execução das tarefas, quantidade de cliques, número de erros e pontuações do SUS para analisar a interação de usuários idosos com diferentes websites. Os resultados demonstraram diferenças de desempenho entre os websites avaliados e indicaram uma relação entre determinadas medidas de desempenho e a avaliação de usabilidade.
 
-O segundo eixo concentra estudos voltados às características e às diretrizes de design de interface. O estudo de \cite{health_problem_solving} identificou dificuldades relacionadas à navegação, à rolagem e à localização de elementos durante a execução de tarefas complexas. Os autores discutem a necessidade de fornecer elementos de navegação de maneira clara e de oferecer suporte aos usuários quando a utilização de páginas extensas ou tarefas com múltiplas etapas exige maior esforço cognitivo.
+Outra dimensão envolve os elementos de interface, diretrizes e princípios de design apresentados nos estudos. O trabalho de \cite{health_problem_solving} identificou dificuldades relacionadas à navegação, à rolagem e à localização de elementos durante a execução de tarefas complexas. Os autores discutem a necessidade de fornecer elementos de navegação de maneira clara e de oferecer suporte aos usuários quando a utilização de páginas extensas ou tarefas com múltiplas etapas exige maior esforço cognitivo.
 
 As necessidades relacionadas à apresentação das informações e à interação também são discutidas no estudo sobre mídias sociais para usuários idosos. \cite{social_media_elderly} apresenta requisitos relacionados à clareza das informações, ao feedback das ações realizadas e à facilidade de localização de conteúdos, além de destacar a importância de considerar as características e necessidades dos usuários durante o processo de projeto.
 
-O terceiro eixo contempla métodos de avaliação e estratégias centradas no usuário. O trabalho de \cite{breaking_barriers} empregou uma abordagem centrada no usuário e realizou avaliações com participantes pertencentes ao público-alvo, considerando aspectos relacionados à acessibilidade e à facilidade de uso da aplicação. Da mesma forma, \cite{cowan2011exploring} utilizaram avaliações com usuários novatos para analisar a usabilidade e a ansiedade durante a interação com uma interface.
+Os estudos também apresentam diferentes métodos e estratégias utilizados para avaliar a usabilidade e a acessibilidade das interfaces. O trabalho de \cite{breaking_barriers} empregou uma abordagem centrada no usuário e realizou avaliações com participantes pertencentes ao público-alvo, considerando aspectos relacionados à acessibilidade e à facilidade de uso da aplicação. Da mesma forma, \cite{cowan2011exploring} utilizaram avaliações com usuários novatos para analisar a usabilidade e a ansiedade durante a interação com uma interface.
 
-O quarto eixo reúne trabalhos que investigam estratégias de apoio e adaptação às características dos usuários. \cite{kabassi2004personalised} apresentaram um ambiente de treinamento adaptativo para adultos novatos, considerando diferentes características individuais durante o processo de aprendizagem. \cite{sharit2008information}, por sua vez, investigaram conhecimentos relacionados à Internet, capacidades cognitivas e características das tarefas como fatores associados ao desempenho de usuários idosos durante atividades de busca de informações.
+Outra dimensão identificada corresponde às características dos usuários e aos contextos de uso considerados pelos estudos. \cite{kabassi2004personalised} apresentaram um ambiente de treinamento adaptativo para adultos novatos, considerando diferentes características individuais durante o processo de aprendizagem. \cite{sharit2008information}, por sua vez, investigaram conhecimentos relacionados à Internet, capacidades cognitivas e características das tarefas como fatores associados ao desempenho de usuários idosos durante atividades de busca de informações.
 
-A partir desses estudos, observa-se que a literatura apresenta contribuições relacionadas a diferentes dimensões do desenvolvimento e da avaliação de interfaces, incluindo métricas de desempenho, características dos usuários, requisitos de interface, métodos de avaliação e estratégias de apoio à interação.
+Essas dimensões serão utilizadas como referência para a organização e análise dos resultados da revisão sistemática. No capítulo seguinte, os estudos selecionados serão analisados de acordo com as questões de pesquisa definidas, permitindo sintetizar as contribuições identificadas na literatura.
 
 
 \section{Considerações Finais do Capítulo}
 
-A revisão da literatura permitiu identificar diferentes abordagens relacionadas ao desenvolvimento e à avaliação de interfaces destinadas a usuários com diferentes níveis de experiência e familiaridade com tecnologias digitais.
+O processo apresentado neste capítulo descreveu as etapas utilizadas para a realização da revisão sistemática da literatura, incluindo a definição das bases de dados, a elaboração das estratégias de busca, o estabelecimento dos critérios de inclusão e exclusão e a seleção dos estudos.
 
-Os estudos analisados apresentam contribuições relacionadas a métricas de desempenho e usabilidade, características dos usuários, requisitos de interface, métodos de avaliação, treinamento e estratégias centradas no usuário. Assim como apresentado por \cite{weighted_heuristic}, e por \cite{health_problem_solving}, essas contribuições encontram-se medidas como tempo de execução, quantidade de cliques, número de erros e SUS, além de aspectos relacionados à organização da navegação e à realização de tarefas complexas.
+Ao final do processo, foram selecionados 21 estudos provenientes da Scopus, 31 da IEEE Xplore e 27 da Engineering Village, totalizando 79 estudos para análise. Os trabalhos selecionados abrangem diferentes contextos e apresentam contribuições relacionadas à usabilidade, acessibilidade, características dos usuários, elementos de interface e métodos de avaliação.
 
-Também foram identificadas estratégias voltadas à aprendizagem e à experiência inicial de usuários novatos. \cite{cowan2011exploring} investigaram a influência de diferentes formas de treinamento sobre a usabilidade e a ansiedade durante a interação, enquanto \cite{kabassi2004personalised} apresentaram uma abordagem de treinamento adaptativo para adultos novatos.
+A análise inicial dos estudos também permitiu identificar diferentes dimensões relacionadas às questões investigadas, envolvendo métricas, elementos e diretrizes de interface, métodos de avaliação e características dos usuários e contextos de uso.
 
-Os estudos selecionados, portanto, fornecem a base teórica e empírica para as etapas seguintes da pesquisa. A partir dessas contribuições, o próximo capítulo apresenta os resultados da revisão, organizando as métricas, diretrizes, métodos e elementos de interface identificados nos estudos analisados.
+Com base nesse conjunto de estudos, o próximo capítulo apresenta os resultados da revisão sistemática, organizando e sintetizando as evidências identificadas de acordo com as questões de pesquisa estabelecidas.
