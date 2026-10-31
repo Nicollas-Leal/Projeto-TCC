@@ -2,10 +2,11 @@
 
 \label{sec:fundamentacao}
 
-A fundamentação teórica reúne os conceitos, modelos e estudos que embasam este trabalho, oferecendo a base necessária para a análise e a síntese da literatura relacionada ao desenvolvimento de sistemas e interfaces voltados a pessoas com baixa alfabetização informática. Nesta seção são abordados os principais tópicos que formam o arcabouço conceitual da pesquisa: alfabetização digital e inclusão, princípios de Interação Humano-Computador (IHC), métricas e métodos de avaliação de usabilidade e acessibilidade, diretrizes de design para usuários com baixa proficiência digital e componentes e recursos de interface identificados na literatura.
+A fundamentação teórica reúne os conceitos, modelos e estudos que embasam este trabalho, oferecendo a base necessária para a análise e a síntese da literatura relacionada ao desenvolvimento de sistemas e interfaces voltados a pessoas com baixa alfabetização informática. Nesta seção são abordados os principais tópicos que formam o arcabouço conceitual da pesquisa: alfabetização digital, divisão digital e inclusão tecnológica; fundamentos de Interação Humano-Computador, usabilidade e acessibilidade; métricas e métodos de avaliação; diretrizes e princípios de design para usuários com baixa proficiência digital; componentes e padrões de interface; abordagens de desenvolvimento e avaliação centradas no usuário; e lacunas identificadas na literatura.
 
+\section{Alfabetização digital, divisão digital e inclusão tecnológica}
 
-\section{Alfabetização digital e inclusão tecnológica}
+\label{sec:alfabetizacao}
 
 A alfabetização digital está relacionada aos conhecimentos e habilidades necessários para utilizar tecnologias digitais e realizar atividades mediadas por computadores e outros recursos tecnológicos. \cite{kabassi2004personalised} discutem que a alfabetização digital e a familiaridade com tecnologias da informação passaram a ser necessárias em diferentes atividades da vida cotidiana. Os autores também destacam a existência de adultos que não tiveram oportunidade de receber formação em informática e que podem apresentar pouca ou nenhuma familiaridade com computadores.
 
@@ -13,102 +14,300 @@ A relação entre conhecimento prévio e utilização de recursos digitais tamb�
 
 A pouca familiaridade com sistemas computacionais também pode estar relacionada à experiência inicial do usuário. \cite{cowan2011exploring} investigaram usuários novatos durante a utilização de uma interface Web e analisaram a influência de diferentes formas de treinamento sobre a usabilidade e a ansiedade durante a interação. Os autores observaram que a utilização de tutoriais incorporados ao sistema esteve associada a avaliações de usabilidade mais positivas e a uma redução da ansiedade durante a interação.
 
-Dessa forma, a literatura indica que o conhecimento prévio, a familiaridade com tecnologias e as características das tarefas devem ser considerados na análise da interação de usuários com diferentes níveis de experiência. Esses aspectos são relevantes para a compreensão dos fatores que podem facilitar ou dificultar a utilização de sistemas por pessoas com pouca familiaridade com computadores.
+A discussão sobre alfabetização digital se aproxima da noção de divisão digital, que descreve diferenças no acesso e no uso efetivo de tecnologias entre grupos sociais. \cite{nosseir2011novice} investigaram a percepção de usuários novatos e experientes sobre serviços eletrônicos no setor público egípcio e observaram que usuários novatos avaliam a usabilidade e a qualidade da informação de forma distinta dos experientes, com foco em aparência, facilidade de uso e compreensão. Os autores argumentam que as dimensões de avaliação tradicionalmente empregadas pressupõem experiência prévia e podem não ser adequadas para caracterizar a percepção de usuários novatos. Essa observação é relevante para o presente trabalho porque indica que a experiência anterior com tecnologia modifica não apenas o desempenho, mas também os critérios pelos quais os usuários avaliam a qualidade das interfaces.
 
+No contexto de envelhecimento, \cite{ahmad2013teaching} discutem as mudanças físicas, cognitivas e comportamentais associadas à idade que impactam a interação com tecnologias Web. Os autores destacam a redução da acuidade visual, a diminuição da capacidade auditiva, a redução da memória de curto prazo, a maior cautela diante de respostas potencialmente incorretas e a tendência a utilizar apenas tecnologias percebidas como valiosas. Esses fatores, segundo os autores, devem ser considerados no desenvolvimento de interfaces para usuários idosos, uma vez que a aprendizagem de novas tecnologias pode se tornar mais lenta e mais sensível a erros.
+
+\cite{barron2013feasibility} abordam a viabilidade de fornecer informações personalizadas de saúde a idosos e cuidadores por meio de portais Web. Os autores observam que o conteúdo do portal não estava alinhado ao nível de letramento em saúde da população avaliada e que a navegação se mostrou complexa para a maioria dos pacientes idosos, embora os participantes tenham reconhecido a importância do sistema. O estudo reforça a ideia de que a inclusão digital não depende apenas do acesso à tecnologia, mas também da adequação da linguagem, da organização do conteúdo e do suporte oferecido ao usuário.
+
+\cite{filgueiras2009recoverability} discutem a inclusão digital de populações com baixa ou nenhuma experiência com computadores, incluindo pessoas iletradas e funcionalmente iletradas, idosos e pessoas com deficiência visual ou auditiva. Os autores argumentam que interfaces de inclusão digital devem embutir recursos de aprendizagem no próprio modelo de interação, permitindo que o usuário aprenda a utilizar o computador enquanto avança em direção aos seus objetivos. Essa perspectiva é complementar à de \cite{ahmad2013teaching}, que destacam a necessidade de treinamento e de tempo adequado para a aprendizagem de novas tecnologias por idosos.
+
+Modelos de aceitação de tecnologia oferecem uma perspectiva adicional para a compreensão da inclusão digital. \cite{lee2021factors} utilizam os Modelos de Aceitação de Tecnologia (TAM) 1, 2 e 3 para analisar fatores que facilitam o engajamento sociocognitivo-afetivo e o lúdico entre idosos malaios. Os autores identificam que construtos como ajuste, prazer percebido e facilidade de uso percebida são relevantes para a adoção de sistemas por esse público, e relacionam categorias positivas do instrumento P-PLEX a um inventário de relaxamento que envolve tensões cognitivas, tensões fisiológicas e avaliações físicas. Essa discussão é relevante para o presente trabalho porque associa inclusão digital a fatores motivacionais e afetivos, e não apenas a aspectos funcionais.
+
+Dessa forma, a literatura indica que o conhecimento prévio, a familiaridade com tecnologias, as características das tarefas e os aspectos motivacionais e afetivos devem ser considerados na análise da interação de usuários com diferentes níveis de experiência. Esses aspectos são relevantes para a compreensão dos fatores que podem facilitar ou dificultar a utilização de sistemas por pessoas com pouca familiaridade com computadores.
 
 \section{Interação Humano-Computador, usabilidade e acessibilidade}
 
-A Interação Humano-Computador está relacionada ao estudo da interação entre pessoas e sistemas computacionais, considerando aspectos associados à forma como os usuários realizam tarefas por meio das interfaces. Estudos presentes na literatura analisam essa interação a partir de características dos usuários, das tarefas e dos elementos que compõem os sistemas.
+\label{sec:ihc}
 
-No contexto de usuários com baixa alfabetização informática, aspectos relacionados à compreensão das informações e à realização das tarefas tornam-se relevantes. \cite{sharit2008information} identificaram relações entre o conhecimento sobre a Internet, capacidades cognitivas e desempenho durante atividades de busca de informações. Os autores também observaram que a complexidade dos problemas influencia quais capacidades são mais relevantes para o desempenho dos usuários.
+A Interação Humano-Computador está relacionada ao estudo da interação entre pessoas e sistemas computacionais, considerando aspectos associados à forma como os usuários realizam tarefas por meio das interfaces. Esta seção organiza os principais referenciais teóricos utilizados neste trabalho em quatro subseções: heurísticas e princípios de usabilidade, usabilidade e experiência do usuário segundo a ISO 9241, modelos mentais e processos cognitivos e, por fim, acessibilidade e WCAG.
 
-A usabilidade pode ser analisada por meio de medidas relacionadas ao desempenho e à percepção dos usuários. \cite{weighted_heuristic} utilizaram, em sua avaliação de websites para usuários idosos, medidas como tempo total de execução das tarefas, quantidade de cliques, número de erros e pontuações obtidas por meio do System Usability Scale (SUS). Os resultados mostraram diferenças de desempenho entre os websites avaliados e relações entre os indicadores de desempenho e a avaliação de usabilidade.
+\subsection{Heurísticas e princípios de usabilidade}
 
-A acessibilidade também constitui um aspecto relevante no desenvolvimento e na avaliação de interfaces destinadas a diferentes perfis de usuários. No estudo de \cite{breaking_barriers}, o desenvolvimento de uma aplicação Web destinada a adultos mais velhos com deficiências considerou as necessidades do público-alvo e aspectos relacionados à acessibilidade durante o processo de desenvolvimento e avaliação.
+\label{sec:heuristicas}
 
-Em aplicações destinadas a diferentes perfis de usuários, a avaliação de usabilidade também pode revelar problemas que não são identificados apenas pela análise da interface. \cite{secure_messaging} utilizaram métodos qualitativos e quantitativos para avaliar um sistema de mensagens seguras, considerando erros de uso, conclusão de tarefas, tempo de execução e satisfação dos usuários. Os autores identificaram problemas relacionados a instruções pouco claras e destacaram a importância de aspectos de eficiência, treinamento e personalização da interface.
+As heurísticas de Nielsen constituem um dos referenciais mais utilizados na avaliação de interfaces. \cite{kurniawan2005research} derivam diretrizes de design Web para idosos a partir de uma revisão da literatura e de estudos empíricos, organizando recomendações em categorias como legibilidade, navegação, consistência, feedback e suporte ao usuário. Os autores argumentam que as diretrizes existentes para a população em geral não são suficientes para atender às necessidades específicas de usuários idosos, e propõem um conjunto de recomendações adaptadas.
 
-Essas contribuições demonstram que usabilidade e acessibilidade podem ser analisadas a partir de diferentes aspectos da interação, incluindo o desempenho na realização de tarefas, a percepção dos usuários e as características da própria interface. A consideração desses aspectos permite compreender diferentes formas pelas quais a literatura investiga a interação de usuários com sistemas computacionais.
+\cite{wang2020research} utiliza as heurísticas de usabilidade de Nielsen em conjunto com o modelo de design emocional de Norman para analisar a interação de idosos com interfaces Web. O autor discute que a usabilidade envolve aspectos como facilidade de aprendizagem, eficiência, facilidade de memorização, tolerância a erros e satisfação, e que esses aspectos devem ser considerados em conjunto com as características físicas e cognitivas do público-alvo. A partir de uma análise hierárquica de requisitos, o autor identifica que a orientação da operação, a conformidade com a experiência de vida e a lógica de operação previsível são as necessidades mais valorizadas pelos usuários idosos.
 
+\cite{shi2016supporting} apresentam um conjunto de princípios de IHC utilizados no desenvolvimento de um website para um projeto de digitalização de patrimônio histórico, voltado majoritariamente a usuários idosos. Entre os princípios adotados estão consistência, previsibilidade, adaptabilidade, economia e prevenção de erros, controle do usuário, estrutura, intuitividade, resposta tempestiva, relevância, suporte e flexibilidade. Os autores argumentam que esses princípios devem ser combinados com diretrizes específicas para idosos, como legibilidade, instruções claras e tempo adequado para a realização de tarefas.
+
+\cite{nosseir2011novice} utilizam o instrumento e-Qual, que agrupa dimensões de qualidade de serviços eletrônicos em usabilidade, qualidade da informação e interação de serviço, para comparar a percepção de usuários novatos e experientes. Os autores observam que usuários novatos avaliam as dimensões de usabilidade e qualidade da informação de forma mais positiva do que usuários experientes, e atribuem essa diferença à novidade da experiência. O estudo também destaca que usuários novatos tendem a valorizar a aparência atrativa, a facilidade de aprendizagem e a compreensão da interação.
+
+\subsection{Usabilidade e experiência do usuário segundo a ISO 9241}
+
+\label{sec:iso9241}
+
+A usabilidade é definida pela ISO 9241-11 como a extensão na qual um sistema, produto ou serviço pode ser utilizado por usuários especificados para atingir objetivos especificados com eficácia, eficiência e satisfação em um contexto de uso especificado. \cite{herrera2026applicability} utilizam essa definição para estruturar a avaliação de usabilidade de um motor de busca geoespacial e distinguem usabilidade de experiência do usuário, que é definida pela ISO 9241-210 como as percepções e respostas que resultam do uso ou do uso antecipado de um sistema, produto ou serviço.
+
+\cite{gatsou2017seniors} adotam a definição da ISO 9241-210 em seu estudo sobre a experiência de idosos com serviços bancários on-line. Os autores argumentam que a experiência do usuário é subjetiva e focada no uso, e que sua qualidade determina se os idosos adotam ou não um sistema. A partir de um teste de usabilidade com doze participantes idosos, os autores observam que os websites avaliados apresentaram problemas relacionados a navegação confusa, textos pequenos, cores com contraste inadequado, ícones abstratos e terminologia incompreensível.
+
+A distinção entre eficácia, eficiência e satisfação é útil para organizar as métricas de avaliação adotadas neste trabalho. \cite{xie2010usability} avaliam a usabilidade de um protótipo de website baseado em mapas para seleção de casas de repouso por idosos e relatam métricas de conclusão de tarefas, tempo de execução e satisfação percebida. Os autores observam que a maioria dos participantes não conseguiu completar a maior parte das tarefas e que a página de mapa se mostrou confusa para usuários com pouca experiência com mapas eletrônicos.
+
+\subsection{Modelos mentais, processos cognitivos e design emocional}
+
+\label{sec:norman}
+
+O conceito de modelo mental é central para a compreensão da interação entre usuários e sistemas. \cite{mastarone2007access} analisam a usabilidade de um sistema de autoatendimento jurídico e argumentam que os usuários chegam ao sistema com modelos mentais formados por experiências anteriores com tarefas semelhantes. Quando o sistema não corresponde a esses modelos, os usuários podem se sentir perdidos e não conseguir concluir as tarefas. Os autores recomendam que o design de sistemas processuais seja modelado a partir de referências familiares, como o comércio eletrônico, com etapas claramente delimitadas e um produto final visível.
+
+\cite{herrera2026applicability} utilizam o conceito de modelo mental para analisar a interação de usuários com um motor de busca geoespacial. Os autores distinguem o modelo conceitual dos designers do modelo mental dos usuários e argumentam que discrepâncias entre esses modelos podem reduzir a usabilidade e levar à subutilização de funcionalidades. A partir de técnicas de mineração de processos, os autores observam que os usuários tenderam a adotar um modelo mental semelhante ao de motores de busca genéricos, em vez de explorar plenamente as funcionalidades geográficas do sistema.
+
+\cite{shi2026usability} recorrem à noção de lacunas de execução e de avaliação de Norman para analisar a interação de usuários novatos com geradores de websites baseados em inteligência artificial. Os autores argumentam que, em sistemas generativos de alta autonomia, as dificuldades dos usuários se deslocam da execução para a avaliação, uma vez que os usuários precisam julgar a qualidade dos artefatos gerados e decidir como refiná-los. Essa perspectiva é relevante para o presente trabalho porque indica que a avaliação de sistemas por usuários novatos envolve não apenas a capacidade de operar a interface, mas também a capacidade de julgar a qualidade dos resultados produzidos.
+
+\cite{wang2020research} utiliza o modelo de design emocional de Norman, que distingue os níveis instintivo, comportamental e reflexivo, para analisar as necessidades de usuários idosos. O autor argumenta que as necessidades no nível instintivo estão relacionadas à facilidade de aprendizagem, as do nível comportamental à eficiência, à facilidade de memorização e à tolerância a erros, e as do nível reflexivo à satisfação. A partir dessa distinção, o autor propõe recomendações de design que combinam aspectos funcionais e afetivos.
+
+\subsection{Acessibilidade e WCAG}
+
+\label{sec:wcag}
+
+A acessibilidade constitui um aspecto central no desenvolvimento e na avaliação de interfaces destinadas a diferentes perfis de usuários. As Diretrizes de Acessibilidade para Conteúdo Web (WCAG), publicadas pelo W3C, organizam recomendações em princípios, diretrizes, critérios de sucesso e técnicas, com o objetivo de tornar o conteúdo Web acessível a pessoas com diferentes deficiências.
+
+\cite{sun2010preliminary} revisam diretrizes internacionais de acessibilidade para idosos, incluindo a WCAG 1.0 e a WCAG 2.0, e propõem um conjunto de trinta recomendações organizadas em categorias como perceptível, operável, compreensível e robusto. Os autores argumentam que as diretrizes existentes não cobrem integralmente as necessidades de idosos, e destacam a importância de aspectos como contraste, tamanho de fonte, navegação, estrutura de informação e tempo adequado para a leitura.
+
+\cite{wickramathilaka2023addressing} analisam a literatura sobre adaptação de interfaces baseada em engenharia dirigida por modelos e identificam lacunas em relação à WCAG. Os autores observam que a maioria das abordagens existentes cobre apenas parcialmente os critérios da WCAG, com lacunas em aspectos como multimodalidade, navegação, adaptação de layout, atividades com tempo limitado, tratamento de erros e proficiência linguística. A partir dessa análise, os autores propõem uma agenda de pesquisa para o desenvolvimento de linguagens específicas de domínio que permitam modelar cenários de acessibilidade de idosos de forma compatível com a WCAG.
+
+\cite{gonzalez2025augmenting} utilizam a WCAG como referência para definir operações de acessibilidade em um framework de aumento Web voltado a websites de turismo. Entre as operações implementadas estão leitura em voz alta de trechos selecionados, foco nas partes principais do website, aumento e diminuição do tamanho da fonte, navegação facilitada, gerenciamento do histórico de navegação e exibição de vídeos. Os autores argumentam que a WCAG fornece uma base para a definição de operações de acessibilidade, mas que a aplicação dessas operações a websites existentes requer mecanismos adicionais de adaptação.
+
+\cite{xie2010usability} discutem a conformidade com a WCAG e com a Seção 508 em um estudo de usabilidade de um website baseado em mapas. Os autores observam que a página de mapa se mostrou desafiadora para usuários idosos com pouca experiência com mapas eletrônicos, e recomendam a oferta de uma versão textual que apresente as mesmas informações em formato de lista, em conformidade com os requisitos de acessibilidade.
+
+\cite{ahmad2013teaching} destacam que a WCAG 2.0 cobre uma ampla gama de questões relacionadas a deficiências visuais, auditivas, físicas, de fala, cognitivas, de linguagem, de aprendizagem e neurológicas, mas que poucos websites são efetivamente desenvolvidos com base nessas diretrizes. \cite{dombrovskaia2021guideline} avaliam a conformidade de websites chilenos com uma diretriz de design inclusivo para idosos e observam que, embora a média de conformidade seja de 72\%, as categorias de comunicação e visualização apresentam os menores índices de conformidade.
+
+\cite{chiriboga2025accessible} discutem desafios e soluções de design Web acessível para adultos mais velhos, e argumentam que a acessibilidade deve ser considerada de forma integrada ao processo de desenvolvimento, e não como um requisito adicional. Essa perspectiva é consistente com a de \cite{wickramathilaka2023addressing}, que defendem que a acessibilidade deve ser tratada como um cidadão de primeira classe no processo de modelagem de interfaces.
+
+Essas contribuições demonstram que usabilidade e acessibilidade podem ser analisadas a partir de diferentes aspectos da interação, incluindo o desempenho na realização de tarefas, a percepção dos usuários, as características da própria interface e a conformidade com diretrizes formais. A consideração desses aspectos permite compreender diferentes formas pelas quais a literatura investiga a interação de usuários com sistemas computacionais.
 
 \section{Métricas e métodos de avaliação de usabilidade e acessibilidade}
 
-A avaliação da interação pode utilizar diferentes métricas para analisar o desempenho dos usuários durante a realização de tarefas. \cite{weighted_heuristic} utilizaram tempo de execução, quantidade de cliques, número de erros e pontuações do SUS para avaliar diferentes websites. O estudo também demonstrou que alterações no índice de usabilidade estavam associadas a diferenças no tempo de conclusão das tarefas, na quantidade de cliques e no número de erros.
+\label{sec:metricas}
 
-De forma complementar, \cite{secure_messaging} avaliaram um sistema de mensagens utilizando dados de conclusão das tarefas, tempo de execução, erros de uso e satisfação. Os autores também utilizaram observação e registros das sessões de uso para identificar aspectos que facilitavam ou dificultavam a interação.
+A avaliação da interação pode utilizar diferentes métricas para analisar o desempenho dos usuários durante a realização de tarefas. Esta seção organiza as métricas e métodos em quatro subseções: métricas de desempenho, o System Usability Scale (SUS) e medidas perceptivas, métodos de inspeção e avaliação precoce e, por fim, testes com usuários idosos e novatos.
 
-As técnicas de avaliação podem, portanto, combinar informações quantitativas e qualitativas. A utilização de métricas de desempenho permite analisar aspectos observáveis da interação, enquanto entrevistas, questionários e observações podem contribuir para a identificação das dificuldades percebidas pelos usuários. No estudo de \cite{cowan2011exploring}, por exemplo, foram utilizadas medidas de usabilidade e de ansiedade para investigar a experiência de usuários novatos durante diferentes condições de treinamento.
+\subsection{Métricas de desempenho}
 
-No campo de interfaces destinadas a usuários idosos, \cite{health_problem_solving} empregou uma abordagem baseada em análise hierárquica de tarefas para investigar a realização de atividades complexas em um website governamental. O estudo identificou dificuldades relacionadas à execução de tarefas compostas por múltiplas etapas e analisou aspectos da interação que poderiam dificultar a continuidade da atividade.
+\label{sec:metricas_desempenho}
 
-Esses estudos demonstram que a literatura emprega diferentes métricas e métodos para avaliar a interação, abrangendo medidas de desempenho, percepção dos usuários, observação da interação e análise das tarefas. A identificação dessas abordagens é relevante para compreender como a usabilidade e a acessibilidade de interfaces voltadas a usuários com diferentes níveis de experiência são investigadas.
+As métricas de desempenho mais frequentemente utilizadas na literatura incluem tempo de execução, número de erros, taxa de conclusão de tarefas e quantidade de cliques. \cite{weighted_heuristic} utilizam tempo total de execução, quantidade de cliques, número de erros e pontuações obtidas por meio do System Usability Scale (SUS) para avaliar diferentes websites destinados a usuários idosos. Os resultados mostraram diferenças de desempenho entre os websites avaliados e relações entre os indicadores de desempenho e a avaliação de usabilidade.
 
+\cite{gatsou2017seniors} utilizam métricas de eficácia, eficiência e satisfação para avaliar a experiência de idosos com dois websites de serviços bancários. A eficácia foi medida pela taxa de sucesso na conclusão das tarefas, a eficiência pelo tempo necessário para concluir cada tarefa e a satisfação por meio de questionário pós-teste. Os autores observam que a maioria dos participantes encontrou dificuldades em tarefas que envolviam transações e impressão de comprovantes, e relacionam essas dificuldades a características da interface, como tamanho reduzido de ícones, contraste inadequado e terminologia incompreensível.
+
+\cite{xie2010usability} registram tempo de execução e grau de conclusão de cada tarefa, além de observações e comentários dos participantes. Os autores observam que a maioria dos participantes não conseguiu completar a maior parte das tarefas dentro do tempo previsto, e que o tempo médio por tarefa foi de aproximadamente oito minutos.
+
+\cite{filgueiras2009recoverability} propõem o método Recoverability Walkthrough, que estende o Cognitive Walkthrough com duas questões adicionais sobre erro e recuperação. O método parte da premissa de que, em uma interface que suporta múltiplas tarefas, todas as opções apresentadas ao usuário são erradas exceto uma, e que o sistema deve ser projetado para permitir que o usuário se recupere de navegações equivocadas. Os autores argumentam que essa abordagem é particularmente adequada para interfaces de inclusão digital, uma vez que usuários com pouca experiência tendem a explorar a interface antes de compreender o que estão fazendo.
+
+\cite{taylor2009using} comparam duas abordagens para a construção de perfis de usuários idosos: observação e detecção de erros. Os autores registram erros de mouse, rolagem, acesso e cliques, e utilizam esses dados para ajustar o perfil do usuário e adaptar as páginas Web. Os resultados indicaram que não houve diferença estatisticamente significativa entre os perfis construídos por observação e por detecção de erros, sugerindo que a detecção de erros pode ser uma alternativa viável à observação, que é mais laboriosa.
+
+\subsection{SUS e medidas perceptivas}
+
+\label{sec:sus}
+
+O System Usability Scale (SUS) é um dos instrumentos mais utilizados na avaliação da usabilidade percebida. \cite{allah2021empathy} utilizam o SUS para validar os resultados obtidos por meio de um mapa de empatia em um estudo sobre a interação de idosos com interfaces de busca Web. Os autores observam que as pontuações do SUS foram consistentes com os achados do mapa de empatia, indicando que os idosos estavam insatisfeitos com a usabilidade das interfaces avaliadas.
+
+\cite{herrera2026applicability} utilizam o SUS para avaliar a usabilidade de um motor de busca geoespacial e comparam as pontuações entre diferentes grupos de usuários. Os autores observam que usuários especialistas familiarizados com a plataforma atribuíram pontuações significativamente menores do que os demais grupos, e relacionam essa diferença a fatores como autoavaliação e expectativas prévias.
+
+\cite{weighted_heuristic} utilizam o SUS em conjunto com métricas de desempenho para avaliar websites destinados a idosos, e argumentam que a combinação de medidas objetivas e subjetivas fornece uma visão mais completa da usabilidade.
+
+\subsection{Métodos de inspeção e avaliação precoce}
+
+\label{sec:inspecao}
+
+Os métodos de inspeção permitem avaliar a interface sem a participação direta de usuários, o que é particularmente útil em estágios iniciais de desenvolvimento. \cite{filgueiras2009recoverability} argumentam que métodos de inspeção são adequados para a avaliação de interfaces de inclusão digital em estágios iniciais, uma vez que usuários com pouca experiência não devem ser expostos a interfaces que não estejam plenamente funcionais.
+
+\cite{hornbaek2004usability} comparam a inspeção por metáforas do pensamento humano com a avaliação heurística, e argumentam que diferentes métodos de inspeção podem identificar diferentes tipos de problemas. \cite{skov2009conceptual} propõem uma ferramenta conceitual para a identificação de problemas de usabilidade no desenvolvimento de websites, e argumentam que a análise conceitual pode complementar os métodos de inspeção tradicionais.
+
+\cite{sustar2008requirements} discutem a elicitação de requisitos com e para adultos mais velhos, e argumentam que a participação de usuários idosos no processo de design requer métodos adaptados às suas características. Os autores destacam a importância de combinar técnicas qualitativas e quantitativas, e de considerar aspectos como tempo, suporte e contexto de uso.
+
+\subsection{Testes com usuários idosos e novatos}
+
+\label{sec:testes}
+
+Os testes com usuários idosos e novatos apresentam desafios específicos relacionados ao recrutamento, ao tempo necessário para a realização das tarefas e ao suporte oferecido durante as sessões. \cite{xie2010usability} relatam que os participantes idosos apresentaram dificuldades com rolagem, uso do mouse e identificação de elementos clicáveis, e que a presença de um facilitador foi necessária para orientar os participantes durante as tarefas.
+
+\cite{gatsou2017seniors} conduzem testes de usabilidade com doze participantes idosos e utilizam gravações em vídeo e captura de tela para registrar a interação. Os autores observam que os participantes demonstraram interesse em aprender a utilizar os serviços bancários on-line, mas que barreiras relacionadas a navegação, legibilidade e terminologia dificultaram a realização das tarefas.
+
+\cite{balakrishnan2012user} utilizam uma abordagem de design centrado no usuário que combina inquérito contextual, análise de tarefas, cenários de tarefa, card sorting, prototipação em papel e prototipação de alta fidelidade. Os autores argumentam que a combinação dessas técnicas permite identificar requisitos de usabilidade que não seriam identificados apenas com testes tradicionais.
+
+\cite{kymäläinen2012creating} descrevem o processo de co-design de um sistema de controle residencial para um ambiente de enfermagem, conduzido com enfermeiros e usuários finais. Os autores utilizam grupos focais, cenários, esboços, protótipos em papel e avaliações de usabilidade, e argumentam que a participação de especialistas de domínio no processo de design contribui para o desenvolvimento de soluções mais adequadas ao contexto de uso.
+
+Esses estudos demonstram que a literatura emprega diferentes métricas e métodos para avaliar a interação, abrangendo medidas de desempenho, percepção dos usuários, observação da interação, análise das tarefas e métodos de inspeção. A identificação dessas abordagens é relevante para compreender como a usabilidade e a acessibilidade de interfaces voltadas a usuários com diferentes níveis de experiência são investigadas.
 
 \section{Diretrizes e princípios de design para usuários com baixa alfabetização informática}
 
-O desenvolvimento de interfaces para usuários com pouca familiaridade tecnológica requer atenção às características dos usuários, às tarefas realizadas e à forma como as informações são apresentadas. \cite{sharit2008information} identificaram que o conhecimento relacionado à Internet e determinadas capacidades cognitivas estão associados ao desempenho durante atividades de busca, destacando também que o desenvolvimento de diretrizes de interface deve considerar as necessidades específicas dos usuários.
+\label{sec:diretrizes}
 
-No estudo de \cite{health_problem_solving}, foram identificadas dificuldades relacionadas à navegação e à realização de tarefas com múltiplas etapas em um website governamental. Os autores destacam problemas relacionados à rolagem e à localização de elementos necessários para a continuidade das tarefas, sugerindo que controles de navegação importantes sejam apresentados de maneira facilmente localizável e que páginas extensas ofereçam indicações adicionais ao usuário.
+O desenvolvimento de interfaces para usuários com pouca familiaridade tecnológica requer atenção às características dos usuários, às tarefas realizadas e à forma como as informações são apresentadas. Esta seção organiza as diretrizes em três subseções: guias para idosos, recomendações derivadas da WCAG e de estudos empíricos e, por fim, complexidade visual, legibilidade e espaçamento.
 
-\cite{weighted_heuristic} também identificaram características de interface relevantes para usuários idosos. O estudo aponta que características relacionadas à facilidade de distinção dos textos e à localização dos menus receberam avaliações relevantes entre os participantes. Os autores também relacionaram características das interfaces a medidas objetivas de desempenho, como tempo, cliques e erros.
+\subsection{Guias para idosos}
 
-A literatura também apresenta a importância do treinamento durante a primeira experiência com sistemas. \cite{cowan2011exploring} observaram que usuários novatos que utilizaram tutoriais incorporados à interface apresentaram avaliações de usabilidade mais positivas e menor ansiedade durante a interação.
+\label{sec:guias_idosos}
 
-A partir dessas contribuições, observa-se a presença de diferentes princípios e recomendações de design na literatura, relacionados à forma de organização, apresentação e interação com as interfaces. Entre os aspectos identificados nos estudos analisados estão:
+\cite{kurniawan2005research} derivam diretrizes de design Web para idosos a partir de uma revisão da literatura e de estudos empíricos, organizando recomendações em categorias como legibilidade, navegação, consistência, feedback e suporte ao usuário. Os autores argumentam que as diretrizes existentes para a população em geral não são suficientes para atender às necessidades específicas de usuários idosos, e propõem um conjunto de recomendações adaptadas.
 
-\begin{itemize}
+\cite{dombrovskaia2021guideline} compilam 56 recomendações de design inclusivo para idosos a partir da literatura e as organizam em cinco categorias: visualização, navegação, comunicação, suporte cognitivo e segurança do usuário. Os autores avaliam 26 websites chilenos com base nessas recomendações e observam que a média de conformidade foi de 72\%, com os melhores resultados nas categorias de suporte cognitivo e segurança do usuário, e os piores nas categorias de comunicação e visualização. Entre as recomendações com menor conformidade estão o uso de fontes sem serifa, a presença de elementos gráficos estáticos e não piscantes, a existência de ferramentas para ampliar textos e interface, a diminuição do uso de tons de azul e verde que podem ser difíceis de identificar por idosos, a eliminação de menus suspensos, a distinção clara entre links visitados e não visitados, a oferta de ferramentas de leitura em voz alta e a possibilidade de entrada por voz.
 
-    \item Simplicidade e clareza: reduzir elementos desnecessários e apresentar informações de maneira compreensível;
+\cite{sun2010preliminary} propõem um conjunto de trinta recomendações de acessibilidade para websites de aprendizagem destinados a idosos, organizadas em categorias como perceptível, operável, compreensível e robusto. Entre as recomendações estão o uso de texto alinhado à esquerda, o espaçamento adequado entre linhas, o tamanho de fonte ligeiramente maior do que o convencional, o uso de títulos claros, a oferta de equivalentes textuais para imagens, a possibilidade de ajuste do tamanho da fonte e da cor de fundo, a mudança de cor dos links após a visita, o uso conservador de cores, o contraste adequado entre primeiro plano e fundo, a não utilização de cores isoladas para transmitir informação, a clareza na nomeação de links, a apresentação de links em listas, a localização do conteúdo principal na área central da página, a indicação da localização atual, a navegação clara, a ausência de menus suspensos, a estrutura de informação organizada em categorias significativas, a abertura de apenas uma janela por vez, a oferta de tempo suficiente para leitura, a não exigência de duplo clique, a oferta de mapa do site, a verificação e correção ortográfica em mecanismos de busca, o uso de ícones simples e claros, a oferta de guia de ajuda on-line, mensagens de erro simples e claras, linguagem clara e concisa, ausência de informações irrelevantes, destaque de informações importantes, consistência de layout, navegação e terminologia e redução da demanda sobre a memória de trabalho.
 
-    \item Consistência e previsibilidade: utilizar padrões de interação e navegação que facilitem a compreensão do funcionamento do sistema;
+\cite{hart2008evaluating} avaliam a conformidade de websites com diretrizes para idosos e observam que a adesão às diretrizes está associada a melhores resultados de desempenho dos usuários. \cite{patsoule2012redesigning} apresentam um estudo de redesign de websites para idosos e argumentam que a aplicação de diretrizes específicas pode melhorar a usabilidade sem comprometer a estética.
 
-    \item Feedback imediato: fornecer informações ao usuário após ações realizadas no sistema;
+\cite{lindberg2021towards} propõem uma lista atualizada de diretrizes de design para usuários idosos, organizadas em categorias como conteúdo, interação, apresentação visual e navegação. Os autores argumentam que as diretrizes existentes precisam ser atualizadas para refletir as mudanças nas tecnologias e nas características dos usuários idosos.
 
-    \item Tamanhos e espaçamentos adequados: utilizar elementos de interface que possam ser identificados e acionados com facilidade;
+\subsection{Recomendações derivadas da WCAG e de estudos empíricos}
 
-    \item Divulgação progressiva: apresentar informações e funcionalidades de maneira gradual, evitando disponibilizar uma quantidade excessiva de informações simultaneamente;
+\label{sec:recomendacoes_wcag}
 
-    \item Multimodalidade: combinar diferentes formas de apresentação das informações quando isso contribuir para a compreensão;
+As recomendações derivadas da WCAG complementam as diretrizes específicas para idosos. \cite{wickramathilaka2023addressing} identificam lacunas na cobertura da WCAG por abordagens de adaptação de interfaces, incluindo multimodalidade, navegação, adaptação de layout, atividades com tempo limitado, tratamento de erros e proficiência linguística. Os autores argumentam que a acessibilidade deve ser tratada como um cidadão de primeira classe no processo de modelagem de interfaces, e não como um requisito adicional.
 
-    \item Tolerância a erros: permitir que o usuário compreenda e corrija ações realizadas de maneira inadequada.
+\cite{gonzalez2025augmenting} utilizam a WCAG como referência para definir operações de acessibilidade em um framework de aumento Web, e argumentam que a aplicação dessas operações a websites existentes requer mecanismos adicionais de adaptação. Entre as operações implementadas estão leitura em voz alta de trechos selecionados, foco nas partes principais do website, aumento e diminuição do tamanho da fonte, navegação facilitada, gerenciamento do histórico de navegação e exibição de vídeos.
 
-\end{itemize}
+\cite{xie2010usability} observam que a página de mapa se mostrou desafiadora para usuários idosos com pouca experiência com mapas eletrônicos, e recomendam a oferta de uma versão textual que apresente as mesmas informações em formato de lista, em conformidade com os requisitos de acessibilidade. Os autores também recomendam a oferta de treinamento e de recursos de ajuda incorporados ao próprio sistema.
 
-Esses aspectos representam diferentes características de design identificadas na literatura e constituem elementos relevantes para a análise das abordagens utilizadas no desenvolvimento e na avaliação de interfaces destinadas a usuários com pouca familiaridade tecnológica.
+\cite{gatsou2017seniors} identificam barreiras relacionadas a navegação confusa, textos pequenos, cores com contraste inadequado, ícones abstratos e terminologia incompreensível, e recomendam a inserção de mais espaço entre seções, o uso de fontes maiores para cabeçalhos, o uso de cores com contraste mais profundo, a distinção clara entre botões clicáveis e não clicáveis, a oferta de feedback claro sobre as ações e a eliminação de menus com rolagem.
 
+\subsection{Complexidade visual, legibilidade e espaçamento}
+
+\label{sec:complexidade}
+
+A complexidade visual das interfaces tem impacto sobre a experiência de usuários idosos. \cite{sadeghi2020hci} propõem uma abordagem baseada em aprendizado de máquina para medir a complexidade visual de páginas Web e identificar as características que mais influenciam a percepção de complexidade por idosos. Os autores consideram seis características: clutter, número de imagens, número de folhas de quadtree, número de tamanhos de fonte, equilíbrio e equilíbrio central. Os resultados indicam que clutter e equilíbrio são as características mais influentes na classificação de páginas Web quanto à complexidade visual, e que a redução da complexidade visual pode melhorar a experiência de usuários idosos.
+
+\cite{ko2019old} investigam as preferências de espaço em branco de usuários jovens e idosos em páginas de notícias on-line. Os autores observam que não houve preferência por proporções muito altas (90\%) ou muito baixas (50\%) de espaço em branco, e que o grupo de 31 a 45 anos atribuiu pontuações mais altas a todas as amostras do que os demais grupos. Os autores argumentam que a proporção de espaço em branco deve ser considerada no design de páginas de notícias, juntamente com outros fatores como simplicidade, legibilidade e organização.
+
+\cite{wang2020research} identificam que a orientação da operação, a conformidade com a experiência de vida e a lógica de operação previsível são as necessidades mais valorizadas pelos usuários idosos, e recomendam que o design de interfaces considere a experiência de vida dos usuários como ponto de partida.
+
+A partir dessas contribuições, observa-se a presença de diferentes princípios e recomendações de design na literatura, relacionados à forma de organização, apresentação e interação com as interfaces. Entre os aspectos identificados nos estudos analisados estão: simplicidade e clareza; consistência e previsibilidade; feedback imediato; tamanhos e espaçamentos adequados; divulgação progressiva; multimodalidade; tolerância a erros e recuperação; legibilidade e contraste; navegação clara e localização atual. Esses aspectos representam diferentes características de design identificadas na literatura e constituem elementos relevantes para a análise das abordagens utilizadas no desenvolvimento e na avaliação de interfaces destinadas a usuários com pouca familiaridade tecnológica.
 
 \section{Componentes e padrões de interface identificados na literatura}
 
-A definição e a organização dos componentes de interface estão relacionadas às características e necessidades dos usuários que utilizarão o sistema. O estudo de Chou, Lai e Liu \cite{social_media_elderly} utilizou uma abordagem centrada no usuário para investigar requisitos relacionados ao uso de mídias sociais por pessoas idosas, considerando aspectos de acessibilidade, design de interface e experiência de uso.
+\label{sec:componentes}
 
-Lynch et al. \cite{weighted_heuristic} também identificaram características de interface consideradas relevantes pelos usuários idosos, incluindo elementos relacionados à navegação, à distinção dos textos e à localização dos menus. Os resultados do estudo indicaram que características relacionadas à navegação apresentaram importância entre os participantes.
+A definição e a organização dos componentes de interface estão relacionadas às características e necessidades dos usuários que utilizarão o sistema. Esta seção organiza os componentes em quatro subseções: busca e navegação, formulários e ajuda, multimodalidade e voz e, por fim, feedback e recuperação de erro.
 
-Além dos componentes visuais, recursos de apoio à aprendizagem também podem fazer parte da interface. \cite{kabassi2004personalised} desenvolveram o Web-IT, um ambiente de aprendizagem destinado a usuários adultos novatos, que utiliza técnicas de apresentação e navegação adaptativas para fornecer suporte de acordo com o conhecimento e as dificuldades identificadas para cada usuário.
+\subsection{Busca e navegação}
 
-\cite{cowan2011exploring} também demonstraram a relevância de recursos de treinamento para usuários novatos. Os autores verificaram que a presença de tutoriais incorporados ao sistema esteve associada a avaliações mais positivas da usabilidade e a menores níveis de ansiedade durante a interação.
+\label{sec:busca}
 
-As contribuições apresentadas demonstram que os estudos abordam diferentes componentes e recursos de interface, incluindo mecanismos de navegação, apresentação de informações, identificação de elementos, recursos de orientação e mecanismos de apoio à aprendizagem. Esses componentes constituem uma das dimensões consideradas na análise da literatura realizada neste trabalho.
+\cite{shafiq2018assessment} avaliam a interface de busca de sete bases de dados acadêmicas e identificam componentes e funcionalidades que devem estar presentes em uma interface de busca ideal, incluindo caixa de busca, busca avançada, navegação, assistência ao usuário, serviços de alerta e ferramentas da Web 2.0. Os autores argumentam que a interface de busca deve ser simples e oferecer recursos que auxiliem os usuários na formulação de consultas e na seleção de recursos potencialmente úteis.
 
+\cite{dombrovskaia2021guideline} identificam recomendações relacionadas à navegação, incluindo a não utilização de menus suspensos, a distinção clara entre links visitados e não visitados, a existência de um ponto de retorno claro e facilmente acessível, a oferta de ferramentas de busca eficazes e bem posicionadas, a redução da necessidade de rolagem para obter informações principais e a organização do menu por utilidade e importância.
+
+\cite{sun2010preliminary} recomendam a indicação da localização atual, a navegação clara, a estrutura de informação organizada em categorias significativas, a oferta de mapa do site, a apresentação de links em listas e a clareza na nomeação de links.
+
+\cite{mastarone2007access} observam que usuários de um sistema de autoatendimento jurídico tiveram dificuldades em compreender onde estavam no website e por que estavam inserindo informações em determinados lugares, e recomendam a criação de um portal separado para usuários gerais, com preparação para o processo e descrição do que acontecerá à medida que avançarem.
+
+\cite{xie2010usability} observam que os participantes idosos tiveram dificuldades em distinguir elementos clicáveis de não clicáveis na página de mapa, e recomendam a oferta de uma versão textual que apresente as mesmas informações em formato de lista, em conformidade com os requisitos de acessibilidade.
+
+\subsection{Formulários e ajuda}
+
+\label{sec:formularios}
+
+\cite{halbach2009framework} apresentam um framework para a oferta de formulários Web inclusivos a pessoas com deficiência e idosos, com foco em deficiências cognitivas. O sistema adapta a apresentação e o comportamento dos formulários com base em perfis de usuário e em regras de adaptação, e oferece recursos como identificação de campos obrigatórios não preenchidos, destaque de questões já respondidas e apresentação de questões pendentes em cor contrastante. Os autores argumentam que a adaptação de formulários pode melhorar a experiência de usuários com deficiências cognitivas.
+
+\cite{barron2013feasibility} observam que o conteúdo do portal de saúde avaliado não estava alinhado ao nível de letramento em saúde da população, e que a navegação se mostrou complexa para a maioria dos pacientes idosos. Os autores recomendam a oferta de treinamento e de suporte adequados, a simplificação da linguagem e a organização do conteúdo de forma a facilitar a compreensão.
+
+\cite{dombrovskaia2021guideline} identificam recomendações relacionadas à comunicação, incluindo o uso de linguagem simples adaptada ao campo semântico de idosos, a oferta de instruções quando necessário, a oferta de alternativas de contato telefônico além do e-mail, mensagens de erro claras e fáceis de seguir, imagens com rótulos descritivos, opção de texto falado e uso de texto traduzido em símbolos para palavras específicas ou complexas.
+
+\cite{mastarone2007access} observam que usuários de um sistema de autoatendimento jurídico tiveram dificuldades em compreender por que deveriam se registrar e quando o processo de registro terminava e o de entrevista começava, e recomendam a distinção clara entre as funções dos diferentes conteúdos, a organização dos dados de entrada de forma que os usuários esperam e a sinalização física da passagem de uma etapa para outra.
+
+\subsection{Multimodalidade e voz}
+
+\label{sec:multimodalidade}
+
+A multimodalidade, que combina diferentes formas de apresentação das informações, é apontada na literatura como uma estratégia para melhorar a acessibilidade de interfaces. \cite{gonzalez2025augmenting} implementam operações de acessibilidade baseadas em voz em um framework de aumento Web para websites de turismo, incluindo leitura em voz alta de trechos selecionados, navegação por voz e exibição de vídeos. Os autores observam que os participantes idosos com deficiência visual conseguiram encontrar as informações solicitadas com menos tempo e menos esforço do que com o uso de leitores de tela.
+
+\cite{ramineni2024enhancing} propõem um sistema de assistente de voz para melhorar a acessibilidade de plataformas de comércio eletrônico em Web e dispositivos móveis. Os autores utilizam processamento de linguagem natural e aprendizado de máquina para permitir que usuários com deficiências visuais, motoras ou cognitivas naveguem, descubram produtos e realizem transações por meio de comandos de voz. Os resultados indicam que o assistente de voz melhora a acessibilidade, a usabilidade e a satisfação geral dos usuários.
+
+\cite{kusumaningayu2017web} desenvolvem uma ferramenta de acesso Web para pessoas cegas e com deficiência visual que utiliza reconhecimento de fala como entrada, web scraping para obter o conteúdo principal do website e síntese de voz como saída. Os autores argumentam que a ferramenta pode ser útil para pessoas com baixa alfabetização informática, uma vez que não requer o uso de leitores de tela.
+
+\cite{gautam2019adding} investigam a adição de voz para apoiar a navegação Web entre um grupo com baixa alfabetização digital, e argumentam que a voz pode complementar outras formas de interação, especialmente para usuários com dificuldades de leitura.
+
+\cite{sun2010preliminary} recomendam a oferta de equivalentes textuais para imagens, a possibilidade de ajuste do tamanho da fonte e da cor de fundo e a oferta de opção de texto falado, como forma de atender a diferentes necessidades dos usuários.
+
+\subsection{Feedback e recuperação de erro}
+
+\label{sec:feedback}
+
+O feedback e a recuperação de erro são aspectos centrais para a usabilidade de interfaces destinadas a usuários com pouca experiência. \cite{filgueiras2009recoverability} propõem o método Recoverability Walkthrough, que estende o Cognitive Walkthrough com duas questões adicionais sobre erro e recuperação. Os autores argumentam que o sistema deve ser projetado para permitir que o usuário se recupere de navegações equivocadas, e que a recuperação é particularmente importante para usuários com pouca experiência.
+
+\cite{taylor2009using} utilizam a detecção de erros para construir perfis de usuários idosos e adaptar as páginas Web. Os autores registram erros de mouse, rolagem, acesso e cliques, e utilizam esses dados para ajustar o perfil do usuário e adaptar as páginas Web. Os resultados indicaram que não houve diferença estatisticamente significativa entre os perfis construídos por observação e por detecção de erros.
+
+\cite{dombrovskaia2021guideline} identificam recomendações relacionadas a mensagens de erro claras e fáceis de seguir, orientação da operação, possibilidade de revogar ações e consistência de layout, navegação e terminologia. \cite{sun2010preliminary} recomendam mensagens de erro simples e claras, linguagem clara e concisa, destaque de informações importantes e consistência de layout, navegação e terminologia.
+
+\cite{kymäläinen2012creating} observam que os participantes de seu estudo valorizaram a possibilidade de obter o estado do ambiente por meio de um snapshot e de criar cenas a partir desse estado, e argumentam que esse tipo de recurso pode facilitar a adoção do sistema por usuários com pouca experiência.
+
+As contribuições apresentadas demonstram que os estudos abordam diferentes componentes e recursos de interface, incluindo mecanismos de busca e navegação, formulários e ajuda, multimodalidade e voz, feedback e recuperação de erro. Esses componentes constituem uma das dimensões consideradas na análise da literatura realizada neste trabalho.
 
 \section{Abordagens de desenvolvimento e avaliação centradas no usuário}
 
-A literatura analisada apresenta diferentes abordagens utilizadas para compreender as necessidades dos usuários e avaliar as interfaces desenvolvidas para diferentes públicos. Essas abordagens podem envolver a participação dos usuários, a observação de suas atividades, a realização de tarefas e a utilização de métodos qualitativos e quantitativos de avaliação.
+\label{sec:ucd}
 
-O estudo de \cite{health_problem_solving} apresenta uma metodologia baseada na análise das atividades realizadas pelos usuários para identificar problemas encontrados durante a execução de tarefas complexas em websites. Essa abordagem permite relacionar as dificuldades observadas às características das tarefas e da interface.
+A literatura analisada apresenta diferentes abordagens utilizadas para compreender as necessidades dos usuários e avaliar as interfaces desenvolvidas para diferentes públicos. Esta seção organiza as abordagens em duas subseções: design centrado no usuário, co-design e personas e, por fim, prototipação e avaliação iterativa.
 
-De maneira semelhante, o trabalho apresentado em \cite{breaking_barriers} empregou uma abordagem centrada no usuário para o desenvolvimento de uma aplicação Web destinada a adultos mais velhos com deficiências, considerando as necessidades do público-alvo durante o desenvolvimento e a avaliação da solução.
+\subsection{Design centrado no usuário, co-design e personas}
 
-\cite{cowan2011exploring} utilizaram experimentos controlados com usuários novatos para investigar os efeitos de diferentes formas de treinamento sobre a usabilidade e a ansiedade durante a interação. Os resultados demonstram como avaliações com usuários podem fornecer evidências sobre as dificuldades encontradas durante a utilização de uma interface.
+\label{sec:ucd_co-design}
 
-Dessa forma, a literatura apresenta diferentes estratégias para investigar a interação entre usuários e sistemas, incluindo avaliação com usuários, observação, experimentos, análise de tarefas e abordagens centradas no usuário. A identificação dessas estratégias contribui para a compreensão dos métodos empregados pelos estudos e constitui uma das dimensões analisadas na revisão sistemática.
+\cite{balakrishnan2012user} utilizam uma abordagem de design centrado no usuário que combina inquérito contextual, análise de tarefas, cenários de tarefa, card sorting, prototipação em papel e prototipação de alta fidelidade. Os autores argumentam que a combinação dessas técnicas permite identificar requisitos de usabilidade que não seriam identificados apenas com testes tradicionais, e que a participação de usuários idosos no processo de design contribui para o desenvolvimento de soluções mais adequadas.
 
+\cite{kymäläinen2012creating} descrevem o processo de co-design de um sistema de controle residencial para um ambiente de enfermagem, conduzido com enfermeiros e usuários finais. Os autores utilizam grupos focais, cenários, esboços, protótipos em papel e avaliações de usabilidade, e argumentam que a participação de especialistas de domínio no processo de design contribui para o desenvolvimento de soluções mais adequadas ao contexto de uso.
+
+\cite{shi2016supporting} utilizam uma abordagem de design centrado no usuário para o desenvolvimento de um website para um projeto de digitalização de patrimônio histórico, voltado majoritariamente a usuários idosos. Os autores combinam princípios de IHC com diretrizes específicas para idosos, e argumentam que a consideração das necessidades do público-alvo durante o desenvolvimento e a avaliação da solução é essencial para o sucesso do projeto.
+
+\cite{sustar2008requirements} discutem a elicitação de requisitos com e para adultos mais velhos, e argumentam que a participação de usuários idosos no processo de design requer métodos adaptados às suas características. Os autores destacam a importância de combinar técnicas qualitativas e quantitativas, e de considerar aspectos como tempo, suporte e contexto de uso.
+
+\cite{ro2024usability} conduzem um estudo de usabilidade para promover a co-criação entre pessoas com deficiência, desenvolvedores e fabricantes, com foco em uma plataforma aberta de tecnologia assistiva na Coreia. Os autores argumentam que a participação de diferentes stakeholders no processo de design contribui para o desenvolvimento de soluções mais adequadas às necessidades dos usuários.
+
+\cite{arfaa2015usability} avaliam a usabilidade de um protótipo de site de rede social para idosos, e argumentam que a avaliação com usuários reais é essencial para identificar problemas de usabilidade que não seriam identificados apenas com métodos de inspeção.
+
+\subsection{Prototipação e avaliação iterativa}
+
+\label{sec:prototipacao}
+
+A prototipação e a avaliação iterativa são apresentadas na literatura como estratégias para o desenvolvimento de interfaces mais adequadas às necessidades dos usuários. \cite{balakrishnan2012user} utilizam prototipação em papel e prototipação de alta fidelidade em um processo iterativo de design, e argumentam que a combinação dessas técnicas permite identificar requisitos de usabilidade que não seriam identificados apenas com testes tradicionais.
+
+\cite{kymäläinen2012creating} utilizam protótipos em papel e avaliações de usabilidade em um processo iterativo de design, e argumentam que a participação de especialistas de domínio no processo de design contribui para o desenvolvimento de soluções mais adequadas ao contexto de uso.
+
+\cite{filgueiras2009recoverability} argumentam que métodos de inspeção são adequados para a avaliação de interfaces de inclusão digital em estágios iniciais, uma vez que usuários com pouca experiência não devem ser expostos a interfaces que não estejam plenamente funcionais. Os autores propõem o método Recoverability Walkthrough, que estende o Cognitive Walkthrough com duas questões adicionais sobre erro e recuperação.
+
+\cite{martinez2020effectiveness} descrevem o desenvolvimento de uma aplicação Web para estimulação cognitiva de idosos, conduzido sob o enfoque Mobile First. Os autores realizam três rodadas de testes com usuários em diferentes estágios de desenvolvimento, e argumentam que a abordagem Mobile First permite que os usuários realizem os exercícios a partir de diferentes dispositivos, adaptando-se às suas preferências e necessidades.
+
+\cite{barron2013feasibility} conduzem um estudo de viabilidade de um portal de saúde para idosos e cuidadores, e argumentam que a avaliação com usuários reais é essencial para identificar barreiras de uso e orientar o desenvolvimento de soluções mais adequadas.
+
+\cite{xie2010usability} conduzem um estudo de usabilidade de um protótipo de website baseado em mapas e argumentam que a avaliação com usuários reais é essencial para identificar problemas de usabilidade que não seriam identificados apenas com métodos de inspeção.
+
+Dessa forma, a literatura apresenta diferentes estratégias para investigar a interação entre usuários e sistemas, incluindo avaliação com usuários, observação, experimentos, análise de tarefas, co-design, personas, prototipação em papel, prototipação de alta fidelidade e métodos de inspeção. A identificação dessas estratégias contribui para a compreensão dos métodos empregados pelos estudos e constitui uma das dimensões analisadas na revisão sistemática.
 
 \section{Lacunas identificadas na literatura}
 
-Os estudos analisados apresentam diferentes contribuições relacionadas à interação de usuários com pouca experiência ou com características específicas. Essas contribuições abrangem aspectos como conhecimento prévio, características cognitivas, métricas de desempenho, avaliação de usabilidade, requisitos de interface, treinamento e desenvolvimento centrado no usuário.
+\label{sec:lacunas}
 
-\cite{sharit2008information}, por exemplo, demonstram a relação entre conhecimento sobre a Internet, capacidades cognitivas e desempenho durante atividades de busca. \cite{weighted_heuristic} apresentam uma abordagem quantitativa para avaliação de websites, relacionando heurísticas a métricas de desempenho. Já \cite{kabassi2004personalised} e \cite{cowan2011exploring} apresentam estratégias relacionadas ao treinamento e à experiência de usuários novatos.
+Os estudos analisados apresentam diferentes contribuições relacionadas à interação de usuários com pouca experiência ou com características específicas. Essas contribuições abrangem aspectos como conhecimento prévio, características cognitivas, métricas de desempenho, avaliação de usabilidade, requisitos de interface, treinamento, multimodalidade, personalização e desenvolvimento centrado no usuário. A partir da análise desses estudos, é possível identificar lacunas específicas que motivam a realização deste trabalho.
 
-Entretanto, os estudos analisados apresentam diferentes objetivos, públicos e contextos de aplicação. As contribuições relacionadas às métricas, diretrizes, componentes de interface e estratégias de avaliação encontram-se distribuídas entre diferentes trabalhos, o que dificulta a obtenção de uma visão conjunta sobre as abordagens utilizadas na literatura.
+A primeira lacuna diz respeito à operacionalização da WCAG em ferramentas de modelagem e adaptação de interfaces. \cite{wickramathilaka2023addressing} observam que a maioria das abordagens existentes cobre apenas parcialmente os critérios da WCAG, com lacunas em aspectos como multimodalidade, navegação, adaptação de layout, atividades com tempo limitado, tratamento de erros e proficiência linguística. \cite{sun2010preliminary} também argumentam que as diretrizes existentes não cobrem integralmente as necessidades de idosos. \cite{dombrovskaia2021guideline} observam que, embora a média de conformidade dos websites avaliados seja de 72\%, as categorias de comunicação e visualização apresentam os menores índices de conformidade.
 
-Nesse contexto, torna-se relevante realizar uma análise sistemática dos estudos existentes, buscando identificar, organizar e sintetizar as principais contribuições relacionadas à usabilidade, acessibilidade e Interação Humano-Computador em interfaces destinadas a pessoas com baixa alfabetização informática. A revisão sistemática proposta neste trabalho busca contribuir para essa organização, permitindo identificar as métricas, diretrizes, componentes, métodos de avaliação e características dos usuários e contextos considerados nos estudos selecionados.
+A segunda lacuna está relacionada à avaliação precoce de interfaces de inclusão digital com usuários de baixa literacia. \cite{filgueiras2009recoverability} argumentam que usuários com pouca experiência não devem ser expostos a interfaces que não estejam plenamente funcionais, e propõem o método Recoverability Walkthrough para a avaliação de interfaces de inclusão digital em estágios iniciais. Entretanto, a literatura carece de estudos que avaliem sistematicamente a aplicação desse tipo de método a diferentes contextos e perfis de usuários.
+
+A terceira lacuna diz respeito à fragmentação das métricas de usabilidade. \cite{gatsou2017seniors} utilizam métricas de eficácia, eficiência e satisfação, \cite{herrera2026applicability} utilizam o SUS em conjunto com técnicas de mineração de processos, e \cite{taylor2009using} utilizam a detecção de erros para construir perfis de usuários. Entretanto, poucos estudos combinam medidas de desempenho, recuperação de erro e carga cognitiva em uma mesma avaliação.
+
+A quarta lacuna está relacionada à baixa conformidade de websites com diretrizes de design para idosos, especialmente nas categorias de comunicação e visualização. \cite{dombrovskaia2021guideline} observam que as categorias de comunicação e visualização apresentam os menores índices de conformidade, e \cite{gatsou2017seniors} identificam barreiras relacionadas a navegação confusa, textos pequenos, cores com contraste inadequado, ícones abstratos e terminologia incompreensível.
+
+A quinta lacuna diz respeito ao alinhamento entre o conteúdo e a linguagem dos sistemas e o nível de letramento dos usuários. \cite{barron2013feasibility} observam que o conteúdo do portal de saúde avaliado não estava alinhado ao nível de letramento em saúde da população, e que a navegação se mostrou complexa para a maioria dos pacientes idosos. \cite{nosseir2011novice} também observam que as dimensões de avaliação tradicionalmente empregadas pressupõem experiência prévia e podem não ser adequadas para caracterizar a percepção de usuários novatos.
+
+A sexta lacuna está relacionada à personalização e à adaptabilidade das interfaces com base no perfil e no contexto do usuário. \cite{halbach2009framework} propõem um framework para a oferta de formulários Web inclusivos a pessoas com deficiência e idosos, com base em perfis de usuário e regras de adaptação. \cite{wickramathilaka2023addressing} também defendem que a acessibilidade deve ser tratada como um cidadão de primeira classe no processo de modelagem de interfaces, e que as interfaces devem ser adaptadas com base em cenários de contexto de uso. Entretanto, a literatura carece de estudos que avaliem sistematicamente a eficácia dessas abordagens em diferentes contextos e perfis de usuários.
+
+A sétima lacuna diz respeito à avaliação de saídas de sistemas generativos por usuários novatos. \cite{shi2026usability} argumentam que, em sistemas generativos de alta autonomia, as dificuldades dos usuários se deslocam da execução para a avaliação, uma vez que os usuários precisam julgar a qualidade dos artefatos gerados e decidir como refiná-los. Entretanto, a literatura carece de estudos que investiguem como usuários com baixa alfabetização informática avaliam saídas de sistemas generativos.
+
+A oitava lacuna está relacionada à integração de recursos de voz e de multimodalidade a websites comuns. \cite{gonzalez2025augmenting} implementam operações de acessibilidade baseadas em voz em um framework de aumento Web para websites de turismo, e \cite{ramineni2024enhancing} propõem um sistema de assistente de voz para comércio eletrônico. Entretanto, a integração de recursos de voz a websites comuns ainda é limitada, especialmente no que se refere à personalização e à adaptação ao contexto do usuário.
+
+A nona lacuna diz respeito à ausência de diretrizes específicas para mapas e complexidade visual. \cite{xie2010usability} observam que a página de mapa se mostrou desafiadora para usuários idosos com pouca experiência com mapas eletrônicos, e \cite{sadeghi2020hci} observam que clutter e equilíbrio são as características mais influentes na percepção de complexidade visual por idosos. Entretanto, a literatura carece de diretrizes específicas para o design de mapas e de interfaces com alta complexidade visual destinadas a usuários com baixa alfabetização informática.
+
+A décima lacuna está relacionada ao tamanho das amostras e à generalização dos resultados. \cite{gatsou2017seniors} conduzem testes com doze participantes, \cite{dombrovskaia2021guideline} avaliam websites com base em uma única avaliação especializada, e \cite{xie2010usability} conduzem testes com dez participantes. Embora esses estudos forneçam contribuições relevantes, seus resultados não podem ser generalizados para outras populações e contextos, o que reforça a necessidade de estudos com amostras maiores e mais diversificadas.
+
+Essas lacunas indicam que, embora a literatura ofereça contribuições relevantes para o desenvolvimento de interfaces destinadas a usuários com baixa alfabetização informática, ainda há espaço para investigações que integrem diferentes perspectivas teóricas e metodológicas, que avaliem sistematicamente a eficácia das abordagens propostas e que considerem a diversidade de perfis e contextos de uso.

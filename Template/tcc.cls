@@ -244,8 +244,8 @@
         \begin{minipage}{0.4\textwidth} % Controla a largura do texto
             \itshape #1
         \end{minipage}\\
-        \vspace{1em} % Adiciona espaço entre a citação e o autor
-        \textbf{(Nome do autor)}
+        %\vspace{1em} % Adiciona espaço entre a citação e o autor
+        %\textbf{(Nome do autor)}
     \end{flushright}
     \vspace{1cm} % Espaçamento abaixo para melhor posicionamento
     \newpage

@@ -4,32 +4,59 @@
 
 Este capítulo apresenta o processo de realização da Revisão Sistemática da Literatura (RSL), conduzida com o objetivo de identificar, analisar e sintetizar estudos relacionados ao desenvolvimento e à avaliação de interfaces voltadas a pessoas com baixa alfabetização informática. A revisão contempla estudos relacionados à usabilidade, acessibilidade, Interação Humano-Computador (IHC), métricas de avaliação, métodos de análise e diretrizes de desenvolvimento para diferentes perfis de usuários com pouca experiência ou familiaridade com sistemas computacionais.
 
-O processo de revisão foi estruturado de forma sistemática, contemplando a definição das bases de dados, a elaboração das estratégias de busca, o estabelecimento dos critérios de inclusão e exclusão, a seleção dos estudos e a análise das contribuições apresentadas pelos trabalhos selecionados.
+O processo de revisão foi estruturado de forma sistemática, contemplando a definição das bases de dados, a elaboração das estratégias de busca, o estabelecimento dos critérios de inclusão e exclusão, a avaliação da qualidade dos estudos primários, a seleção dos estudos e a análise das contribuições apresentadas pelos trabalhos selecionados.
 
 A partir dos estudos incluídos, busca-se identificar e organizar as principais contribuições da literatura relacionadas às métricas de usabilidade e acessibilidade, aos elementos e diretrizes de interface, aos métodos de avaliação e às características dos usuários e dos contextos de uso considerados no desenvolvimento e na avaliação de interfaces destinadas a pessoas com baixa alfabetização informática.
 
 
 \section{Protocolo da Revisão Sistemática}
 
-A revisão foi conduzida seguindo um protocolo previamente definido, contemplando etapas estruturadas de busca, seleção e análise dos estudos científicos relacionados ao tema da pesquisa. A definição prévia dessas etapas tem como objetivo organizar o processo de revisão e estabelecer critérios para a identificação dos estudos que compõem o conjunto analisado.
+A revisão foi conduzida seguindo um protocolo previamente definido, contemplando etapas estruturadas de busca, seleção, avaliação de qualidade e análise dos estudos científicos relacionados ao tema da pesquisa. A definição prévia dessas etapas tem como objetivo organizar o processo de revisão e estabelecer critérios explícitos e reproduzíveis para a identificação dos estudos que compõem o conjunto analisado.
 
-A realização da revisão sistemática permite reunir estudos que abordam diferentes aspectos relacionados à interação de pessoas com pouca familiaridade com sistemas computacionais, possibilitando a identificação de métricas de usabilidade e acessibilidade, características de interface, métodos de avaliação e estratégias utilizadas no desenvolvimento e na avaliação desses sistemas.
+A necessidade de um protocolo explícito é reforçada pela heterogeneidade do corpus analisado. Estudos sobre usuários idosos, como \cite{sharit2008information}, \cite{gatsou2017seniors} e \cite{xie2010usability}, utilizam terminologias e métodos distintos dos estudos sobre usuários novatos, como \cite{nosseir2011novice}, \cite{cowan2011exploring} e \cite{kabassi2004personalised}, e dos estudos sobre baixa alfabetização informática, como \cite{filgueiras2009recoverability} e \cite{barron2013feasibility}. Essa diversidade exige que o protocolo defina de forma explícita os critérios de identificação, seleção e avaliação dos estudos, evitando que a revisão se torne uma narrativa seletiva.
 
-O protocolo da revisão foi estruturado considerando a definição das bases de dados, a elaboração das estratégias de busca, o estabelecimento dos critérios de inclusão e exclusão, a seleção dos estudos e, posteriormente, a extração e síntese das informações relevantes dos trabalhos selecionados.
+O protocolo foi estruturado com base nas diretrizes para revisões sistemáticas em Engenharia de Software e Sistemas de Informação, que recomendam a definição prévia das questões de pesquisa, da estratégia de busca, dos critérios de inclusão e exclusão, dos critérios de avaliação de qualidade e do processo de extração e síntese dos dados. A adoção dessas diretrizes busca aumentar a transparência e a reprodutibilidade do processo.
 
+\subsection{Framework PICOC}
+
+\label{sec:picoc}
+
+A estruturação das questões de pesquisa e da estratégia de busca foi realizada com base no framework PICOC (Population, Intervention, Comparison, Outcome, Context). A Tabela~\ref{tab:picoc} apresenta a definição dos elementos do framework PICOC para esta revisão, bem como a string de busca utilizada na base Scopus, adaptada para as bases IEEE Xplore e Engineering Village.
+
+A dimensão Population (P) corresponde ao público-alvo da investigação, caracterizado por pessoas com baixa alfabetização informática. A literatura utiliza diferentes termos para se referir a esse público, incluindo usuários idosos, como em \cite{kurniawan2005research}, \cite{dombrovskaia2021guideline} e \cite{sun2010preliminary}; usuários novatos ou não especialistas, como em \cite{nosseir2011novice}, \cite{cowan2011exploring} e \cite{kabassi2004personalised}; e pessoas com baixa alfabetização ou baixa proficiência digital, como em \cite{filgueiras2009recoverability} e \cite{barron2013feasibility}. A consideração conjunta desses termos busca ampliar a cobertura da busca sem perder o foco no problema investigado.
+
+A dimensão Intervention (I) corresponde aos sistemas, aplicações, websites e demais artefatos computacionais investigados nos estudos, incluindo websites governamentais, como em \cite{health_problem_solving}; portais de saúde, como em \cite{barron2013feasibility}; serviços bancários on-line, como em \cite{gatsou2017seniors}; mapas e sistemas de informação geoespacial, como em \cite{xie2010usability} e \cite{herrera2026applicability}; ferramentas de acessibilidade, como em \cite{kusumaningayu2017web} e \cite{gonzalez2025augmenting}; e formulários Web, como em \cite{halbach2009framework}.
+
+A dimensão Comparison (C) não foi utilizada como critério de restrição, uma vez que a revisão tem caráter exploratório e não se restringe a estudos com grupo de comparação ou intervenção controlada. A ausência dessa dimensão é justificada pela diversidade de delineamentos metodológicos identificada na literatura, que inclui estudos de caso, avaliações de usabilidade, estudos experimentais e revisões. Estudos como \cite{sharit2008information}, \cite{herrera2026applicability} e \cite{allah2021empathy}, por exemplo, adotam delineamentos distintos, mas apresentam contribuições relevantes para o problema investigado.
+
+A dimensão Outcome (O) corresponde às métricas, diretrizes, princípios de design, métodos de avaliação e demais contribuições relacionadas à usabilidade, acessibilidade e Interação Humano-Computador. A literatura apresenta diferentes conjuntos de métricas, incluindo medidas de desempenho, como em \cite{weighted_heuristic} e \cite{gatsou2017seniors}; instrumentos perceptivos, como o SUS, utilizado em \cite{allah2021empathy} e \cite{herrera2026applicability}; e critérios de acessibilidade derivados da WCAG, discutidos em \cite{sun2010preliminary} e \cite{wickramathilaka2023addressing}.
+
+A dimensão Context (C) corresponde ao contexto Web, uma vez que o trabalho investiga sistemas e interfaces baseados em Web. A literatura analisada inclui estudos sobre websites governamentais \cite{health_problem_solving}, websites de notícias \cite{ko2019old}, sistemas de busca \cite{shafiq2018assessment}, ferramentas de acessibilidade para pessoas cegas \cite{kusumaningayu2017web} e augmentação Web para turismo \cite{gonzalez2025augmenting}.
+
+\input{tabelas/tabela1.tex}
+
+\subsection{Processo de Condução}
+
+\label{sec:conducao}
+
+O processo de condução da revisão foi organizado em cinco etapas principais: (i) definição das questões de pesquisa e do framework PICOC; (ii) definição das bases de dados e elaboração das estratégias de busca; (iii) estabelecimento dos critérios de inclusão e exclusão; (iv) seleção dos estudos e avaliação da qualidade; e (v) extração e síntese das informações.
+
+As questões de pesquisa que orientam a revisão são aquelas definidas no Capítulo 1: RQ1, sobre métricas de usabilidade e acessibilidade; RQ2, sobre elementos de interface, diretrizes e princípios de design; RQ3, sobre métodos e estratégias de avaliação; e RQ4, sobre características dos usuários e dos contextos de uso. Essas questões foram utilizadas como referência para a extração, organização e análise das informações apresentadas nos trabalhos selecionados.
 
 \section{Bases de Dados}
 
-A revisão foi realizada utilizando as bases de dados Scopus, IEEE Xplore e Engineering Village. A seleção dessas bases permitiu realizar buscas em diferentes fontes de literatura científica relacionadas às áreas de computação, sistemas de informação, engenharia e Interação Humano-Computador.
+A revisão foi realizada utilizando as bases de dados Scopus, IEEE Xplore e Engineering Village. A seleção dessas bases permitiu realizar buscas em diferentes fontes de literatura científica relacionadas às áreas de computação, sistemas de informação, engenharia e Interação Humano-Computador. A complementaridade entre as bases buscou reduzir o risco de omissão de estudos relevantes, uma vez que cada base possui cobertura distinta em termos de periódicos, conferências e áreas temáticas.
 
-Neste ponto será apresentada a Tabela~\ref{tab:bases}, contendo as bases de dados consideradas para a revisão.
+Essa diversidade de fontes é relevante porque o corpus analisado inclui estudos publicados em periódicos como IEEE Access (\cite{ko2019old}, \cite{ramineni2024enhancing}), ACM Transactions on Computer-Human Interaction (\cite{sharit2008information}, \cite{becker2004study}), Universal Access in the Information Society (\cite{weighted_heuristic}, \cite{delara2016study}), Interacting with Computers (\cite{kabassi2004personalised}, \cite{cowan2011exploring}) e anais de conferências como CHI (\cite{mowar2025codea11y}), ASSETS (\cite{kurniawan2005research}, \cite{crabb2014age}), HICSS (\cite{xie2010usability}) e CBMI (\cite{ueki2025ucker}). A escolha das bases buscou contemplar essa diversidade.
 
-\input{tabelas/tabela1.tex}
+A Tabela~\ref{tab:bases} apresenta as bases de dados consideradas para a revisão.
+
+\input{tabelas/tabela2.tex}
 
 
 \section{Estratégia de Busca}
 
-A estratégia de busca foi definida a partir do tema e do objetivo geral da pesquisa, buscando recuperar estudos relacionados ao desenvolvimento e à avaliação de sistemas e interfaces destinados a usuários com pouca experiência ou familiaridade com tecnologias computacionais. Para isso, foram consideradas quatro dimensões principais:
+A estratégia de busca foi definida a partir do tema, do objetivo geral da pesquisa e do framework PICOC apresentado na Seção~\ref{sec:picoc}, buscando recuperar estudos relacionados ao desenvolvimento e à avaliação de sistemas e interfaces destinados a usuários com pouca experiência ou familiaridade com tecnologias computacionais. Para isso, foram consideradas quatro dimensões principais:
 
 \begin{itemize}
 
@@ -43,19 +70,17 @@ A estratégia de busca foi definida a partir do tema e do objetivo geral da pesq
 
 \end{itemize}
 
-Os termos relacionados a cada dimensão foram definidos a partir de diferentes formas de representação encontradas na literatura para os conceitos de interesse. Os termos pertencentes a uma mesma dimensão foram conectados pelo operador lógico \textit{OR}, enquanto as diferentes dimensões foram relacionadas pelo operador lógico \textit{AND}.
+Os termos relacionados a cada dimensão foram definidos a partir de diferentes formas de representação encontradas na literatura para os conceitos de interesse. Os termos pertencentes a uma mesma dimensão foram conectados pelo operador lógico OR, enquanto as diferentes dimensões foram relacionadas pelo operador lógico AND.
 
-A estratégia de busca foi elaborada de forma abrangente, uma vez que diferentes estudos podem abordar o problema investigado utilizando terminologias distintas para caracterizar os usuários, as tecnologias e os aspectos relacionados à avaliação das interfaces. Dessa forma, foram considerados termos relacionados a usuários idosos, usuários novatos, usuários não especialistas e pessoas com baixa alfabetização ou baixa proficiência digital.
+A estratégia de busca foi elaborada de forma abrangente, uma vez que diferentes estudos podem abordar o problema investigado utilizando terminologias distintas para caracterizar os usuários, as tecnologias e os aspectos relacionados à avaliação das interfaces. A escolha dos termos relacionados a usuários idosos, por exemplo, considerou que a literatura utiliza variações como elderly, older adults e seniors. \cite{kurniawan2005research} e \cite{dombrovskaia2021guideline} utilizam predominantemente older adults e seniors, enquanto \cite{sun2010preliminary} e \cite{ahmad2013teaching} utilizam old people e older people. A inclusão de múltiplos termos buscou capturar essa variação.
 
-A escolha desses termos também considerou que a literatura relacionada ao tema apresenta diferentes perfis de usuários com pouca familiaridade ou experiência com sistemas computacionais. \cite{sharit2008information}, por exemplo, investigaram a influência do conhecimento relacionado à Internet e de capacidades cognitivas sobre o desempenho de usuários idosos durante atividades de busca de informações na Web. De maneira semelhante, \cite{cowan2011exploring} investigaram usuários novatos durante a utilização de uma aplicação Web, considerando aspectos relacionados à usabilidade e à ansiedade durante a interação.
+A escolha dos termos relacionados a usuários novatos considerou que a literatura utiliza variações como novice, beginner e non-expert. \cite{nosseir2011novice} utilizam novice user, \cite{cowan2011exploring} discutem usuários novatos em sistemas Wiki, e \cite{kabassi2004personalised} tratam de adultos novatos em ambientes de treinamento. Da mesma forma, a escolha dos termos relacionados a usuários com baixa alfabetização considerou que a literatura utiliza variações como low computer literacy, low digital literacy e inexpert. \cite{filgueiras2009recoverability} utilizam iliterate e functionally literate, \cite{barron2013feasibility} discutem letramento em saúde, e \cite{ahmad2013teaching} tratam de usuários com pouca familiaridade com tecnologia.
+
+A escolha dos termos relacionados a usabilidade e acessibilidade considerou que a literatura utiliza diferentes expressões para se referir a esses conceitos. \cite{weighted_heuristic} e \cite{allah2021empathy} utilizam usability metrics e SUS, \cite{wickramathilaka2023addressing} e \cite{gonzalez2025augmenting} discutem WCAG e acessibilidade, e \cite{herrera2026applicability} e \cite{gatsou2017seniors} discutem experiência do usuário com base na ISO 9241-210.
 
 A estratégia de busca foi utilizada nas três bases de dados selecionadas, com adaptações necessárias à sintaxe e aos mecanismos de pesquisa específicos de cada base. Na Scopus, a busca foi realizada por meio dos campos de título, resumo e palavras-chave, utilizando os operadores booleanos definidos na estratégia. Para as bases IEEE Xplore e Engineering Village, a estrutura conceitual da busca foi mantida, com os ajustes necessários à forma de consulta disponibilizada por cada plataforma.
 
-A estratégia de busca foi utilizada para a identificação inicial dos estudos e não teve como finalidade estabelecer uma correspondência direta entre cada termo pesquisado e uma questão de pesquisa específica. Após a seleção dos estudos, as questões de pesquisa foram utilizadas como referência para a extração, organização e análise das informações apresentadas nos trabalhos selecionados.
-
-Neste ponto será apresentada a Tabela~\ref{tab:searchstring}, contendo a string de busca utilizada na base de dados Scopus, adaptada de acordo com as características das bases IEEE Xplore e Engineering Village.
-
-\input{tabelas/tabela2.tex}
+A string de busca utilizada na base Scopus, adaptada de acordo com as características das bases IEEE Xplore e Engineering Village, é apresentada na Tabela~\ref{tab:picoc}, juntamente com os elementos do framework PICOC que orientaram a sua construção.
 
 
 \section{Critérios de Inclusão e Exclusão}
@@ -64,7 +89,7 @@ Com o objetivo de estabelecer quais estudos seriam considerados na revisão, for
 
 Os critérios de inclusão contemplam estudos relacionados ao desenvolvimento, avaliação ou utilização de sistemas e interfaces voltados a usuários com pouca experiência ou familiaridade com tecnologias computacionais, considerando aspectos relacionados à usabilidade, acessibilidade, Interação Humano-Computador e interação com sistemas Web. Os critérios de exclusão foram utilizados para eliminar estudos que não apresentavam relação suficiente com o tema ou que não atendiam às características estabelecidas para o conjunto de estudos da revisão.
 
-A definição dos critérios também considerou a necessidade de incluir estudos que, mesmo não tratando exclusivamente de pessoas com baixa alfabetização informática, apresentassem contribuições relacionadas à interação de usuários idosos, novatos ou com pouca experiência com sistemas computacionais. Essa delimitação permitiu considerar diferentes evidências relacionadas às dificuldades de interação, às características dos usuários e às estratégias utilizadas para avaliar e desenvolver interfaces destinadas a esses públicos.
+A definição dos critérios considerou a diversidade de contribuições identificada na literatura. Estudos como \cite{sharit2008information} e \cite{allah2021empathy}, por exemplo, investigam o desempenho de usuários idosos em tarefas de busca, enquanto \cite{breaking_barriers}, \cite{balakrishnan2012user} e \cite{kymäläinen2012creating} adotam abordagens centradas no usuário para o desenvolvimento de aplicações. Estudos como \cite{wickramathilaka2023addressing}, \cite{sun2010preliminary} e \cite{dombrovskaia2021guideline} discutem diretrizes de acessibilidade e design inclusivo. A inclusão de estudos com essas diferentes perspectivas permitiu construir um corpus representativo das contribuições relacionadas ao problema investigado.
 
 Os critérios foram aplicados durante as etapas de seleção dos estudos, inicialmente por meio da análise dos títulos e resumos e, posteriormente, por meio da leitura completa dos trabalhos selecionados para essa etapa. Após a definição do conjunto final de estudos, as questões de pesquisa foram utilizadas para orientar a extração e a organização das informações relevantes encontradas na literatura.
 
@@ -87,7 +112,7 @@ A Tabela~\ref{tab:processoSelecao} apresenta um resumo quantitativo das etapas p
 
 \input{tabelas/tabela4.tex}
 
-O processo de seleção dos estudos foi realizado em etapas sucessivas, desde a recuperação inicial dos documentos até a definição do conjunto final de trabalhos incluídos na revisão. A Figura~\ref{imagens:fluxograma_rapid_review} apresenta o fluxo desse processo.
+O processo de seleção dos estudos foi realizado em etapas sucessivas, desde a recuperação inicial dos documentos até a definição do conjunto final de trabalhos incluídos na revisão. A Figura~\ref{imagens:fluxograma_revisao_sistematica} apresenta o fluxo desse processo.
 
 \begin{figure}[H]
 
@@ -102,52 +127,93 @@ O processo de seleção dos estudos foi realizado em etapas sucessivas, desde a 
 \end{figure}
 
 
-\section{Estudos Selecionados}
+\section{Avaliação de Qualidade e Risco de Viés dos Estudos Primários}
 
-Os estudos selecionados abrangem diferentes contextos de aplicação, incluindo sistemas governamentais, aplicações de saúde, tecnologias assistivas, plataformas Web e pesquisas voltadas à interação de usuários idosos ou iniciantes com sistemas computacionais.
+\label{sec:qualidade}
 
-Entre os estudos selecionados, \cite{sharit2008information} investigaram a relação entre conhecimento sobre a Internet, capacidades cognitivas e desempenho durante atividades de busca de informações na Web. Os resultados apresentados pelos autores relacionam características cognitivas e conhecimento prévio ao desempenho dos participantes, fornecendo evidências sobre fatores que podem influenciar a interação de usuários com diferentes níveis de experiência.
+A avaliação da qualidade dos estudos primários é uma etapa recomendada em revisões sistemáticas rigorosas, uma vez que permite analisar a consistência metodológica dos trabalhos incluídos e fornecer subsídios para a interpretação dos resultados. A ausência dessa avaliação pode comprometer a confiabilidade das sínteses, especialmente quando os estudos apresentam delineamentos heterogêneos e diferentes níveis de detalhamento metodológico.
 
-\cite{weighted_heuristic} desenvolveram uma abordagem de avaliação heurística ponderada para websites destinados a usuários idosos. O estudo relacionou características da interface a medidas de desempenho, considerando indicadores como tempo de execução das tarefas, quantidade de cliques, número de erros e pontuações obtidas no System Usability Scale (SUS).
+A necessidade dessa avaliação é evidenciada pela própria literatura analisada. \cite{wickramathilaka2023addressing} observam que a maioria das abordagens de adaptação de interfaces cobre apenas parcialmente os critérios da WCAG, e \cite{dombrovskaia2021guideline} relatam limitações metodológicas em seu próprio estudo, como a avaliação por um único especialista e a amostra reduzida de respondentes. \cite{herrera2026applicability}, \cite{gatsou2017seniors} e \cite{xie2010usability} discutem explicitamente as limitações de amostra reduzida em seus estudos. \cite{barron2013feasibility} discutem limitações relacionadas ao tamanho da amostra e ao perfil dos participantes. Essas limitações, identificadas pelos próprios autores, justificam a adoção de um instrumento que permita distinguir contribuições metodologicamente mais consistentes daquelas que dependem de evidências mais frágeis.
 
-No contexto de websites complexos, o estudo de \cite{health_problem_solving} analisou a resolução de problemas por usuários idosos em um website governamental. Os autores identificaram dificuldades relacionadas à realização de tarefas com múltiplas etapas e destacaram problemas associados à navegação, à rolagem e à localização de elementos necessários para a continuidade das tarefas.
+A avaliação foi realizada por meio de um instrumento composto por seis critérios, definidos a partir de recomendações para avaliação de qualidade em revisões sistemáticas em Engenharia de Software e Sistemas de Informação, adaptadas ao contexto desta pesquisa. Os critérios buscam capturar aspectos relacionados à clareza dos objetivos, à descrição do contexto e dos participantes, à descrição dos métodos, à apresentação e discussão dos resultados, à discussão de limitações e à contribuição para o tema investigado.
 
-Outros trabalhos concentram-se na identificação das necessidades dos usuários e na definição de requisitos para interfaces. O estudo sobre requisitos de mídias sociais para usuários idosos de \cite{social_media_elderly} utilizou uma abordagem participativa centrada nos usuários para investigar necessidades relacionadas à interação com plataformas sociais. Entre os aspectos discutidos encontram-se a clareza das informações, o feedback da interação e a facilidade de localização de conteúdos.
+Os critérios adotados foram:
 
-\cite{kabassi2004personalised} abordaram o treinamento de adultos novatos no uso de computadores por meio de um ambiente de aprendizagem adaptativo. O sistema apresentado pelos autores considera características individuais dos usuários para adaptar o suporte oferecido durante o processo de aprendizagem.
+\begin{itemize}
 
-\cite{cowan2011exploring}, por sua vez, investigaram a experiência de usuários novatos durante a utilização de uma interface Web, analisando a relação entre treinamento, usabilidade e ansiedade. Os resultados indicaram diferenças na avaliação da usabilidade e nos níveis de ansiedade de acordo com o tipo de treinamento disponibilizado aos participantes.
+    \item Q1: os objetivos e as questões de pesquisa do estudo estão claramente definidos?
 
-Também foram identificados estudos relacionados ao desenvolvimento de tecnologias assistivas. O trabalho apresentado por \cite{breaking_barriers} descreve o desenvolvimento de uma aplicação Web voltada a adultos mais velhos com deficiências, utilizando uma abordagem centrada no usuário e avaliações com participantes do público-alvo para analisar aspectos relacionados à acessibilidade e à usabilidade.
+    \item Q2: o contexto de uso e as características dos participantes (por exemplo, faixa etária, nível de alfabetização digital, experiência prévia com tecnologia) estão descritos de forma suficiente?
 
-A Tabela~\ref{tab:selected_papers} apresenta os estudos selecionados para compor a revisão.
+    \item Q3: os métodos de coleta e análise de dados estão descritos com detalhamento suficiente para permitir a compreensão e a replicação do estudo?
+
+    \item Q4: os resultados são apresentados de forma clara e sustentados pelos dados coletados?
+
+    \item Q5: as limitações do estudo são discutidas de forma explícita?
+
+    \item Q6: o estudo apresenta contribuição relevante para a compreensão da usabilidade, acessibilidade ou Interação Humano-Computador em interfaces destinadas a pessoas com baixa alfabetização informática?
+
+\end{itemize}
+
+Cada critério foi pontuado em uma escala de três níveis: Sim (1,0), Parcial (0,5) e Não (0,0). A pontuação total de cada estudo variou de 0,0 a 6,0, correspondendo à soma dos escores dos seis critérios. Para fins de análise, os estudos foram classificados em três faixas de qualidade: alta (pontuação maior ou igual a 4,0), média (pontuação entre 2,5 e 3,9) e baixa (pontuação inferior a 2,5).
+
+A avaliação da qualidade foi realizada individualmente pelo autor deste trabalho, por meio da leitura completa dos estudos incluídos e da aplicação dos seis critérios estabelecidos. Para cada estudo, os critérios foram analisados e pontuados de acordo com a escala definida, buscando aplicar os mesmos parâmetros a todo o conjunto de trabalhos. As pontuações atribuídas foram registradas individualmente, permitindo consultar a avaliação de cada estudo e sua contribuição para o resultado geral. Por se tratar de uma pesquisa desenvolvida individualmente, não foi realizada uma avaliação independente por um segundo pesquisador. Consequentemente, não foi calculado o coeficiente kappa de Cohen, uma vez que esse indicador pressupõe a comparação entre avaliações realizadas por diferentes avaliadores. Essa condição representa uma limitação metodológica da pesquisa, pois não permite mensurar a concordância entre avaliadores. Ainda assim, a definição prévia dos critérios, a utilização de uma escala uniforme e o registro das pontuações individuais buscam proporcionar transparência e rastreabilidade ao processo de avaliação.
+
+Os resultados da avaliação de qualidade foram utilizados de duas formas. Primeiro, para caracterizar o conjunto de estudos incluídos e identificar limitações metodológicas recorrentes. Segundo, para orientar a interpretação dos resultados, considerando as diferenças de qualidade entre os trabalhos. Os estudos classificados como de qualidade média foram mantidos na análise, mas suas contribuições foram interpretadas com maior cautela, especialmente quando contrastavam com evidências apresentadas por estudos classificados como de alta qualidade.
+
+A Tabela~\ref{tab:qualidade} apresenta o resumo da avaliação de qualidade dos estudos incluídos. A avaliação completa, com a pontuação de cada estudo em cada critério, é apresentada no Apêndice~\ref{apendice:qualidade}.
 
 \input{tabelas/tabela5.tex}
+
+A inclusão dessa etapa busca atender às recomendações de rigor metodológico para revisões sistemáticas, permitindo que o leitor compreenda não apenas o que a literatura apresenta, mas também a consistência metodológica das evidências disponíveis. A discussão detalhada dos resultados da avaliação de qualidade é apresentada no Capítulo 4, em conjunto com a síntese das contribuições dos estudos.
+
+
+\section{Estudos Selecionados}
+
+Os estudos selecionados abrangem diferentes contextos de aplicação, incluindo sistemas governamentais, aplicações de saúde, tecnologias assistivas, plataformas Web e pesquisas voltadas à interação de usuários idosos ou iniciantes com sistemas computacionais. Para fins de organização, os estudos foram agrupados em oito categorias, conforme descrito a seguir.
+
+O primeiro grupo reúne estudos sobre fatores cognitivos e modelos mentais na interação de usuários idosos. \cite{sharit2008information} investigaram a relação entre conhecimento sobre a Internet, capacidades cognitivas e desempenho durante atividades de busca de informações na Web. \cite{allah2021empathy} utilizaram um mapa de empatia para analisar a interação de idosos com interfaces de busca Web, complementando a análise com o SUS. \cite{herrera2026applicability} utilizaram técnicas de mineração de processos para identificar modelos mentais de usuários em um motor de busca geoespacial.
+
+O segundo grupo reúne estudos sobre avaliação de usabilidade com usuários idosos. \cite{weighted_heuristic} desenvolveram uma abordagem de avaliação heurística ponderada para websites destinados a usuários idosos, combinando medidas de desempenho e SUS. \cite{gatsou2017seniors} avaliaram a experiência de idosos com dois websites de serviços bancários, utilizando métricas de eficácia, eficiência e satisfação. \cite{xie2010usability} avaliaram a usabilidade de um protótipo de website baseado em mapas para seleção de casas de repouso. \cite{health_problem_solving} analisaram a resolução de problemas por usuários idosos em um website governamental.
+
+O terceiro grupo reúne estudos sobre usuários novatos e treinamento. \cite{nosseir2011novice} investigaram a percepção de usuários novatos e experientes sobre serviços eletrônicos no setor público egípcio. \cite{cowan2011exploring} investigaram a experiência de usuários novatos em sistemas Wiki, analisando a relação entre treinamento, usabilidade e ansiedade. \cite{kabassi2004personalised} desenvolveram um ambiente de aprendizagem adaptativo para adultos novatos no uso de computadores.
+
+O quarto grupo reúne estudos sobre baixa alfabetização informática e inclusão digital. \cite{filgueiras2009recoverability} propuseram o método Recoverability Walkthrough para avaliação de interfaces de inclusão digital, considerando usuários iletrados e funcionalmente iletrados. \cite{barron2013feasibility} avaliaram a viabilidade de portais de saúde personalizados para idosos e cuidadores, identificando barreiras relacionadas à navegação, à linguagem e ao letramento.
+
+O quinto grupo reúne estudos sobre diretrizes de acessibilidade e design inclusivo. \cite{kurniawan2005research} derivaram diretrizes de design Web para idosos a partir de revisão da literatura e estudos empíricos. \cite{sun2010preliminary} propuseram trinta recomendações de acessibilidade para websites de aprendizagem destinados a idosos, organizadas em categorias como perceptível, operável, compreensível e robusto. \cite{dombrovskaia2021guideline} compilaram 56 recomendações de design inclusivo e avaliaram 26 websites chilenos. \cite{wickramathilaka2023addressing} analisaram lacunas na cobertura da WCAG por abordagens de adaptação de interfaces baseadas em engenharia dirigida por modelos. \cite{chiriboga2025accessible} discutiram desafios e soluções de design Web acessível para adultos mais velhos.
+
+O sexto grupo reúne estudos sobre interação multimodal, voz e acessibilidade. \cite{gonzalez2025augmenting} implementaram operações de acessibilidade baseadas em voz em um framework de aumento Web para websites de turismo. \cite{ramineni2024enhancing} propuseram um sistema de assistente de voz para comércio eletrônico acessível. \cite{kusumaningayu2017web} desenvolveram uma ferramenta de acesso Web para pessoas cegas e com deficiência visual baseada em reconhecimento de fala e síntese de voz. \cite{halbach2009framework} apresentaram um framework para formulários Web inclusivos a pessoas com deficiência e idosos. \cite{gautam2019adding} investigaram a adição de voz para apoiar a navegação Web entre um grupo com baixa alfabetização digital.
+
+O sétimo grupo reúne estudos sobre design centrado no usuário, co-design e prototipação. \cite{balakrishnan2012user} utilizaram uma abordagem de design centrado no usuário que combina inquérito contextual, análise de tarefas, cenários, card sorting e prototipação. \cite{kymäläinen2012creating} descreveram o processo de co-design de um sistema de controle residencial para um ambiente de enfermagem. \cite{ro2024usability} conduziram um estudo de usabilidade para promover a co-criação entre pessoas com deficiência, desenvolvedores e fabricantes. \cite{breaking_barriers} desenvolveram uma aplicação Web para adultos mais velhos com deficiências, utilizando uma abordagem centrada no usuário. \cite{sustar2008requirements} discutiram a elicitação de requisitos com e para adultos mais velhos.
+
+O oitavo grupo reúne estudos sobre erros, dificuldades e adaptação de interfaces. \cite{taylor2009using} compararam duas abordagens para a construção de perfis de usuários idosos: observação e detecção de erros. \cite{mastarone2007access} analisaram a usabilidade de um sistema de autoatendimento jurídico e propuseram a modelagem de sistemas processuais a partir de referências familiares. \cite{social_media_elderly} investigaram necessidades de usuários idosos em plataformas de mídia social. \cite{sadeghi2020hci} propuseram uma abordagem baseada em aprendizado de máquina para medir a complexidade visual de páginas Web. \cite{ko2019old} investigaram preferências de espaço em branco de usuários jovens e idosos em páginas de notícias on-line.
+
+A Tabela~\ref{tab:selected_papers} apresenta os estudos selecionados para compor a revisão, organizados por categoria.
+
+\input{tabelas/tabela6.tex}
 
 
 \section{Síntese dos Estudos Selecionados}
 
 A análise dos estudos selecionados permitiu identificar diferentes dimensões de contribuição relacionadas ao problema investigado. Entre elas estão as métricas utilizadas na avaliação de interfaces, os elementos e diretrizes de design, os métodos e estratégias de avaliação e as características dos usuários e dos contextos de uso.
 
-As métricas de usabilidade e acessibilidade constituem uma das dimensões identificadas nos estudos. \cite{weighted_heuristic}, por exemplo, utilizaram tempo de execução das tarefas, quantidade de cliques, número de erros e pontuações do SUS para analisar a interação de usuários idosos com diferentes websites. Os resultados demonstraram diferenças de desempenho entre os websites avaliados e indicaram uma relação entre determinadas medidas de desempenho e a avaliação de usabilidade.
+As métricas de usabilidade e acessibilidade constituem uma das dimensões identificadas nos estudos. \cite{weighted_heuristic} utilizaram tempo de execução das tarefas, quantidade de cliques, número de erros e pontuações do SUS. \cite{gatsou2017seniors} utilizaram métricas de eficácia, eficiência e satisfação, com taxa de sucesso na conclusão das tarefas, tempo de execução e questionário pós-teste. \cite{allah2021empathy} e \cite{herrera2026applicability} utilizaram o SUS em conjunto com outras técnicas de análise. \cite{taylor2009using} utilizaram a detecção de erros de mouse, rolagem, acesso e cliques para construir perfis de usuários. \cite{filgueiras2009recoverability} propuseram um método de inspeção baseado em questões sobre erro e recuperação.
 
-Outra dimensão envolve os elementos de interface, diretrizes e princípios de design apresentados nos estudos. O trabalho de \cite{health_problem_solving} identificou dificuldades relacionadas à navegação, à rolagem e à localização de elementos durante a execução de tarefas complexas. Os autores discutem a necessidade de fornecer elementos de navegação de maneira clara e de oferecer suporte aos usuários quando a utilização de páginas extensas ou tarefas com múltiplas etapas exige maior esforço cognitivo.
+Outra dimensão envolve os elementos de interface, diretrizes e princípios de design. \cite{kurniawan2005research}, \cite{sun2010preliminary} e \cite{dombrovskaia2021guideline} apresentam conjuntos de diretrizes para idosos, organizadas em categorias como legibilidade, navegação, consistência, feedback, suporte cognitivo e segurança do usuário. \cite{wickramathilaka2023addressing} identificam lacunas na cobertura da WCAG por abordagens de adaptação de interfaces, incluindo multimodalidade, navegação, adaptação de layout, tratamento de erros e proficiência linguística. \cite{sadeghi2020hci} identificam clutter e equilíbrio como as características mais influentes na percepção de complexidade visual por idosos. \cite{ko2019old} investigam preferências de espaço em branco em páginas de notícias.
 
-As necessidades relacionadas à apresentação das informações e à interação também são discutidas no estudo sobre mídias sociais para usuários idosos. \cite{social_media_elderly} apresenta requisitos relacionados à clareza das informações, ao feedback das ações realizadas e à facilidade de localização de conteúdos, além de destacar a importância de considerar as características e necessidades dos usuários durante o processo de projeto.
+Os estudos também apresentam diferentes métodos e estratégias utilizados para avaliar a usabilidade e a acessibilidade das interfaces. \cite{balakrishnan2012user} e \cite{kymäläinen2012creating} utilizam abordagens de design centrado no usuário e co-design, com prototipação em papel e avaliações iterativas. \cite{breaking_barriers} e \cite{ro2024usability} utilizam avaliações com participantes pertencentes ao público-alvo. \cite{herrera2026applicability} utiliza técnicas de mineração de processos para analisar a interação. \cite{filgueiras2009recoverability} e \cite{taylor2009using} propõem métodos de inspeção e detecção de erros que podem ser aplicados em estágios iniciais de desenvolvimento. \cite{gonzalez2025augmenting} e \cite{ramineni2024enhancing} avaliam soluções baseadas em voz com participantes com deficiência visual.
 
-Os estudos também apresentam diferentes métodos e estratégias utilizados para avaliar a usabilidade e a acessibilidade das interfaces. O trabalho de \cite{breaking_barriers} empregou uma abordagem centrada no usuário e realizou avaliações com participantes pertencentes ao público-alvo, considerando aspectos relacionados à acessibilidade e à facilidade de uso da aplicação. Da mesma forma, \cite{cowan2011exploring} utilizaram avaliações com usuários novatos para analisar a usabilidade e a ansiedade durante a interação com uma interface.
+Outra dimensão identificada corresponde às características dos usuários e aos contextos de uso considerados pelos estudos. \cite{sharit2008information} investigam conhecimentos relacionados à Internet, capacidades cognitivas e características das tarefas. \cite{nosseir2011novice} comparam usuários novatos e experientes. \cite{filgueiras2009recoverability} e \cite{barron2013feasibility} consideram usuários iletrados e funcionalmente iletrados. \cite{ahmad2013teaching} discutem características físicas, cognitivas e comportamentais de idosos. \cite{herrera2026applicability} distinguem usuários novatos, especialistas não familiarizados e especialistas familiarizados. \cite{kymäläinen2012creating} consideram enfermeiros como especialistas de domínio no processo de co-design.
 
-Outra dimensão identificada corresponde às características dos usuários e aos contextos de uso considerados pelos estudos. \cite{kabassi2004personalised} apresentaram um ambiente de treinamento adaptativo para adultos novatos, considerando diferentes características individuais durante o processo de aprendizagem. \cite{sharit2008information}, por sua vez, investigaram conhecimentos relacionados à Internet, capacidades cognitivas e características das tarefas como fatores associados ao desempenho de usuários idosos durante atividades de busca de informações.
-
-Essas dimensões serão utilizadas como referência para a organização e análise dos resultados da revisão sistemática. No capítulo seguinte, os estudos selecionados serão analisados de acordo com as questões de pesquisa definidas, permitindo sintetizar as contribuições identificadas na literatura.
+Essas dimensões serão utilizadas como referência para a organização e análise dos resultados da revisão sistemática. No capítulo seguinte, os estudos selecionados serão analisados de acordo com as questões de pesquisa definidas, permitindo sintetizar as contribuições identificadas na literatura. A avaliação de qualidade apresentada na Seção~\ref{sec:qualidade} será considerada na interpretação dos resultados, de modo a distinguir contribuições sustentadas por estudos metodologicamente mais consistentes daquelas que dependem de evidências mais frágeis.
 
 
 \section{Considerações Finais do Capítulo}
 
-O processo apresentado neste capítulo descreveu as etapas utilizadas para a realização da revisão sistemática da literatura, incluindo a definição das bases de dados, a elaboração das estratégias de busca, o estabelecimento dos critérios de inclusão e exclusão e a seleção dos estudos.
+O processo apresentado neste capítulo descreveu as etapas utilizadas para a realização da revisão sistemática da literatura, incluindo a definição do framework PICOC, das bases de dados, da estratégia de busca, dos critérios de inclusão e exclusão, do processo de seleção e da avaliação de qualidade dos estudos primários.
 
 Ao final do processo, foram selecionados 21 estudos provenientes da Scopus, 31 da IEEE Xplore e 27 da Engineering Village, totalizando 79 estudos para análise. Os trabalhos selecionados abrangem diferentes contextos e apresentam contribuições relacionadas à usabilidade, acessibilidade, características dos usuários, elementos de interface e métodos de avaliação.
 
-A análise inicial dos estudos também permitiu identificar diferentes dimensões relacionadas às questões investigadas, envolvendo métricas, elementos e diretrizes de interface, métodos de avaliação e características dos usuários e contextos de uso.
+A análise inicial dos estudos também permitiu identificar diferentes dimensões relacionadas às questões investigadas, envolvendo métricas, elementos e diretrizes de interface, métodos de avaliação e características dos usuários e contextos de uso. A avaliação de qualidade, por sua vez, forneceu subsídios para a interpretação das evidências e para a identificação de limitações metodológicas recorrentes.
 
-Com base nesse conjunto de estudos, o próximo capítulo apresenta os resultados da revisão sistemática, organizando e sintetizando as evidências identificadas de acordo com as questões de pesquisa estabelecidas.
+Com base nesse conjunto de estudos e nos resultados da avaliação de qualidade, o próximo capítulo apresenta os resultados da revisão sistemática, organizando e sintetizando as evidências identificadas de acordo com as questões de pesquisa estabelecidas.
