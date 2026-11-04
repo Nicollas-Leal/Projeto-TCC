@@ -45,20 +45,20 @@
 \contentsline {section}{\numberline {3.4}Critérios de Inclusão e Exclusão}{37}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Processo de Seleção dos Estudos}{39}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Avaliação de Qualidade e Risco de Viés dos Estudos Primários}{40}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Estudos Selecionados}{42}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Síntese dos Estudos Selecionados}{50}{section.3.8}%
+\contentsline {section}{\numberline {3.7}Estudos Selecionados}{43}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Síntese dos Estudos Selecionados}{51}{section.3.8}%
 \contentsline {section}{\numberline {3.9}Considerações Finais do Capítulo}{52}{section.3.9}%
-\contentsline {chapter}{\numberline {4}Resultados e Análise}{53}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Panorama Geral dos Resultados}{54}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Análise dos Estudos em Relação à RQ1}{55}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Análise dos Estudos em Relação à RQ2}{59}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Análise dos Estudos em Relação à RQ3}{62}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Análise dos Estudos em Relação à RQ4}{66}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Triangulação entre as Questões de Pesquisa}{70}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Lacunas de Pesquisa Derivadas dos Resultados}{72}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Síntese dos Resultados}{75}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Conclusão}{77}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Limitações da Pesquisa}{79}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{80}{section.5.2}%
-\contentsline {chapter}{Referências}{82}{chapter*.7}%
-\contentsline {chapter}{Apêndices}{93}{appendix*.8}%
+\contentsline {chapter}{\numberline {4}Resultados e Análise}{54}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Panorama Geral dos Resultados}{55}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Análise dos Estudos em Relação à RQ1}{56}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Análise dos Estudos em Relação à RQ2}{61}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Análise dos Estudos em Relação à RQ3}{65}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Análise dos Estudos em Relação à RQ4}{69}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Triangulação entre as Questões de Pesquisa}{73}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Lacunas de Pesquisa Derivadas dos Resultados}{74}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Síntese dos Resultados}{77}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Conclusão}{79}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Limitações da Pesquisa}{82}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{82}{section.5.2}%
+\contentsline {chapter}{Referências}{85}{chapter*.9}%
+\contentsline {chapter}{Apêndices}{96}{appendix*.10}%

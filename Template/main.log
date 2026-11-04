@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.2)  31 OCT 2026 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.2)  4 NOV 2026 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1978,7 +1978,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38] (tabelas/tabela4.tex)
-<imagens/fluxograma_revisao_sistematica.png, id=1066, 1453.43pt x 1090.0725pt>
+<imagens/fluxograma_revisao_sistematica.png, id=1067, 1453.43pt x 1090.0725pt>
 File: imagens/fluxograma_revisao_sistematica.png Graphic file (type png)
 <use imagens/fluxograma_revisao_sistematica.png>
 Package pdftex.def Info: imagens/fluxograma_revisao_sistematica.png  used on input line 121.
@@ -2028,7 +2028,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43] (tabelas/tabela6.tex
+[43]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44] (tabelas/tabela6.tex
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
 []|[]\T1/ptm/m/n/12 Morash et al.[]
  []
@@ -2354,16 +2363,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--175
  []
 
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[44]
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2402,7 +2401,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49])
+[49]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2411,7 +2418,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50]
+[51]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2420,7 +2427,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51]) (capitulos/4 - Proposta.tex
+[52]) (capitulos/4 - Proposta.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2429,7 +2436,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52]
+[53]
 Cap\'{\i }tulo 4.
 
 
@@ -2440,7 +2447,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53
+[54
 
 ]
 
@@ -2451,7 +2458,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54]
+[55]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2460,7 +2467,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55]
+[56]
 Overfull \hbox (0.592pt too wide) in paragraph at lines 42--43
 []\T1/ptm/m/n/12 As me-di-das de aces-si-bi-li-dade, por sua vez, apa-re-cem de forma me-nos sis-te-má-tica. []González-
  []
@@ -2526,13 +2533,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 16--16
-[]\T1/ptm/m/n/12 Crabb and Han-son[] [[]2014[]]; []Shi
+Underfull \hbox (badness 1199) in paragraph at lines 16--16
+[]\T1/ptm/m/n/12 Nos-seir and Ter-zis[] [[]2011[]]; []Al-
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 16--16
-\T1/ptm/m/n/12 [[]2013[]]; []Jo-nas-son et al.[] [[]2007[]];
+Underfull \hbox (badness 2521) in paragraph at lines 16--16
+\T1/ptm/m/n/12 lah et al.[] [[]2021[]]; []Bar-ron and
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 16--16
+\T1/ptm/m/n/12 Fin-kels-tein[] [[]2013[]]; []Cowan and
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 16--16
+\T1/ptm/m/n/12 [[]2007[]]; []Lee and Singh[] [[]2021[]];
  []
 
 
@@ -2596,25 +2613,12 @@ Underfull \hbox (badness 4168) in paragraph at lines 25--25
  []
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 25--25
-[]\T1/ptm/m/n/12 Herrera-Murillo et al.[] [[]2026[]];
- []
-
-
 Overfull \hbox (9.14717pt too wide) in alignment at lines 10--28
  [] [] [] 
  []
 
 
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[56]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2630,7 +2634,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58])
+[58]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[59])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2639,7 +2651,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59] (tabelas/tabela8.tex
+[60]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[61] (tabelas/tabela8.tex
 Overfull \hbox (9.14717pt too wide) in alignment at lines 1--4
  [] [] [] 
  []
@@ -2740,25 +2761,6 @@ Overfull \hbox (9.14717pt too wide) in alignment at lines 10--31
  []
 
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[60]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[61])
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -2767,6 +2769,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [62]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[63])
+<imagens/Figura_RQ2.png, id=1943, 1160.83687pt x 359.84438pt>
+File: imagens/Figura_RQ2.png Graphic file (type png)
+<use imagens/Figura_RQ2.png>
+Package pdftex.def Info: imagens/Figura_RQ2.png  used on input line 81.
+(pdftex.def)             Requested size: 409.71692pt x 127.00713pt.
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2774,7 +2790,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[63] (tabelas/tabela9.tex
+[64 <./imagens/Figura_RQ2.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[65] (tabelas/tabela9.tex
 Overfull \hbox (9.14717pt too wide) in alignment at lines 1--4
  [] [] [] 
  []
@@ -2880,21 +2905,6 @@ Overfull \hbox (9.14717pt too wide) in alignment at lines 10--31
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[64]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[65])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2905,6 +2915,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [66]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[67])
+<imagens/Figura_RQ3.png, id=2113, 1160.83687pt x 351.56343pt>
+File: imagens/Figura_RQ3.png Graphic file (type png)
+<use imagens/Figura_RQ3.png>
+Package pdftex.def Info: imagens/Figura_RQ3.png  used on input line 118.
+(pdftex.def)             Requested size: 409.71692pt x 124.08437pt.
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2912,7 +2936,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67] (tabelas/tabela10.tex
+[68 <./imagens/Figura_RQ3.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[69] (tabelas/tabela10.tex
 Overfull \hbox (9.14717pt too wide) in alignment at lines 1--4
  [] [] [] 
  []
@@ -3003,11 +3036,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--25
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 25--25
-\T1/ptm/m/n/12 Vil-ches[] [[]2021[]]; []Lee and Singh[]
- []
-
-
 Underfull \hbox (badness 1521) in paragraph at lines 27--27
 \T1/ptm/m/n/12 edu-ca-ção, mí-dia so-cial, uso do-
  []
@@ -3043,21 +3071,6 @@ Overfull \hbox (9.14717pt too wide) in alignment at lines 10--31
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[68]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[69])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3068,14 +3081,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [70]
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[71]
+[71])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3111,7 +3123,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[75]) (capitulos/5 - conclusao.tex
+[75]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3121,6 +3133,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [76]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[77]) (capitulos/5 - conclusao.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[78]
 Cap\'{\i }tulo 5.
 
 
@@ -3131,7 +3161,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[77
+[79
 
 ]
 
@@ -3142,7 +3172,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78]
+[80]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3151,7 +3181,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[79]
+[81]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3160,27 +3190,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80])
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[81] (main.bbl
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[82
-
-]
+[82])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3198,7 +3208,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[84]
+[84] (main.bbl
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3207,7 +3217,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[85]
+[85
+
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3261,7 +3273,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[91])
+[91]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3270,7 +3282,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[92] (tabelas/tabelaapendice.tex
+[92]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[93]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[94])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[95] (tabelas/tabelaapendice.tex
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
 []|[]\T1/ptm/m/n/8 Barron and Fin-kels-tein[]
  []
@@ -3357,7 +3396,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[93
+[96
 
 ]
 
@@ -3367,7 +3406,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[94])
+[97])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3376,8 +3415,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[95]
-runsystem(latexminted cleantemp  --timestamp 20261031153943 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+[98]
+runsystem(latexminted cleantemp  --timestamp 20261104173022 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
  ***********
@@ -3385,20 +3424,20 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D19FF9F390A19854FE0EB693A5B55BB7;13900.
+(rerunfilecheck)             Checksum: 5181BDA6C2045DE32B4AE26A66E8B1EE;13901.
  ) 
 Here is how much of TeX's memory you used:
- 47399 strings out of 468080
- 991004 string characters out of 5441614
- 1854637 words of memory out of 5000000
- 75027 multiletter control sequences out of 15000+600000
- 671853 words of font info for 96 fonts, out of 8000000 for 9000
+ 47420 strings out of 468080
+ 991495 string characters out of 5441614
+ 1855874 words of memory out of 5000000
+ 75043 multiletter control sequences out of 15000+600000
+ 671856 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,12n,95p,1656b,816s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/MiKTeX D/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MiKTeX D/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX D/fonts/type1/urw/times/utmb8a.pfb><D:/MiKTeX D/fonts/type1/urw/times/utmr8a.pfb><D:/MiKTeX D/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (106 pages, 2109880 bytes).
+Output written on main.pdf (109 pages, 3838186 bytes).
 PDF statistics:
  2829 PDF objects out of 2984 (max. 8388607)
- 260 named destinations out of 1000 (max. 500000)
- 514 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 named destinations out of 1000 (max. 500000)
+ 524 words of extra memory for PDF output out of 10000 (max. 10000000)
 
