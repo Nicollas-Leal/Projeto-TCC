@@ -1,4 +1,4 @@
-\begin{thebibliography}{79}
+\begin{thebibliography}{80}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -336,6 +336,12 @@ Georgios Kouroupetroglou, Alexandros Pino, and Paraskevi Riga.
   inventories of mobile assistive technology applications.
 \newblock \emph{Multimedia Tools and Applications}, 2016.
 \newblock \doi{10.1007/s11042-016-3822-3}.
+
+\bibitem[Krug(2000)]{krug2000dont}
+Steve Krug.
+\newblock \emph{Don't Make Me Think!: A Common Sense Approach to Web
+  Usability}.
+\newblock New Riders, 2000.
 
 \bibitem[Kurniawan and Zaphiris(2005)]{kurniawan2005research}
 Sri Kurniawan and Panayiotis Zaphiris.

@@ -153,7 +153,7 @@
 
 	\begin{minipage}{\textwidth}
 		\begin{center}
-			{\bfseries \large CEFET/RJ - CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA CELSO SUCKOW DA FONSECA}\\[6em]
+			{\bfseries \large UFCI/RJ - Universidade Federal de Ciência e Inovação}\\[6em]
 			{\bfseries \LARGE \dtitle}\\[6em]% Title of your document
 			\raggedleft \dauthor
 		\end{center}
@@ -175,7 +175,7 @@
 	\end{flushright}
 	\vfill
 	{\bfseries \large Rio de Janeiro,\\
-		Novembro de 2024}
+		2026}
 }
 
 %dcoverback
@@ -187,7 +187,7 @@
 
 	\begin{minipage}{\textwidth}
 		\begin{center}
-			{\bfseries \large CEFET/RJ - CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA CELSO SUCKOW DA FONSECA}\\[6em]
+			{\bfseries \large UFCI/RJ - Universidade Federal de Ciência e Inovação}\\[6em]
 			{\bfseries \LARGE \dtitle}\\[6em]% Title of your document
 			\raggedleft \dauthor
 		\end{center}
@@ -197,7 +197,7 @@
 		\begin{minipage}{0.5\textwidth}
 			\normalsize
 			\raggedleft
-			Projeto final apresentado em cumprimento às normas do Departamento de Educação Superior do Centro Federal de Educação Tecnológica Celso Suckow da Fonseca, CEFET/RJ, como parte dos requisitos para obtenção do título de Bacharel em Sistemas de Informação.
+			Projeto final apresentado em cumprimento às normas do Departamento de Educação Superior do Universidade Federal de Ciência e Inovação UFCI/RJ, CEFET/RJ, como parte dos requisitos para obtenção do título de Bacharel em Sistemas de Informação.
 		\end{minipage}\\[6em]
 	\end{flushright}
 
@@ -210,7 +210,7 @@
 	\end{flushright}
 	\vfill
 	{\bfseries \large Rio de Janeiro,\\
-		Novembro de 2024}
+		2026}
 }
 %dform
 
