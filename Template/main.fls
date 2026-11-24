@@ -514,6 +514,9 @@ INPUT D:\MiKTeX D\fonts\vf\adobe\times\ptmb8t.vf
 INPUT D:\MiKTeX D\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT D:\MiKTeX D\fonts\vf\adobe\times\ptmr8t.vf
 INPUT D:\MiKTeX D\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT .\pre-textuais\fichacatalografica.tex
+INPUT .\pre-textuais\fichacatalografica.tex
+INPUT pre-textuais\fichacatalografica.tex
 INPUT .\pre-textuais\dedicatoria.tex
 INPUT .\pre-textuais\dedicatoria.tex
 INPUT .\pre-textuais\dedicatoria.tex
@@ -608,6 +611,9 @@ INPUT .\imagens\fluxograma_revisao_sistematica.png
 INPUT .\imagens\fluxograma_revisao_sistematica.png
 INPUT .\imagens\fluxograma_revisao_sistematica.png
 INPUT .\imagens\fluxograma_revisao_sistematica.png
+INPUT D:\MiKTeX D\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT D:\MiKTeX D\fonts\vf\adobe\times\ptmr8t.vf
+INPUT D:\MiKTeX D\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\tabelas\tabela5.tex
 INPUT .\tabelas\tabela5.tex
 INPUT tabelas\tabela5.tex
