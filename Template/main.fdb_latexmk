@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1795528290.55342 "main.aux" "main.bbl" "main" 1795528296.00954 0
+["bibtex main"] 1795528290.55342 "main.aux" "main.bbl" "main" 1795530805.15318 0
   "./references.bib" 1795527556 35408 9a75ca8d6e1e57dbf2a991aae030eef7 ""
   "D:/MiKTeX D/bibtex/bst/natbib/plainnat.bst" 1284455456 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1795528294 51284 12052a8bfc7eda416ecd205ada9afa06 "pdflatex"
+  "main.aux" 1795530803 51284 12052a8bfc7eda416ecd205ada9afa06 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1795528290.90349 "d:/Faculdade/TCC-main/Template/main.tex" "main.pdf" "main" 1795528296.01069 0
+["pdflatex"] 1795530795.32805 "d:/Faculdade/TCC-main/Template/main.tex" "main.pdf" "main" 1795530805.15444 0
   "C:/Users/Nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762106386 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Nico/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1793464721 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Nico/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762106900 13306025 41dd91cac494b1f681d71e1f3264690f ""
@@ -275,13 +275,13 @@
   "imagens/Figura_RQ2.png" 1793822062 989984 a4441c60cbc3ffd66604ffdab32b8a5d ""
   "imagens/Figura_RQ3.png" 1793822176 980849 76907692e38a8e21e8d396840b0311ab ""
   "imagens/fluxograma_revisao_sistematica.png" 1790010941 1359541 a5aa8595977a14a70a8e48802c1df1da ""
-  "main.aux" 1795528294 51284 12052a8bfc7eda416ecd205ada9afa06 "pdflatex"
+  "main.aux" 1795530803 51284 12052a8bfc7eda416ecd205ada9afa06 "pdflatex"
   "main.bbl" 1795528290 33340 034978cc146d15281abfd648cacc63b2 "bibtex main"
-  "main.lof" 1795528294 643 7002eefcae12974718c70da7ea36f980 "pdflatex"
-  "main.lot" 1795528294 1970 c4811aabf71ccf473ca48e398a483870 "pdflatex"
-  "main.out" 1795528294 13901 5181bda6c2045de32b4ae26a66e8b1ee "pdflatex"
+  "main.lof" 1795530803 643 7002eefcae12974718c70da7ea36f980 "pdflatex"
+  "main.lot" 1795530803 1970 c4811aabf71ccf473ca48e398a483870 "pdflatex"
+  "main.out" 1795530803 13901 5181bda6c2045de32b4ae26a66e8b1ee "pdflatex"
   "main.tex" 1795527555 1582 92e38bacd2a10658eb16494c05242cbf ""
-  "main.toc" 1795528294 5975 55733724a863facfc1f0556ec269ac05 "pdflatex"
+  "main.toc" 1795530803 5975 55733724a863facfc1f0556ec269ac05 "pdflatex"
   "pre-textuais/abstract.tex" 1791065052 1186 93cc135689d58f99816f581df2c8b277 ""
   "pre-textuais/agradecimentos.tex" 1793471882 391 4e570a9f060e60f2a43a0048ef4e869b ""
   "pre-textuais/dedicatoria.tex" 1793471883 158 3c1918921cf2280881e46a90d10f805a ""
@@ -299,7 +299,7 @@
   "tabelas/tabela8.tex" 1793464706 3161 ad631fb4575516f470d7d3a1b0e0a985 ""
   "tabelas/tabela9.tex" 1793824208 2890 fd604e9f509a8aa80862fdeac933f1c1 ""
   "tabelas/tabelaapendice.tex" 1793464705 9451 5b76d8a81856b117be0f10d26baa03b6 ""
-  "tcc.cls" 1795527556 9124 362d82e68aefef9755ea65d38e4442c3 ""
+  "tcc.cls" 1795530790 9114 d818833e6fd16a22459d7c254f4252ed ""
   (generated)
   "main.aux"
   "main.lof"

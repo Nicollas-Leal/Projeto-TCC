@@ -197,7 +197,7 @@
 		\begin{minipage}{0.5\textwidth}
 			\normalsize
 			\raggedleft
-			Projeto final apresentado em cumprimento às normas do Departamento de Educação Superior do Universidade Federal de Ciência e Inovação UFCI/RJ, CEFET/RJ, como parte dos requisitos para obtenção do título de Bacharel em Sistemas de Informação.
+			Projeto final apresentado em cumprimento às normas do Departamento de Educação Superior do Universidade Federal de Ciência e Inovação UFCI/RJ, como parte dos requisitos para obtenção do título de Bacharel em Sistemas de Informação.
 		\end{minipage}\\[6em]
 	\end{flushright}
 
